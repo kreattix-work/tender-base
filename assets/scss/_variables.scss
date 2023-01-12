@@ -49,9 +49,9 @@ $border-radius: 12px;
 $border-radius-lg: 20px;
 
 $font-family-serif: "Poppins", sans-serif;
-$font-weigth: 500;
-$font-weigth-sm: 400;
-$font-weigth-lg: 600;
+$font-weight: 500;
+$font-weight-sm: 400;
+$font-weight-lg: 600;
 $font-size: 12px;
 $font-size-sm: 10px;
 $font-size-lg: 14px;
@@ -79,11 +79,12 @@ $sider-padding-left: $sider-padding-x + 6px;
 
 $sider-menu-font-size: var(--font-size);
 $sider-menu-font-weight: var(--font-weight);
-$sider-menu-font-hover-weight: var(--font-weigth-lg);
+$sider-menu-font-hover-weight: var(--font-weight-lg);
 $sider-menu-font-color: var(--font-color);
 $sider-menu-border-radius: 4px;
 $sider-menu-padding-y: 12px;
 $sider-menu-padding-x: 16px;
+$sider-menu-gap: 0px;
 $sider-menu-icon-size: 16px;
 $sider-dropdown-menu-icon: 20px;
 $sider-menu-icon-gap: 10px;
@@ -102,12 +103,12 @@ $avatar-font-weight: var(--font-weight);
 $avater-border-radius: 50%;
 
 $profile-name-padding-left: 12px;
-$profile-name-font-weigth: var(--font-weigth);
+$profile-name-font-weight: var(--font-weight);
 $profile-name-font-size: var(--font-size-lg);
 $profile-name-font-color: var(--font-color);
 
 $profile-id-padding-left: 8px;
-$profile-id-font-weigth: var(--font-weigth);
+$profile-id-font-weight: var(--font-weight);
 $profile-id-font-size: var(--font-size);
 $profile-id-font-color: var(--font-color-light);
 
@@ -131,3 +132,11 @@ $badge-padding-y: 3px;
 $badge-padding-x: 3px;
 $badge-border-radius: 16px;
 $badge-height: 16px;
+
+$content-header-padding-y: 12px;
+$content-header-padding-x: var(--spacer);
+$content-header-border-width: 1px;
+$content-header-border-color: var(--border-color);
+$content-header-title-font-weight: var(--font-weight);
+$content-header-title-font-size: var(--font-size-xl);
+$content-header-title-font-color: var(--font-color-dark);

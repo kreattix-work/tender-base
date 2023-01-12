@@ -99,6 +99,7 @@
                     <a href="#" class="sider-menu-item-link">
                         <span class="material-icons-outlined">person</span>
                         <span>Manage Account</span>
+                        <span class="dropdown-menu-icon material-icons">arrow_drop_down</span>
                     </a>
                 </li>
                 <li class="sider-menu-item">

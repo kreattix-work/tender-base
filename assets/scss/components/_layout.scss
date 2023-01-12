@@ -43,7 +43,7 @@
     padding: 0;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: $sider-menu-gap;
 
     &-item {
       --sider-menu-font-size: #{$sider-menu-font-size};
