@@ -7,10 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="../assets/scss/styles.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined&family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/plugins/datepicker/bootstrap-datepicker3.css">
+
+    <link rel="stylesheet" href="/assets/scss/styles.css">
 </head>
 
 <body>
