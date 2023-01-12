@@ -39,6 +39,14 @@ $black-500: #262525;
 
 $default-hover-color: $black-100;
 
+$all-colors: (
+  "white": var(--white),
+  "black": var(--black),
+  "primary": var(--primary),
+  "secondary": var(--secondary),
+  "tertiary": var(--tertiary),
+);
+
 $spacer: 30px;
 $spacer-sm: 14px;
 
@@ -140,3 +148,5 @@ $content-header-border-color: var(--border-color);
 $content-header-title-font-weight: var(--font-weight);
 $content-header-title-font-size: var(--font-size-xl);
 $content-header-title-font-color: var(--font-color-dark);
+
+$content-body-bg: #f1f1f1;

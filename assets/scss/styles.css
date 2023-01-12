@@ -12,6 +12,7 @@
   --tertiary-light: #cae3f1;
   --tertiary-extra-light: #cae3f1;
   --white: #ffffff;
+  --black: #000000;
   --default-hover-color: #efefef;
   --font-family: Poppins, sans-serif;
   --font-weight: 500;
@@ -276,4 +277,29 @@ body {
   font-weight: var(--font-weight);
   font-size: var(--font-size-xl);
   color: var(--font-color-dark);
+}
+.content-body {
+  background-color: #f1f1f1;
+  min-height: 100%;
+  padding: var(--spacer);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.bg-black {
+  background-color: var(--black);
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
+.bg-tertiary {
+  background-color: var(--tertiary);
 }/*# sourceMappingURL=styles.css.map */
