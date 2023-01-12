@@ -22,13 +22,82 @@
     &-actions {
       display: flex;
       align-items: center;
-      gap: var(--spacer-sm);
+      gap: $header-actions-gap;
     }
   }
   &-sider {
     grid-area: sider;
+    background-color: $sider-bg;
+    border-right: $sider-border-width solid $sider-border-color;
+    padding: $sider-padding-y $sider-padding-x;
+    padding-left: $sider-padding-left;
   }
   &-content {
     grid-area: content;
+  }
+}
+
+.sider {
+  &-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    &-item {
+      --sider-menu-font-size: #{$sider-menu-font-size};
+      --sider-menu-font-weight: #{$sider-menu-font-weight};
+      --sider-menu-font-color: #{$sider-menu-font-color};
+      --sider-menu-bg: transparent;
+      position: relative;
+
+      &-link {
+        display: grid;
+        grid-template-columns: min-content 1fr min-content;
+        align-items: center;
+        gap: $sider-menu-icon-gap;
+        text-decoration: none;
+        color: var(--sider-menu-font-color);
+        background-color: var(--sider-menu-bg);
+        padding: $sider-menu-padding-y $sider-menu-padding-x;
+        border-radius: $sider-menu-border-radius;
+        font-size: var(--sider-menu-font-size);
+        font-weight: var(--sider-menu-font-weight);
+        transition: all 0.375s ease-out;
+
+        .material-icons,
+        .material-icons-outlined,
+        .ci {
+          font-size: $sider-menu-icon-size;
+        }
+        .ci {
+          background-color: var(--sider-menu-font-color);
+        }
+        .dropdown-menu-icon {
+          justify-self: flex-end;
+          font-size: $sider-dropdown-menu-icon;
+        }
+      }
+      &:hover,
+      &.active {
+        --sider-menu-font-color: var(--primary);
+        --sider-menu-bg: var(--primary-extra-light);
+      }
+      &.active {
+        --sider-menu-font-weight: #{$sider-menu-font-hover-weight};
+        &:before {
+          content: "";
+          position: absolute;
+          display: block;
+          width: 6px;
+          height: 100%;
+          left: -$sider-padding-left;
+          border-top-right-radius: 4px;
+          border-bottom-right-radius: 4px;
+          background-color: $sider-active-menu-indicator-bg;
+        }
+      }
+    }
   }
 }

@@ -2,6 +2,7 @@ $primary: #02897a;
 $primary-hover: lighten($primary, 3%);
 $primary-light: #c0e1de;
 $primary-extra-light: #ecf3f3;
+$primary-400: #78bab3;
 
 $secondary: #ff7800;
 $secondary-hover: lighten($secondary, 3%);
@@ -49,6 +50,8 @@ $border-radius-lg: 20px;
 
 $font-family-serif: "Poppins", sans-serif;
 $font-weigth: 500;
+$font-weigth-sm: 400;
+$font-weigth-lg: 600;
 $font-size: 12px;
 $font-size-sm: 10px;
 $font-size-lg: 14px;
@@ -63,10 +66,28 @@ $header-padding-y: 0;
 $header-padding-x: var(--spacer);
 $header-border-width: var(--border-width);
 $header-border-color: var(--border-color);
-
+$header-actions-gap: var(--spacer-sm);
 $logo-max-height: 24px;
 
 $sider-width: 270px;
+$sider-bg: var(--white);
+$sider-border-width: var(--border-width);
+$sider-border-color: var(--border-color);
+$sider-padding-y: 8px;
+$sider-padding-x: 8px;
+$sider-padding-left: $sider-padding-x + 6px;
+
+$sider-menu-font-size: var(--font-size);
+$sider-menu-font-weight: var(--font-weight);
+$sider-menu-font-hover-weight: var(--font-weigth-lg);
+$sider-menu-font-color: var(--font-color);
+$sider-menu-border-radius: 4px;
+$sider-menu-padding-y: 12px;
+$sider-menu-padding-x: 16px;
+$sider-menu-icon-size: 16px;
+$sider-dropdown-menu-icon: 20px;
+$sider-menu-icon-gap: 10px;
+$sider-active-menu-indicator-bg: $primary-400;
 
 $avatar-border-width: 1px;
 $avatar-border-color: var(--border-color);
@@ -79,6 +100,16 @@ $avatar-color: var(--primary);
 $avatar-font-size: var(--font-size);
 $avatar-font-weight: var(--font-weight);
 $avater-border-radius: 50%;
+
+$profile-name-padding-left: 12px;
+$profile-name-font-weigth: var(--font-weigth);
+$profile-name-font-size: var(--font-size-lg);
+$profile-name-font-color: var(--font-color);
+
+$profile-id-padding-left: 8px;
+$profile-id-font-weigth: var(--font-weigth);
+$profile-id-font-size: var(--font-size);
+$profile-id-font-color: var(--font-color-light);
 
 $btn-height: 32px;
 $btn-gap: 4px;

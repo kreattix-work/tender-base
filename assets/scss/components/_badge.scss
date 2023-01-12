@@ -2,7 +2,7 @@
 
 .badge {
   --badge-bg: #{$badge-bg};
-  --badge-font-color: #{$white};
+  --badge-font-color: var(--white);
   font-size: 9px;
   background-color: var(--badge-bg);
   color: var(--badge-font-color);
@@ -19,7 +19,7 @@
   @each $name, $color in $theme-colors {
     &-#{$name} {
       --badge-bg: #{map.get($color, "main")};
-      --badge-font-color: #{$white};
+      --badge-font-color: var(--white);
     }
   }
 }

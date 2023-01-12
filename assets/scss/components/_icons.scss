@@ -1,0 +1,20 @@
+.ci {
+  width: 1em;
+  height: 1em;
+  transition: all 0.375s ease-out;
+  background-color: var(--font-color);
+  mask-size: contain;
+}
+
+.ci-24-hours-support {
+  mask: url(/assets/images/icons/24-hours-support.svg);
+}
+.ci-analysis-chart {
+  mask: url(/assets/images/icons/analysis-chart.svg);
+}
+.ci-chart-line-up {
+  mask: url(/assets/images/icons/chart-line-up.svg);
+}
+.ci-chart-pie-slice {
+  mask: url(/assets/images/icons/chart-pie-slice.svg);
+}
