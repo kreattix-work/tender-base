@@ -1,0 +1,14 @@
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: $avatar-border-width solid $avatar-border-color;
+  background-color: $avatar-bg;
+  height: $avatar-height;
+  width: $avatar-width;
+  padding: $avatar-padding-y $avatar-padding-x;
+  color: $avatar-color;
+  font-size: $avatar-font-size;
+  font-weight: $avatar-font-weight;
+  border-radius: $avater-border-radius;
+}

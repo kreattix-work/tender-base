@@ -1,0 +1,102 @@
+$primary: #02897a;
+$primary-hover: lighten($primary, 3%);
+$primary-light: #c0e1de;
+$primary-extra-light: #ecf3f3;
+
+$secondary: #ff7800;
+$secondary-hover: lighten($secondary, 3%);
+$secondary-light: #ffddbf;
+$secondary-extra-light: #ffefe5;
+
+$tertiary: #238bc5;
+$tertiary-hover: lighten($tertiary, 3%);
+$tertiary-light: #cae3f1;
+$tertiary-extra-light: #cae3f1;
+
+$theme-colors: (
+  "primary": (
+    "main": var(--primary),
+    "hover": var(--primary-hover),
+  ),
+  "secondary": (
+    "main": var(--secondary),
+    "hover": var(--secondary-hover),
+  ),
+  "tertiary": (
+    "main": var(--tertiary),
+    "hover": var(--tertiary-hover),
+  ),
+);
+
+$white: #ffffff;
+$black: #000000;
+$black-100: #efefef;
+$black-200: #d4d4d4;
+$black-300: #928d8d;
+$black-400: #585858;
+$black-500: #262525;
+
+$default-hover-color: $black-100;
+
+$spacer: 30px;
+$spacer-sm: 14px;
+
+$border-width: 1px;
+$border-color: $black-200;
+
+$border-radius: 12px;
+$border-radius-lg: 20px;
+
+$font-family-serif: "Poppins", sans-serif;
+$font-weigth: 500;
+$font-size: 12px;
+$font-size-sm: 10px;
+$font-size-lg: 14px;
+$font-size-xl: 18px;
+$font-color: $black-400;
+$font-color-dark: $black-500;
+$font-color-light: $black-300;
+
+$header-height: 74px;
+$header-bg: var(--white);
+$header-padding-y: 0;
+$header-padding-x: var(--spacer);
+$header-border-width: var(--border-width);
+$header-border-color: var(--border-color);
+
+$logo-max-height: 24px;
+
+$sider-width: 270px;
+
+$avatar-border-width: 1px;
+$avatar-border-color: var(--border-color);
+$avatar-bg: var(--primary-extra-light);
+$avatar-height: 32px;
+$avatar-width: 32px;
+$avatar-padding-x: 7px;
+$avatar-padding-y: 7px;
+$avatar-color: var(--primary);
+$avatar-font-size: var(--font-size);
+$avatar-font-weight: var(--font-weight);
+$avater-border-radius: 50%;
+
+$btn-height: 32px;
+$btn-gap: 4px;
+$btn-padding-y: 7px;
+$btn-padding-x: 16px;
+$btn-border-width: 1px;
+$btn-border-color: var(--border-color);
+$btn-border-radius: var(--border-radius-lg);
+$btn-font-size: var(--font-size);
+$btn-font-weight: var(--font-weight);
+$btn-font-color: var(--font-color-light);
+$btn-icon-size: 20px;
+
+$btn-text-padding-y: 7px;
+$btn-text-padding-x: 7px;
+
+$badge-bg: $black-500;
+$badge-padding-y: 3px;
+$badge-padding-x: 3px;
+$badge-border-radius: 16px;
+$badge-height: 16px;

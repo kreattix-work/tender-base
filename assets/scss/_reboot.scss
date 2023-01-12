@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  scroll-behavior: smooth;
+  font-size: var(--font-size);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: var(--font-weigth);
+  font-size: var(--font-size);
+}

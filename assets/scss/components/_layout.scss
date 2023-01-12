@@ -1,0 +1,34 @@
+.page {
+  &-layout {
+    display: grid;
+    grid-template-rows: $header-height 1fr;
+    grid-template-columns: $sider-width 1fr;
+    grid-template-areas: "header header" "sider content";
+    min-height: 100vh;
+  }
+  &-header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: $sider-width 1fr;
+    align-items: center;
+    border-bottom: $header-border-width solid $header-border-color;
+
+    &-item {
+      display: flex;
+      justify-content: space-between;
+      padding: $header-padding-y $header-padding-x;
+    }
+
+    &-actions {
+      display: flex;
+      align-items: center;
+      gap: var(--spacer-sm);
+    }
+  }
+  &-sider {
+    grid-area: sider;
+  }
+  &-content {
+    grid-area: content;
+  }
+}

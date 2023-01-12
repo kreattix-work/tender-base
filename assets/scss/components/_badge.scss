@@ -1,0 +1,25 @@
+@use "sass:map";
+
+.badge {
+  --badge-bg: #{$badge-bg};
+  --badge-font-color: #{$white};
+  font-size: 9px;
+  background-color: var(--badge-bg);
+  color: var(--badge-font-color);
+  height: $badge-height;
+  border-radius: $badge-border-radius;
+  padding: $badge-padding-y $badge-padding-x;
+
+  &-floating {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  @each $name, $color in $theme-colors {
+    &-#{$name} {
+      --badge-bg: #{map.get($color, "main")};
+      --badge-font-color: #{$white};
+    }
+  }
+}

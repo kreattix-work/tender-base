@@ -1,0 +1,28 @@
+$profile-name-padding-left: 12px;
+$profile-name-font-weigth: var(--font-weigth);
+$profile-name-font-size: var(--font-size-lg);
+$profile-name-font-color: var(--font-color);
+
+$profile-id-padding-left: 8px;
+$profile-id-font-weigth: var(--font-weigth);
+$profile-id-font-size: var(--font-size);
+$profile-id-font-color: var(--font-color-light);
+
+.profile {
+  &-container {
+    display: flex;
+    align-items: center;
+  }
+  &-name {
+    padding-left: $profile-name-padding-left;
+    font-weight: $profile-name-font-weigth;
+    font-size: $profile-name-font-size;
+    color: $profile-name-font-color;
+  }
+  &-id {
+    padding-left: $profile-id-padding-left;
+    font-weight: $profile-id-font-weigth;
+    font-size: $profile-id-font-size;
+    color: $profile-id-font-color;
+  }
+}

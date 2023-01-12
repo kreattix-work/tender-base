@@ -1,0 +1,33 @@
+.btn {
+  position: relative;
+  --btn-bg: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  outline: none;
+  background-color: var(--btn-bg);
+  border: $btn-border-width solid $btn-border-color;
+  border-radius: $btn-border-radius;
+  height: $btn-height;
+  gap: $btn-gap;
+  padding: $btn-padding-y $btn-padding-x;
+  font-weight: $btn-font-weight;
+  font-size: $btn-font-size;
+  color: $btn-font-color;
+  transition: all 0.375s ease-out;
+  cursor: pointer;
+
+  &:hover {
+    --btn-bg: var(--default-hover-color);
+    --font-color-light: var(--font-color);
+  }
+
+  .material-icons-outlined {
+    font-size: $btn-icon-size;
+  }
+
+  &-text {
+    border: none;
+    padding: $btn-text-padding-y $btn-text-padding-x;
+  }
+}
