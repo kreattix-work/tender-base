@@ -346,7 +346,6 @@ body {
 }
 .content-body {
   background-color: #f1f1f1;
-  min-height: 100%;
   padding: var(--spacer-md) var(--spacer);
 }
 
