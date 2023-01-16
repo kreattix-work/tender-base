@@ -151,7 +151,7 @@
                                         </tr>
                                         <tr class="grid-table-data">
                                             <td class="col">
-                                                <div class="box-gap-1">
+                                                <div class="box-gy-1">
                                                     <div class="d-flex align-items-center">
                                                         <span class="icon-sm material-icons-outlined">room</span>
                                                         <span class="font-weight-sm">United Kingdom</span>
@@ -168,7 +168,7 @@
                                         </tr>
                                         <tr class="grid-table-data">
                                             <td class="col">
-                                                <div class="box-gap-1">
+                                                <div class="box-gy-1">
                                                     <div class="d-flex align-items-center">
                                                         <span class="icon-sm material-icons-outlined">room</span>
                                                         <span class="font-weight-sm">United Kingdom</span>
@@ -192,7 +192,7 @@
             </div>
         </div>
         <div class="col-7 ">
-            <div class="box-gap-4 fill-container d-flex flex-column">
+            <div class="box-gy-4 fill-container d-flex flex-column">
                 <div class="d-flex justify-content-between align-items-center">
                     <button class="btn btn-hovered">Search tender ?</button>
                     <button class="btn btn-hovered-primary">Change Settings</button>
@@ -205,6 +205,104 @@
                                 <button class="btn px-1">
                                     <span class="material-symbols-outlined">arrow_right_alt</span>
                                 </button>
+                            </div>
+                        </div>
+                        <table class="grid-table grid-table-sm mb-1">
+                            <tr class="grid-table-header grid-table-header-dark">
+                                <th class="w-100">2 members</th>
+                                <th class="text-nowrap">Assigned Tender</th>
+                            </tr>
+                            <tr class="grid-table-data">
+                                <td class="col">
+                                    <div class="d-flex box-gx-2">
+                                        <div class="profile-group">
+                                            <div class="profile-item">
+                                                <img src="/assets/images/profile-1.png" alt="">
+                                            </div>
+                                            <div class="profile-item">
+                                                <img src="/assets/images/profile-2.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-sm btn-circle px-1 py-0">
+                                                <span class="material-icons-outlined">add</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-auto">
+                                    <div class="d-flex align-items-center box-gx-1">
+                                        <div class="badge badge-sm bg-secondary-light d-inline-flex px-3"></div>
+                                        <div>12</div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="row-divider"></div>
+                        <div class="section-header">
+                            <div class="section-title">Saved Tender</div>
+                            <div class="section-actions">
+                                <button class="btn px-1">
+                                    <span class="material-symbols-outlined">arrow_right_alt</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="box-gy-4">
+                            <div class="box-gy-3">
+                                <div class="text-ellipsis">APUC Limited on behalf of Borders College</div>
+                                <div class="box-gx-2 d-flex align-items-center font-sm">
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-muted icon-xs material-icons-outlined">attach_money</span>
+                                        <span class="ms--1">65M</span>
+                                    </div>
+                                    <div class="d-flex align-items-center box-gx-1">
+                                        <span class="text-muted icon-xs material-icons-outlined">schedule</span>
+                                        <span class="text-muted">Published :</span>
+                                        <span>11/12/2022</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box-gy-3">
+                                <div class="text-ellipsis">APUC Limited on behalf of Borders College</div>
+                                <div class="box-gx-2 d-flex align-items-center font-sm">
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-muted icon-xs material-icons-outlined">attach_money</span>
+                                        <span class="ms--1">65M</span>
+                                    </div>
+                                    <div class="d-flex align-items-center box-gx-1">
+                                        <span class="text-muted icon-xs material-icons-outlined">schedule</span>
+                                        <span class="text-muted">Published :</span>
+                                        <span>11/12/2022</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box-gy-3">
+                                <div class="text-ellipsis">APUC Limited on behalf of Borders College</div>
+                                <div class="box-gx-2 d-flex align-items-center font-sm">
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-muted icon-xs material-icons-outlined">attach_money</span>
+                                        <span class="ms--1">65M</span>
+                                    </div>
+                                    <div class="d-flex align-items-center box-gx-1">
+                                        <span class="text-muted icon-xs material-icons-outlined">schedule</span>
+                                        <span class="text-muted">Published :</span>
+                                        <span>11/12/2022</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box-gy-3">
+                                <div class="text-ellipsis">APUC Limited on behalf of Borders College</div>
+                                <div class="box-gx-2 d-flex align-items-center font-sm">
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-muted icon-xs material-icons-outlined">attach_money</span>
+                                        <span class="ms--1">65M</span>
+                                    </div>
+                                    <div class="d-flex align-items-center box-gx-1">
+                                        <span class="text-muted icon-xs material-icons-outlined">schedule</span>
+                                        <span class="text-muted">Published :</span>
+                                        <span>11/12/2022</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -239,21 +337,21 @@
                             <th class="">Date</th>
                         </tr>
                         <tr class="grid-table-data">
-                            <td class="col box-gap-2">
+                            <td class="col box-gy-2">
                                 <div class="font-weight">APUC Limited on behalf of Borders College</div>
                                 <div class="text-primary font-weight-xs">Award of 710_1088 - Corriedoo Upgrades</div>
                             </td>
                             <td class="col-auto">10/10/2022</td>
                         </tr>
                         <tr class="grid-table-data">
-                            <td class="col box-gap-2">
+                            <td class="col box-gy-2">
                                 <div class="font-weight">APUC Limited on behalf of Borders College</div>
                                 <div class="text-primary font-weight-xs">Award of 710_1088 - Corriedoo Upgrades</div>
                             </td>
                             <td class="col-auto">10/10/2022</td>
                         </tr>
                         <tr class="grid-table-data">
-                            <td class="col box-gap-2">
+                            <td class="col box-gy-2">
                                 <div class="font-weight">APUC Limited on behalf of Borders College</div>
                                 <div class="text-primary font-weight-xs">Award of 710_1088 - Corriedoo Upgrades</div>
                             </td>
@@ -289,21 +387,21 @@
                             <th class="">Date</th>
                         </tr>
                         <tr class="grid-table-data">
-                            <td class="col box-gap-2">
+                            <td class="col box-gy-2">
                                 <div class="font-weight">APUC Limited on behalf of Borders College</div>
                                 <div class="text-secondary font-weight-xs">Award of 710_1088 - Corriedoo Upgrades</div>
                             </td>
                             <td class="col-auto">10/10/2022</td>
                         </tr>
                         <tr class="grid-table-data">
-                            <td class="col box-gap-2">
+                            <td class="col box-gy-2">
                                 <div class="font-weight">APUC Limited on behalf of Borders College</div>
                                 <div class="text-secondary font-weight-xs">Award of 710_1088 - Corriedoo Upgrades</div>
                             </td>
                             <td class="col-auto">10/10/2022</td>
                         </tr>
                         <tr class="grid-table-data">
-                            <td class="col box-gap-2">
+                            <td class="col box-gy-2">
                                 <div class="font-weight">APUC Limited on behalf of Borders College</div>
                                 <div class="text-secondary font-weight-xs">Award of 710_1088 - Corriedoo Upgrades</div>
                             </td>

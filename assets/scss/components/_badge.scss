@@ -10,6 +10,10 @@
   border-radius: $badge-border-radius;
   padding: $badge-padding-y $badge-padding-x;
 
+  &-sm {
+    height: $badge-height - 4;
+  }
+
   &-floating {
     position: absolute;
     top: 0;

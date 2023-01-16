@@ -1,0 +1,14 @@
+.profile {
+  &-group {
+    display: flex;
+  }
+  &-item {
+    &:not(:first-of-type) {
+      margin-left: -8px;
+    }
+    img {
+      height: 24px;
+      width: 24px;
+    }
+  }
+}

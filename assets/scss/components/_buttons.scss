@@ -33,6 +33,9 @@
     height: $btn-height - 6px;
     padding: ($btn-padding-y - 4px) ($btn-padding-x - 4px);
 
+    &.btn-circle {
+      height: $btn-height - 8px;
+    }
     .material-icons-outlined,
     .material-icons {
       font-size: $btn-icon-size - 4px;

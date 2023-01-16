@@ -1,6 +1,10 @@
 .grid-table {
   border-collapse: separate;
   border-spacing: 0 1em;
+
+  &-sm {
+    border-spacing: 0 8px;
+  }
   &-header {
     font-size: var(--font-size);
     font-weight: var(--font-weight-sm);
@@ -10,6 +14,12 @@
       font-weight: var(--font-weight-sm);
       color: var(--font-color-light);
       text-align: inherit;
+    }
+    &-dark {
+      color: var(--font-color);
+      th {
+        color: var(--font-color);
+      }
     }
   }
   &-data {
