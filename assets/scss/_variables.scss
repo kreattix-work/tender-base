@@ -31,24 +31,35 @@ $theme-colors: (
 
 $white: #ffffff;
 $black: #000000;
-$black-100: #efefef;
+$black-100: #f7f7f8;
 $black-200: #d4d4d4;
 $black-300: #928d8d;
 $black-400: #585858;
 $black-500: #262525;
 
 $default-hover-color: $black-100;
+$disabled-color: $black-100;
+$placeholder-color: $black-300;
 
 $all-colors: (
   "white": var(--white),
   "black": var(--black),
+  "default": $default-hover-color,
   "primary": var(--primary),
   "secondary": var(--secondary),
   "tertiary": var(--tertiary),
+  "primary-light": var(--primary-light),
+  "secondary-light": var(--secondary-light),
+  "tertiary-light": var(--tertiary-light),
+  "primary-extra-light": var(--primary-extra-light),
+  "secondary-extra-light": var(--secondary-extra-light),
+  "tertiary-extra-light": var(--tertiary-extra-light),
 );
 
 $spacer: 30px;
+$spacer-md: 16px;
 $spacer-sm: 14px;
+$spacer-xs: 12px;
 
 $border-width: 1px;
 $border-color: $black-200;
@@ -58,12 +69,15 @@ $border-radius-lg: 20px;
 
 $font-family-serif: "Poppins", sans-serif;
 $font-weight: 500;
+$font-weight-xs: 300;
 $font-weight-sm: 400;
 $font-weight-lg: 600;
 $font-size: 12px;
 $font-size-sm: 10px;
 $font-size-lg: 14px;
-$font-size-xl: 18px;
+$font-size-xl: 16px;
+$font-size-xxl: 18px;
+$font-size-title: 20px;
 $font-color: $black-400;
 $font-color-dark: $black-500;
 $font-color-light: $black-300;
@@ -110,7 +124,7 @@ $avatar-font-size: var(--font-size);
 $avatar-font-weight: var(--font-weight);
 $avater-border-radius: 50%;
 
-$profile-name-padding-left: 12px;
+$profile-name-padding-left: var(--spacer-xs);
 $profile-name-font-weight: var(--font-weight);
 $profile-name-font-size: var(--font-size-lg);
 $profile-name-font-color: var(--font-color);
@@ -141,12 +155,14 @@ $badge-padding-x: 3px;
 $badge-border-radius: 16px;
 $badge-height: 16px;
 
-$content-header-padding-y: 12px;
+$content-header-padding-y: var(--spacer-xs);
 $content-header-padding-x: var(--spacer);
 $content-header-border-width: 1px;
 $content-header-border-color: var(--border-color);
 $content-header-title-font-weight: var(--font-weight);
-$content-header-title-font-size: var(--font-size-xl);
+$content-header-title-font-size: var(--font-size-xxl);
 $content-header-title-font-color: var(--font-color-dark);
 
 $content-body-bg: #f1f1f1;
+$content-padding-y: var(--spacer-md);
+$content-padding-x: var(--spacer);

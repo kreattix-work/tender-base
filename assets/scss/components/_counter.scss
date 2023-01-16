@@ -1,0 +1,33 @@
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 0px;
+  white-space: nowrap;
+
+  &-group {
+    display: flex;
+    align-items: center;
+    padding: 0px var(--spacer-xs);
+    gap: var(--spacer-xs);
+    background-color: $default-hover-color;
+    border-radius: var(--border-radius);
+  }
+
+  &-count {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight);
+    color: var(--font-color-dark);
+  }
+  &-text {
+    font-size: var(--font-size);
+    font-weight: var(--font-weight-sm);
+    color: var(--font-color);
+  }
+  &-separator {
+    height: 8px;
+    width: 8px;
+    background-color: $default-hover-color;
+    border-radius: 50%;
+  }
+}

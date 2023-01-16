@@ -1,0 +1,17 @@
+.section {
+  &-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  &-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-title {
+    font-weight: var(--font-weight);
+    font-size: var(--font-size-lg);
+    color: var(--font-color);
+  }
+}

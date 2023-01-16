@@ -17,6 +17,6 @@
   &-body {
     background-color: $content-body-bg;
     min-height: 100%;
-    padding: var(--spacer);
+    padding: $content-padding-y $content-padding-x;
   }
 }

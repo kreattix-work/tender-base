@@ -1,0 +1,26 @@
+.grid-table {
+  border-collapse: separate;
+  border-spacing: 0 1em;
+  &-header {
+    font-size: var(--font-size);
+    font-weight: var(--font-weight-sm);
+    color: var(--font-color-light);
+    th {
+      font-size: var(--font-size);
+      font-weight: var(--font-weight-sm);
+      color: var(--font-color-light);
+      text-align: inherit;
+    }
+  }
+  &-data {
+    font-size: var(--font-size);
+    font-weight: var(--font-weight-sm);
+    color: var(--font-color);
+    td {
+      font-size: var(--font-size);
+      font-weight: var(--font-weight-sm);
+      color: var(--font-color);
+      text-align: inherit;
+    }
+  }
+}

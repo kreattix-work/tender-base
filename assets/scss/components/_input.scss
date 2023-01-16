@@ -1,0 +1,88 @@
+$form-control-height: 32px;
+$form-control-border-radius: var(--border-radius);
+$form-control-padding-y: 7px;
+$form-control-padding-x: 14px;
+$form-control-bg: var(--white);
+$form-control-border-width: 1px;
+$form-control-border-color: var(--border-color);
+$form-control-font-size: var(--font-size);
+$form-control-font-weight: var(--font-weight);
+$form-control-font-color: var(--font-color);
+
+.form-group {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content min-content;
+  grid-template-areas: "label label" "input input";
+  align-items: center;
+
+  &-inline {
+    grid-template-columns: min-content;
+    grid-template-areas: "label input";
+    column-gap: 8px;
+  }
+}
+
+.input-icon {
+  grid-area: input;
+  height: 1em;
+  color: $placeholder-color;
+  width: calc(1em + 24px);
+  z-index: 1;
+  font-size: var(--font-size-xl);
+  padding: 0px 12px;
+
+  &-prefix {
+    border-right: 1px solid var(--border-color);
+  }
+
+  &-prefix + .form-control {
+    padding-left: 52px;
+  }
+  &:not(&-prefix) {
+    margin-left: auto;
+    & + .form-control {
+      padding-right: 40px;
+    }
+  }
+}
+
+.form-label {
+  grid-area: label;
+}
+
+.form-control {
+  --input-font-color: $form-control-font-color;
+  --input-bg: #{$form-control-bg};
+  grid-area: input;
+  border: $form-control-border-width solid $form-control-border-color;
+  height: $form-control-height;
+  border-radius: $form-control-border-radius;
+  padding: $form-control-padding-y $form-control-padding-x;
+  outline: 0;
+  background-color: var(--input-bg);
+  font-weight: $form-control-font-weight;
+  font-size: $form-control-font-size;
+  color: var(--input-font-color);
+  width: 100%;
+
+  &:disabled,
+  &:read-only {
+    --input-font-color: #{$placeholder-color};
+    --input-bg: #{$disabled-color};
+  }
+  &:read-only {
+    cursor: pointer;
+  }
+
+  &-sm {
+    height: $form-control-height - 6px;
+    padding: ($form-control-padding-y - 4px) ($form-control-padding-x - 4px);
+
+    .material-icons-outlined,
+    .material-icons {
+      font-size: $btn-icon-size - 4px;
+    }
+  }
+}

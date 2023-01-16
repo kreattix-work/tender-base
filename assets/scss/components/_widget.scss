@@ -1,0 +1,23 @@
+.widget {
+  &-box {
+    min-height: 134px;
+    border-radius: var(--border-radius);
+    background-color: $default-hover-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 8px;
+  }
+  &-title {
+    font-size: var(--font-size-title);
+    font-weight: var(--font-weight);
+    color: var(--font-color);
+  }
+  &-text {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-sm);
+    color: var(--font-color);
+  }
+}

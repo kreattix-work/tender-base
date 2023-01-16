@@ -18,12 +18,15 @@
 
   --font-family: #{$font-family-serif};
   --font-weight: #{$font-weight};
+  --font-weight-xs: #{$font-weight-xs};
   --font-weight-sm: #{$font-weight-sm};
   --font-weight-lg: #{$font-weight-lg};
   --font-size: #{$font-size};
   --font-size-sm: #{$font-size-sm};
   --font-size-lg: #{$font-size-lg};
   --font-size-xl: #{$font-size-xl};
+  --font-size-xxl: #{$font-size-xxl};
+  --font-size-title: #{$font-size-title};
   --font-color: #{$font-color};
   --font-color-dark: #{$font-color-dark};
   --font-color-light: #{$font-color-light};
@@ -35,5 +38,7 @@
   --border-radius-lg: #{$border-radius-lg};
 
   --spacer: #{$spacer};
+  --spacer-md: #{$spacer-md};
   --spacer-sm: #{$spacer-sm};
+  --spacer-xs: #{$spacer-xs};
 }

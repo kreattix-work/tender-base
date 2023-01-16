@@ -1,6 +1,8 @@
+@use "sass:map";
+
 .btn {
-  position: relative;
   --btn-bg: transparent;
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -22,12 +24,39 @@
     --font-color-light: var(--font-color);
   }
 
-  .material-icons-outlined {
+  .material-icons-outlined,
+  .material-icons {
     font-size: $btn-icon-size;
+  }
+
+  &-sm {
+    height: $btn-height - 6px;
+    padding: ($btn-padding-y - 4px) ($btn-padding-x - 4px);
+
+    .material-icons-outlined,
+    .material-icons {
+      font-size: $btn-icon-size - 4px;
+    }
   }
 
   &-text {
     border: none;
     padding: $btn-text-padding-y $btn-text-padding-x;
+  }
+  &-hovered {
+    --btn-bg: var(--default-hover-color);
+    --font-color-light: var(--font-color);
+  }
+
+  @each $name, $color in $theme-colors {
+    &-#{$name} {
+      --btn-bg: #{map.get($color, "main")};
+      --font-color-light: var(--white);
+    }
+    &-hovered-#{$name} {
+      --btn-bg: var(--default-hover-color);
+      --font-color-light: var(--primary);
+      border-color: var(--primary);
+    }
   }
 }
