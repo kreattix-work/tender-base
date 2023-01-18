@@ -157,7 +157,7 @@ body {
   justify-self: flex-end;
   font-size: 20px;
 }
-.sider-menu-item:hover, .sider-menu-item.active, .sider-submenu-item:hover, .sider-submenu-item.active {
+.sider-menu-item:hover, .sider-menu-item.active, .sider-menu-item:has(.active), .sider-submenu-item:hover, .sider-submenu-item.active, .sider-submenu-item:has(.active) {
   --sider-menu-font-color: var(--primary);
   --sider-menu-bg: var(--primary-extra-light);
 }

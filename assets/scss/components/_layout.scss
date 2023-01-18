@@ -81,7 +81,8 @@
         }
       }
       &:hover,
-      &.active {
+      &.active,
+      &:has(.active) {
         --sider-menu-font-color: var(--primary);
         --sider-menu-bg: var(--primary-extra-light);
       }

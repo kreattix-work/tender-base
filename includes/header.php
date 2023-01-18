@@ -63,7 +63,7 @@
                         <span>Dashboard</span>
                     </a>
                 </li>
-                <li class="sider-menu-item active">
+                <li class="sider-menu-item submenu-open">
                     <a href="#" class="sider-menu-item-link">
                         <span class="material-icons">assignment</span>
                         <span>Manage tender</span>
