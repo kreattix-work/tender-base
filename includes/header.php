@@ -57,18 +57,51 @@
 
         <aside class="page-sider">
             <ul class="sider-menu">
-                <li class="sider-menu-item active">
+                <li class="sider-menu-item">
                     <a href="#" class="sider-menu-item-link">
                         <span class="material-icons">dashboard</span>
                         <span>Dashboard</span>
                     </a>
                 </li>
-                <li class="sider-menu-item">
+                <li class="sider-menu-item active">
                     <a href="#" class="sider-menu-item-link">
                         <span class="material-icons">assignment</span>
                         <span>Manage tender</span>
                         <span class="dropdown-menu-icon material-icons">arrow_drop_down</span>
                     </a>
+                    <ul class="sider-submenu">
+                        <li class="sider-submenu-item active">
+                            <a href="#" class="sider-submenu-item-link">
+                                <span class="material-icons">trending_flat</span>
+                                <span>Search tender</span>
+                            </a>
+                        </li>
+                        <li class="sider-submenu-item">
+                            <a href="#" class="sider-submenu-item-link">
+                                <span class="material-icons">trending_flat</span>
+                                <span>My matching tender</span>
+                            </a>
+                        </li>
+                        <li class="sider-submenu-item">
+                            <a href="#" class="sider-submenu-item-link">
+                                <span class="material-icons">trending_flat</span>
+                                <span>Saved tenders</span>
+                                <span class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                            </a>
+                        </li>
+                        <li class="sider-submenu-item">
+                            <a href="#" class="sider-submenu-item-link">
+                                <span class="material-icons">trending_flat</span>
+                                <span>Tender assigned to team</span>
+                            </a>
+                        </li>
+                        <li class="sider-submenu-item">
+                            <a href="#" class="sider-submenu-item-link">
+                                <span class="material-icons">trending_flat</span>
+                                <span>Team saved tender</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="sider-menu-item">
                     <a href="#" class="sider-menu-item-link">
