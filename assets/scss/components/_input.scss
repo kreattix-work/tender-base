@@ -22,25 +22,46 @@ $form-control-font-color: var(--font-color);
     grid-template-areas: "label input";
     column-gap: 8px;
   }
+  &-type-text {
+    .form-control {
+      border: 0;
+    }
+    .input-icon-prefix {
+      padding-left: 0;
+      &-with-divider {
+        padding-left: 0;
+        & + .form-control {
+          padding-left: 40px;
+        }
+      }
+      & + .form-control {
+        padding-left: 28px;
+      }
+    }
+  }
 }
 
 .input-icon {
   grid-area: input;
   height: 1em;
-  color: $placeholder-color;
+  color: $placeholder-icon;
   width: calc(1em + 24px);
   z-index: 1;
   font-size: var(--font-size-xl);
   padding: 0px 12px;
 
   &-prefix {
-    border-right: 1px solid var(--border-color);
+    &-with-divider {
+      border-right: 1px solid var(--border-color);
+      & + .form-control {
+        padding-left: 52px;
+      }
+    }
+    & + .form-control {
+      padding-left: 40px;
+    }
   }
-
-  &-prefix + .form-control {
-    padding-left: 52px;
-  }
-  &:not(&-prefix) {
+  &:not(&-prefix, &-prefix-with-divider) {
     margin-left: auto;
     & + .form-control {
       padding-right: 40px;
@@ -69,7 +90,7 @@ $form-control-font-color: var(--font-color);
 
   &:disabled,
   &:read-only {
-    --input-font-color: #{$placeholder-color};
+    --input-font-color: #{$text-muted};
     --input-bg: #{$disabled-color};
   }
   &:read-only {

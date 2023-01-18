@@ -12,14 +12,14 @@
                         <div class="col">
                             <div class="form-group form-group-inline">
                                 <label for="" class="form-label">From</label>
-                                <span class="input-icon input-icon-prefix material-icons">date_range</span>
+                                <span class="input-icon input-icon-prefix-with-divider material-icons">date_range</span>
                                 <input value="01-Nov-2021" type="text" placeholder="From Date" readonly class="form-control date-picker">
                             </div>
                         </div>
                         <div class="col">
                             <div class="form-group form-group-inline">
                                 <label for="" class="form-label">To</label>
-                                <span class="input-icon input-icon-prefix material-icons">date_range</span>
+                                <span class="input-icon input-icon-prefix-with-divider material-icons">date_range</span>
                                 <input value="01-Nov-2021" type="text" placeholder="To Date" readonly class="form-control date-picker">
                             </div>
                         </div>

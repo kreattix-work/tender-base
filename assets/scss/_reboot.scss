@@ -13,6 +13,11 @@
   color: $placeholder-color;
 }
 
+a,
+button {
+  font-family: var(--font-family);
+}
+
 body {
   margin: 0;
   font-family: var(--font-family);
@@ -24,6 +29,11 @@ body {
 .row-divider {
   margin: 0;
   border-top: 1px solid var(--border-color);
+}
+.col-divider {
+  margin: 0;
+  border-left: 1px solid var(--border-color);
+  height: 16px;
 }
 .divider {
   border-top: 1px solid var(--border-color);

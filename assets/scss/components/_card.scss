@@ -1,0 +1,15 @@
+.card {
+  background: $white;
+  box-shadow: var(--box-shadow-lg);
+  border-radius: var(--border-radius-xs);
+
+  &-body {
+    padding: var(--spacer-md) var(--spacer);
+  }
+
+  &-filter-container {
+    display: flex;
+    align-items: center;
+    gap: var(--spacer-md);
+  }
+}

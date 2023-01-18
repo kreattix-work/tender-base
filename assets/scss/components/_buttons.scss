@@ -19,7 +19,7 @@
   transition: all 0.375s ease-out;
   cursor: pointer;
 
-  &:hover {
+  &:hover:not(.no-hover, :active) {
     --btn-bg: var(--default-hover-color);
     --font-color-light: var(--font-color);
   }
@@ -33,6 +33,11 @@
     border-radius: var(--border-radius-lg);
   }
 
+  &-lg {
+    height: $btn-height + 6px;
+    padding: ($btn-padding-y + 4px) ($btn-padding-x + 4px);
+    font-size: var(--font-size-lg);
+  }
   &-sm {
     height: $btn-height - 6px;
     padding: ($btn-padding-y - 4px) ($btn-padding-x - 4px);
@@ -50,6 +55,9 @@
     border: none;
     padding: $btn-text-padding-y $btn-text-padding-x;
   }
+  &-outlined {
+    --font-color-light: var(--font-color);
+  }
   &-hovered {
     --btn-bg: var(--default-hover-color);
     --font-color-light: var(--font-color);
@@ -60,10 +68,23 @@
       --btn-bg: #{map.get($color, "main")};
       --font-color-light: var(--white);
     }
+    &-outlined-#{$name} {
+      --font-color-light: #{map.get($color, "main")};
+      border-color: #{map.get($color, "light")};
+      &:hover:not(.no-hover, :active) {
+        --btn-bg: #{map.get($color, "extra-light")};
+        --font-color-light: #{map.get($color, "main")};
+      }
+    }
     &-hovered-#{$name} {
       --btn-bg: var(--default-hover-color);
-      --font-color-light: var(--primary);
-      border-color: var(--primary);
+      --font-color-light: #{map.get($color, "main")};
+      border-color: #{map.get($color, "main")};
+
+      &:hover:not(.no-hover, :active) {
+        --btn-bg: #{map.get($color, "extra-light")};
+        --font-color-light: #{map.get($color, "main")};
+      }
     }
   }
 }

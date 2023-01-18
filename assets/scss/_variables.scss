@@ -18,14 +18,20 @@ $theme-colors: (
   "primary": (
     "main": var(--primary),
     "hover": var(--primary-hover),
+    "light": var(--primary-light),
+    "extra-light": var(--primary-extra-light),
   ),
   "secondary": (
     "main": var(--secondary),
     "hover": var(--secondary-hover),
+    "light": var(--secondary-light),
+    "extra-light": var(--secondary-extra-light),
   ),
   "tertiary": (
     "main": var(--tertiary),
     "hover": var(--tertiary-hover),
+    "light": var(--tertiary-light),
+    "extra-light": var(--tertiary-extra-light),
   ),
 );
 
@@ -39,13 +45,15 @@ $black-500: #262525;
 
 $default-hover-color: $black-100;
 $disabled-color: $black-100;
-$placeholder-color: $black-300;
+$placeholder-color: $black-200;
+$placeholder-icon: $black-300;
+$text-muted: $black-300;
 
 $all-colors: (
   "white": var(--white),
   "black": var(--black),
   "default": $default-hover-color,
-  "muted": $placeholder-color,
+  "muted": $text-muted,
   "primary": var(--primary),
   "secondary": var(--secondary),
   "tertiary": var(--tertiary),
@@ -70,6 +78,9 @@ $border-radius-xs: 4px;
 $border-radius-sm: 8px;
 $border-radius: 12px;
 $border-radius-lg: 20px;
+
+$box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+$box-shadow-lg: 0px 5px 15px rgba(0, 0, 0, 0.1);
 
 $font-family-serif: "Poppins", sans-serif;
 $font-weight: 500;
