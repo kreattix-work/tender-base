@@ -66,6 +66,8 @@ $spacer-xxs: 8px;
 $border-width: 1px;
 $border-color: $black-200;
 
+$border-radius-xs: 4px;
+$border-radius-sm: 8px;
 $border-radius: 12px;
 $border-radius-lg: 20px;
 
@@ -142,7 +144,7 @@ $btn-padding-y: 7px;
 $btn-padding-x: 16px;
 $btn-border-width: 1px;
 $btn-border-color: var(--border-color);
-$btn-border-radius: var(--border-radius-lg);
+$btn-border-radius: var(--border-radius-xs);
 $btn-font-size: var(--font-size);
 $btn-font-weight: var(--font-weight);
 $btn-font-color: var(--font-color-light);
@@ -157,7 +159,8 @@ $badge-padding-x: 3px;
 $badge-border-radius: 16px;
 $badge-height: 16px;
 
-$content-header-padding-y: var(--spacer-xs);
+$content-header-height: 52px;
+$content-header-padding-y: var(--spacer-xxs);
 $content-header-padding-x: var(--spacer);
 $content-header-border-width: 1px;
 $content-header-border-color: var(--border-color);

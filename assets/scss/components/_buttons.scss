@@ -29,6 +29,10 @@
     font-size: $btn-icon-size;
   }
 
+  &-rounded {
+    border-radius: var(--border-radius-lg);
+  }
+
   &-sm {
     height: $btn-height - 6px;
     padding: ($btn-padding-y - 4px) ($btn-padding-x - 4px);

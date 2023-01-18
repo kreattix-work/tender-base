@@ -33,6 +33,7 @@
     padding-left: $sider-padding-left;
   }
   &-content {
+    background-color: $content-body-bg;
     grid-area: content;
   }
 }

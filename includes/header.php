@@ -38,15 +38,15 @@
                 </div>
                 <div class="page-header-content-item">
                     <div class="page-header-actions">
-                        <button class="btn">
+                        <button class="btn btn-rounded">
                             <span class="material-icons-outlined">email</span>
                             <span>Create</span>
                         </button>
-                        <button class="btn btn-text">
+                        <button class="btn btn-rounded btn-text">
                             <span class="material-icons-outlined">notifications</span>
                             <div class="badge badge-floating badge-secondary">9+</div>
                         </button>
-                        <button class="btn">
+                        <button class="btn btn-rounded">
                             <span class="material-icons-outlined">logout</span>
                             <span>Log out</span>
                         </button>

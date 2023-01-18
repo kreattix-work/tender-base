@@ -83,7 +83,7 @@
                                         <span class="input-icon material-icons">search</span>
                                         <input type="text" placeholder="Search" class="form-control form-control-sm">
                                     </div>
-                                    <button class="btn btn-sm">
+                                    <button class="btn btn-rounded btn-sm">
                                         <span class="material-icons-outlined">vertical_align_bottom</span>
                                         <span>Export All (100)</span>
                                         <span class="dropdown-menu-icon material-icons">arrow_drop_down</span>
@@ -134,10 +134,10 @@
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-between">
-                                    <button class="btn btn-sm">
+                                    <button class="btn btn-rounded btn-sm">
                                         <span class="material-icons-outlined">search</span>
                                     </button>
-                                    <button class="btn btn-sm">
+                                    <button class="btn btn-rounded btn-sm">
                                         <span class="material-icons-outlined">vertical_align_bottom</span>
                                         <span>(100)</span>
                                         <span class="dropdown-menu-icon material-icons">arrow_drop_down</span>
@@ -161,7 +161,7 @@
                                                 </div>
                                             </td>
                                             <td class="col-auto">
-                                                <button class="btn px-1">
+                                                <button class="btn btn-rounded px-1">
                                                     <span class="material-symbols-outlined">arrow_right_alt</span>
                                                 </button>
                                             </td>
@@ -178,7 +178,7 @@
                                                 </div>
                                             </td>
                                             <td class="col-auto">
-                                                <button class="btn px-1">
+                                                <button class="btn btn-rounded px-1">
                                                     <span class="material-symbols-outlined">arrow_right_alt</span>
                                                 </button>
                                             </td>
@@ -194,15 +194,15 @@
         <div class="col-7 ">
             <div class="box-gy-4 fill-container d-flex flex-column">
                 <div class="d-flex justify-content-between align-items-center">
-                    <button class="btn btn-hovered">Search tender ?</button>
-                    <button class="btn btn-hovered-primary">Change Settings</button>
+                    <button class="btn btn-rounded btn-hovered">Search tender ?</button>
+                    <button class="btn btn-rounded btn-hovered-primary">Change Settings</button>
                 </div>
                 <div class="section-container flex-1">
                     <div class="paper paper-table bg-default flex-1">
                         <div class="section-header">
                             <div class="section-title">My Team member</div>
                             <div class="section-actions">
-                                <button class="btn px-1">
+                                <button class="btn btn-rounded px-1">
                                     <span class="material-symbols-outlined">arrow_right_alt</span>
                                 </button>
                             </div>
@@ -224,7 +224,7 @@
                                             </div>
                                         </div>
                                         <div>
-                                            <button class="btn btn-sm btn-circle px-1 py-0">
+                                            <button class="btn btn-rounded btn-sm btn-circle px-1 py-0">
                                                 <span class="material-icons-outlined">add</span>
                                             </button>
                                         </div>
@@ -242,7 +242,7 @@
                         <div class="section-header">
                             <div class="section-title">Saved Tender</div>
                             <div class="section-actions">
-                                <button class="btn px-1">
+                                <button class="btn btn-rounded px-1">
                                     <span class="material-symbols-outlined">arrow_right_alt</span>
                                 </button>
                             </div>
@@ -324,7 +324,7 @@
                         <span class="input-icon material-icons">search</span>
                         <input type="text" placeholder="Search" class="form-control form-control-sm">
                     </div>
-                    <button class="btn btn-sm">
+                    <button class="btn btn-rounded btn-sm">
                         <span class="material-icons-outlined">vertical_align_bottom</span>
                         <span>Export All (100)</span>
                         <span class="dropdown-menu-icon material-icons">arrow_drop_down</span>
@@ -374,7 +374,7 @@
                         <span class="input-icon material-icons">search</span>
                         <input type="text" placeholder="Search" class="form-control form-control-sm">
                     </div>
-                    <button class="btn btn-sm">
+                    <button class="btn btn-rounded btn-sm">
                         <span class="material-icons-outlined">vertical_align_bottom</span>
                         <span>Export All (100)</span>
                         <span class="dropdown-menu-icon material-icons">arrow_drop_down</span>
