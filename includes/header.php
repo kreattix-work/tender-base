@@ -101,6 +101,12 @@
                                 <span>Team saved tender</span>
                             </a>
                         </li>
+                        <li class="sider-submenu-item">
+                            <a href="#" class="sider-submenu-item-link">
+                                <span class="material-icons">trending_flat</span>
+                                <span>Tender Notice</span>
+                            </a>
+                        </li>
                     </ul>
                 </li>
                 <li class="sider-menu-item">

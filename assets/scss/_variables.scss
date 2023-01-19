@@ -33,6 +33,12 @@ $theme-colors: (
     "light": var(--tertiary-light),
     "extra-light": var(--tertiary-extra-light),
   ),
+  "dark": (
+    "main": var(--black-400),
+    "hover": var(--black-300),
+    "light": var(--black-200),
+    "extra-light": var(--black-100),
+  ),
 );
 
 $white: #ffffff;
