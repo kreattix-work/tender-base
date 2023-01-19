@@ -53,6 +53,16 @@
     margin-right: 8px !important;
   }
 }
+.box-gx-3 {
+  & > *:not(:last-of-type) {
+    margin-right: 12px !important;
+  }
+}
+.box-gx-4 {
+  & > *:not(:last-of-type) {
+    margin-right: 16px !important;
+  }
+}
 .box-gy-1 {
   & > *:not(:last-of-type) {
     margin-bottom: 4px !important;
