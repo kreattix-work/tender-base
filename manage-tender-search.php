@@ -10,7 +10,7 @@
         </button>
     </div>
 </div>
-<div class="content-body">
+<div class="content-body box-gy-3">
     <div class="card">
         <div class="card-body card-filter-container">
             <button class="btn btn-text p-0 no-hover">
@@ -42,6 +42,34 @@
             <button class="btn btn-outlined-primary btn-lg">
                 <span>Search</span>
             </button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body card-filter-container">
+            <button class="btn btn-text p-0 no-hover">
+                <span class="material-icons-outlined">filter_alt</span>
+                <span>Filter</span>
+            </button>
+            <div class="col-divider"></div>
+            <button class="btn btn-text p-0 no-hover">
+                <span class="material-icons">arrow_drop_down</span>
+                <span>Location</span>
+            </button>
+            <div class="col-divider"></div>
+            <button class="btn btn-text p-0 no-hover">
+                <span class="material-icons">arrow_drop_down</span>
+                <span>Published Duration</span>
+            </button>
+            <div class="col-divider"></div>
+            <button class="btn btn-text p-0 no-hover">
+                <span class="material-icons">arrow_drop_down</span>
+                <span>Price</span>
+            </button>
+            <div class="col-divider"></div>
+            <div class="form-group">
+                <span class="input-icon input-icon material-icons">search</span>
+                <input type="text" placeholder="Search by town" class="form-control form-control-sm">
+            </div>
         </div>
     </div>
 </div>
