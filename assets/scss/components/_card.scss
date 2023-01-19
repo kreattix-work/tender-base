@@ -5,6 +5,10 @@
 
   &-body {
     padding: var(--spacer-md) var(--spacer);
+
+    & + & {
+      border-top: 1px solid var(--border-color);
+    }
   }
 
   &-filter-container {

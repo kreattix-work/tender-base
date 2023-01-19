@@ -45,30 +45,66 @@
         </div>
     </div>
     <div class="card">
-        <div class="card-body card-filter-container">
-            <button class="btn btn-text p-0 no-hover">
-                <span class="material-icons-outlined">filter_alt</span>
-                <span>Filter</span>
-            </button>
-            <div class="col-divider"></div>
-            <button class="btn btn-text p-0 no-hover">
-                <span class="material-icons">arrow_drop_down</span>
-                <span>Location</span>
-            </button>
-            <div class="col-divider"></div>
-            <button class="btn btn-text p-0 no-hover">
-                <span class="material-icons">arrow_drop_down</span>
-                <span>Published Duration</span>
-            </button>
-            <div class="col-divider"></div>
-            <button class="btn btn-text p-0 no-hover">
-                <span class="material-icons">arrow_drop_down</span>
-                <span>Price</span>
-            </button>
-            <div class="col-divider"></div>
-            <div class="form-group">
-                <span class="input-icon input-icon material-icons">search</span>
-                <input type="text" placeholder="Search by town" class="form-control form-control-sm">
+        <div class="card-body d-flex justify-content-between">
+            <div class="card-filter-container">
+                <button class=" btn btn-text btn-outlined-dark p-0 no-hover">
+                    <span class="material-icons-outlined">filter_alt</span>
+                    <span class="font-weight-sm">Filter</span>
+                </button>
+                <div class="col-divider"></div>
+                <button class="btn btn-text p-0 no-hover">
+                    <span class="material-icons">arrow_drop_down</span>
+                    <span class="font-weight-sm">Location</span>
+                </button>
+                <div class="col-divider"></div>
+                <button class="btn btn-text p-0 no-hover">
+                    <span class="material-icons">arrow_drop_down</span>
+                    <span class="font-weight-sm">Published Duration</span>
+                </button>
+                <div class="col-divider"></div>
+                <button class="btn btn-text p-0 no-hover">
+                    <span class="material-icons">arrow_drop_down</span>
+                    <span class="font-weight-sm">Price</span>
+                </button>
+                <div class="col-divider"></div>
+                <div class="form-group">
+                    <span class="input-icon input-icon material-icons">search</span>
+                    <input type="text" placeholder="Search by town" class="form-control form-control-sm">
+                </div>
+            </div>
+            <div class="card-filter-container">
+                <button class=" btn btn-text p-0 no-hover">
+                    <span class="material-icons-outlined">sort</span>
+                    <span>Sort by</span>
+                </button>
+                <div class="col-divider"></div>
+                <button class="btn btn-text btn-outlined-dark p-0 no-hover">
+                    <span class="material-icons">arrow_drop_down</span>
+                    <span>Live tenders</span>
+                </button>
+            </div>
+        </div>
+        <div class="card-body d-flex justify-content-between">
+            <div class="card-filter-container">
+                <div>
+                    <span class="text-muted font-weight-sm">Search result:</span>
+                    <span>100 Tenders</span>
+                </div>
+            </div>
+            <div class="card-filter-container">
+                <div class="font-weight-sm">Suitable for SME</div>
+                <label class="input-switch">
+                    <input type="checkbox">
+                    <span class="input-switch-indicator"></span>
+                </label>
+                <button class=" btn btn-text p-0 no-hover">
+                    <span class="font-weight-sm">Order by</span>
+                </button>
+                <div class="col-divider"></div>
+                <button class="btn btn-text btn-outlined-dark p-0 no-hover">
+                    <span class="material-icons rotate-90">code</span>
+                    <span>Decending</span>
+                </button>
             </div>
         </div>
     </div>
