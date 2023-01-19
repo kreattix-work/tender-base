@@ -1,6 +1,6 @@
 <?php include_once './includes/header.php'; ?>
 
-<div class="content-header">
+<div class="content-header py-4">
     <div class="box-gy-4">
         <div class="content-header-title">GB-Merseyside: RFCA (NW) Merseyside Cadet Hut Refurbishments - Tenderbase</div>
         <div>
