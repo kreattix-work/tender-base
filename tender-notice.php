@@ -4,7 +4,7 @@
     <div class="box-gy-4">
         <div class="content-header-title">GB-Merseyside: RFCA (NW) Merseyside Cadet Hut Refurbishments - Tenderbase</div>
         <div>
-            <span class="text-muted">Authority :</span>
+            <span class="text-muted font-weight-sm">Authority :</span>
             <span class="font-lg">Department for Business, Energy & Industrial Strategy (BEIS)</span>
         </div>
         <div class="d-flex box-gx-2">

@@ -12,6 +12,9 @@
     <div><a href="./dashboard.php">Dashboard</a></div>
     <div><a href="./manage-tender-search.php">Manage Tender Search</a></div>
     <div><a href="./tender-notice.php">Tender Notice</a></div>
+    <div><a href="./buyer-behavior-analysis.php">Buyer Behavior Analysis</a></div>
+    <div><a href="./supplier-tracking.php">Supplier Tracking</a></div>
+    <div><a href="./category-tracking.php">Category Tracking</a></div>
 </body>
 
 </html>

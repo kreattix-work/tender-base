@@ -773,6 +773,18 @@ body {
   border-color: #928d8d;
 }
 
+.bg-dark {
+  background-color: #262525;
+}
+
+.text-dark {
+  color: #262525;
+}
+
+.border-color-dark {
+  border-color: #262525;
+}
+
 .bg-primary {
   background-color: var(--primary);
 }
@@ -923,6 +935,14 @@ body {
 
 .box-gx-2 > *:not(:last-of-type) {
   margin-right: 8px !important;
+}
+
+.box-gx-3 > *:not(:last-of-type) {
+  margin-right: 12px !important;
+}
+
+.box-gx-4 > *:not(:last-of-type) {
+  margin-right: 16px !important;
 }
 
 .box-gy-1 > *:not(:last-of-type) {
