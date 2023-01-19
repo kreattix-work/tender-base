@@ -13,6 +13,11 @@
   --tertiary-extra-light: #cae3f1;
   --white: #ffffff;
   --black: #000000;
+  --black-100: #f7f7f8;
+  --black-200: #d4d4d4;
+  --black-300: #928d8d;
+  --black-400: #585858;
+  --black-500: #262525;
   --default-hover-color: #f7f7f8;
   --font-family: Poppins, sans-serif;
   --font-weight: 500;
@@ -294,6 +299,10 @@ body {
   --btn-bg: var(--primary);
   --font-color-light: var(--white);
 }
+.btn-primary:hover:not(.no-hover, :active) {
+  --btn-bg: var(--primary-hover);
+  --font-color-light: var(--white);
+}
 .btn-outlined-primary {
   --font-color-light: var(--primary);
   border-color: var(--primary-light);
@@ -313,6 +322,10 @@ body {
 }
 .btn-secondary {
   --btn-bg: var(--secondary);
+  --font-color-light: var(--white);
+}
+.btn-secondary:hover:not(.no-hover, :active) {
+  --btn-bg: var(--secondary-hover);
   --font-color-light: var(--white);
 }
 .btn-outlined-secondary {
@@ -336,6 +349,10 @@ body {
   --btn-bg: var(--tertiary);
   --font-color-light: var(--white);
 }
+.btn-tertiary:hover:not(.no-hover, :active) {
+  --btn-bg: var(--tertiary-hover);
+  --font-color-light: var(--white);
+}
 .btn-outlined-tertiary {
   --font-color-light: var(--tertiary);
   border-color: var(--tertiary-light);
@@ -352,6 +369,31 @@ body {
 .btn-hovered-tertiary:hover:not(.no-hover, :active) {
   --btn-bg: var(--tertiary-extra-light);
   --font-color-light: var(--tertiary);
+}
+.btn-dark {
+  --btn-bg: var(--black-400);
+  --font-color-light: var(--white);
+}
+.btn-dark:hover:not(.no-hover, :active) {
+  --btn-bg: var(--black-300);
+  --font-color-light: var(--white);
+}
+.btn-outlined-dark {
+  --font-color-light: var(--black-400);
+  border-color: var(--black-200);
+}
+.btn-outlined-dark:hover:not(.no-hover, :active) {
+  --btn-bg: var(--black-100);
+  --font-color-light: var(--black-400);
+}
+.btn-hovered-dark {
+  --btn-bg: var(--default-hover-color);
+  --font-color-light: var(--black-400);
+  border-color: var(--black-400);
+}
+.btn-hovered-dark:hover:not(.no-hover, :active) {
+  --btn-bg: var(--black-100);
+  --font-color-light: var(--black-400);
 }
 
 .badge {
@@ -382,6 +424,10 @@ body {
 }
 .badge-tertiary {
   --badge-bg: var(--tertiary);
+  --badge-font-color: var(--white);
+}
+.badge-dark {
+  --badge-bg: var(--black-400);
   --badge-font-color: var(--white);
 }
 
@@ -419,7 +465,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 52px;
+  min-height: 52px;
   padding: var(--spacer-xxs) var(--spacer);
   border-bottom: 1px solid var(--border-color);
 }
@@ -849,6 +895,10 @@ body {
 
 .font-sm {
   font-size: var(--font-size-sm) !important;
+}
+
+.font-lg {
+  font-size: var(--font-size-lg) !important;
 }
 
 .font-weight-xs {

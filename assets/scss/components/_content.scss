@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: $content-header-height;
+    min-height: $content-header-height;
     padding: $content-header-padding-y $content-header-padding-x;
     border-bottom: $content-header-border-width solid
       $content-header-border-color;

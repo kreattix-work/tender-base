@@ -67,6 +67,10 @@
     &-#{$name} {
       --btn-bg: #{map.get($color, "main")};
       --font-color-light: var(--white);
+      &:hover:not(.no-hover, :active) {
+        --btn-bg: #{map.get($color, "hover")};
+        --font-color-light: var(--white);
+      }
     }
     &-outlined-#{$name} {
       --font-color-light: #{map.get($color, "main")};
