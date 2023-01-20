@@ -48,8 +48,7 @@
 </div>
 <div class="content-body bg-white">
     <div class="row">
-        <div class="col">
-            
+        <div class="col">   
             <div class="box-gy-6">
                 <div class="box-gy-2">
                     <div class="font-weight-sm font-lg text-muted">Descriptions</div>
@@ -192,23 +191,23 @@
                                 </div>
 
                                 <div class="row">
-                                    <div class="col-8 box-gy-1 font-weight-sm">
-                                        <div class="text-muted">Total Awarded Tenders</div>
+                                    <div class="col-8 box-gy-1">
+                                        <div class="text-muted  font-weight-sm">Total Awarded Tenders</div>
                                         <div class="text-dark">1</div>
                                     </div>
-                                    <div class="col box-gy-1 font-weight-sm">
-                                        <div class="text-muted">Total Awarded Price</div>
+                                    <div class="col box-gy-1">
+                                        <div class="text-muted font-weight-sm">Total Awarded Price</div>
                                         <div class="text-dark">99999999</div>
                                     </div>
                                 </div>
 
                                 <div class="row">
-                                    <div class="col-8 box-gy-1 font-weight-sm">
-                                        <div class="text-muted">How Frequently Awarded</div>
+                                    <div class="col-8 box-gy-1">
+                                        <div class="text-muted font-weight-sm">How Frequently Awarded</div>
                                         <div class="text-dark">Once in 2 years</div>
                                     </div>
-                                    <div class="col box-gy-1 font-weight-sm">
-                                        <div class="text-muted">Worked with Buyer</div>
+                                    <div class="col box-gy-1">
+                                        <div class="text-muted font-weight-sm">Worked with Buyer</div>
                                         <div class="text-dark">NO</div>
                                     </div>
                                     <div class="col-auto">
