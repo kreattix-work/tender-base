@@ -40,7 +40,14 @@
   &-rounded {
     border-radius: var(--border-radius-lg);
   }
-
+  &.btn-square {
+    width: 32px;
+    height: 32px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   &-lg {
     height: $btn-height + 6px;
     padding: ($btn-padding-y + 4px) $btn-padding-x;
@@ -57,10 +64,6 @@
     &.btn-square {
       width: 24px;
       height: 24px;
-      padding: 2px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
     }
     .material-icons-outlined,
     .material-icons {
