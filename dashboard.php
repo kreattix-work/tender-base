@@ -13,14 +13,14 @@
                             <div class="form-group form-group-inline">
                                 <label for="" class="form-label">From</label>
                                 <span class="input-icon input-icon-prefix-with-divider material-icons">date_range</span>
-                                <input value="01-Nov-2021" type="text" placeholder="From Date" readonly class="form-control date-picker">
+                                <input value="01-Nov-2021" type="text" placeholder="From Date" readonly class="form-control form-control-rounded date-picker">
                             </div>
                         </div>
                         <div class="col">
                             <div class="form-group form-group-inline">
                                 <label for="" class="form-label">To</label>
                                 <span class="input-icon input-icon-prefix-with-divider material-icons">date_range</span>
-                                <input value="01-Nov-2021" type="text" placeholder="To Date" readonly class="form-control date-picker">
+                                <input value="01-Nov-2021" type="text" placeholder="To Date" readonly class="form-control form-control-rounded date-picker">
                             </div>
                         </div>
                         <div class="col">
@@ -81,7 +81,7 @@
                                 <div class="d-flex justify-content-between">
                                     <div class="form-group">
                                         <span class="input-icon material-icons">search</span>
-                                        <input type="text" placeholder="Search" class="form-control form-control-sm">
+                                        <input type="text" placeholder="Search" class="form-control form-control-rounded form-control-sm">
                                     </div>
                                     <button class="btn btn-rounded btn-sm">
                                         <span class="material-icons-outlined">vertical_align_bottom</span>
@@ -322,7 +322,7 @@
                 <div class="d-flex justify-content-between">
                     <div class="form-group">
                         <span class="input-icon material-icons">search</span>
-                        <input type="text" placeholder="Search" class="form-control form-control-sm">
+                        <input type="text" placeholder="Search" class="form-control form-control-rounded form-control-sm">
                     </div>
                     <button class="btn btn-rounded btn-sm">
                         <span class="material-icons-outlined">vertical_align_bottom</span>
@@ -372,7 +372,7 @@
                 <div class="d-flex justify-content-between">
                     <div class="form-group">
                         <span class="input-icon material-icons">search</span>
-                        <input type="text" placeholder="Search" class="form-control form-control-sm">
+                        <input type="text" placeholder="Search" class="form-control form-control-rounded form-control-sm">
                     </div>
                     <button class="btn btn-rounded btn-sm">
                         <span class="material-icons-outlined">vertical_align_bottom</span>

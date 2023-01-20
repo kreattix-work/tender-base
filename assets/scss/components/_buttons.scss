@@ -20,6 +20,13 @@
   transition: all 0.375s ease-out;
   cursor: pointer;
 
+  &:disabled {
+    pointer-events: none;
+    --btn-bg: transparent !important;
+    --btn-border-color: #{$placeholder-color} !important;
+    --font-color-light: #{$text-muted} !important;
+  }
+
   &:hover:not(.no-hover, :active) {
     --btn-bg: var(--default-hover-color);
     --font-color-light: var(--font-color);
@@ -43,8 +50,17 @@
     height: $btn-height - 6px;
     padding: ($btn-padding-y - 4px) ($btn-padding-x - 4px);
 
-    &.btn-circle {
+    &.btn-circle,
+    &.btn-icon {
       height: $btn-height - 8px;
+    }
+    &.btn-square {
+      width: 24px;
+      height: 24px;
+      padding: 2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     .material-icons-outlined,
     .material-icons {
@@ -88,7 +104,7 @@
     }
     &-outlined-#{$name} {
       --font-color-light: #{map.get($color, "main")};
-      border-color: #{map.get($color, "light")};
+      --btn-border-color: #{map.get($color, "light")};
       &:hover:not(.no-hover, :active) {
         --btn-bg: #{map.get($color, "extra-light")};
         --font-color-light: #{map.get($color, "main")};
@@ -97,7 +113,7 @@
     &-hovered-#{$name} {
       --btn-bg: var(--default-hover-color);
       --font-color-light: #{map.get($color, "main")};
-      border-color: #{map.get($color, "main")};
+      --btn-border-color: #{map.get($color, "main")};
 
       &:hover:not(.no-hover, :active) {
         --btn-bg: #{map.get($color, "extra-light")};

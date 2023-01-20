@@ -79,7 +79,7 @@ $form-control-font-color: var(--font-color);
   grid-area: input;
   border: $form-control-border-width solid $form-control-border-color;
   height: $form-control-height;
-  border-radius: $form-control-border-radius;
+  border-radius: 4px;
   padding: $form-control-padding-y $form-control-padding-x;
   outline: 0;
   background-color: var(--input-bg);
@@ -88,8 +88,12 @@ $form-control-font-color: var(--font-color);
   color: var(--input-font-color);
   width: 100%;
 
+  &-rounded {
+    border-radius: $form-control-border-radius;
+  }
+
   &:disabled,
-  &:read-only {
+  &:read-only:not(select) {
     --input-font-color: #{$text-muted};
     --input-bg: #{$disabled-color};
   }
@@ -105,5 +109,10 @@ $form-control-font-color: var(--font-color);
     .material-icons {
       font-size: $btn-icon-size - 4px;
     }
+  }
+  &-xs {
+    height: initial;
+    padding: 2px 4px;
+    width: initial;
   }
 }

@@ -14,7 +14,7 @@
             <div class="col-divider"></div>
             <div class="form-group form-group-type-text flex-1">
                 <span class="input-icon input-icon-prefix material-icons">search</span>
-                <input type="text" placeholder="Supplier name | address" class="form-control form-control-sm">
+                <input type="text" placeholder="Supplier name | address" class="form-control form-control-rounded form-control-sm">
             </div>
             <span>In:</span>
             <div class="col-divider"></div>
@@ -63,7 +63,7 @@
                 <div class="col-divider"></div>
                 <div class="form-group">
                     <span class="input-icon input-icon material-icons">search</span>
-                    <input type="text" placeholder="Search by town" class="form-control form-control-sm">
+                    <input type="text" placeholder="Search by town" class="form-control form-control-rounded form-control-sm">
                 </div>
             </div>
             <div class="card-filter-container">
