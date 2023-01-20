@@ -190,6 +190,9 @@
                                 <span class="font-lg text-dark">GB-Merseyside: RFCA (NW) Merseyside Cadet Hut Refurbishments</span>
                                 <span class="font-weight-sm text-dark highlight-secondary-light">Possible bidding competitors</span>
                                 <span class="material-icons-outlined icon-sm">done_all</span>
+                                <button class="btn btn-hovered btn-rounded btn-xs p-1 no-border">
+                                    <span class="material-icons-outlined icon-sm">remove_red_eye</span>
+                                </button>
                                 <button class="btn btn-xs btn-rounded no-hover">
                                     <span class="text-muted">Seen by</span> <span class="text-dark">You</span>
                                 </button>
@@ -263,6 +266,9 @@
                                 <span class="font-lg text-dark">GB-Merseyside: RFCA (NW) Merseyside Cadet Hut Refurbishments</span>
                                 <span class="font-weight-sm text-dark highlight-secondary-light">Possible bidding competitors</span>
                                 <span class="material-icons-outlined icon-sm">done_all</span>
+                                <button class="btn btn-hovered btn-rounded btn-xs p-1 no-border">
+                                    <span class="material-icons-outlined icon-sm">remove_red_eye</span>
+                                </button>
                                 <button class="btn btn-xs btn-rounded no-hover">
                                     <span class="text-muted">Seen by</span> <span class="text-dark">You</span>
                                 </button>
