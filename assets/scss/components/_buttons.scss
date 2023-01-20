@@ -2,13 +2,14 @@
 
 .btn {
   --btn-bg: transparent;
+  --btn-border-color: #{$btn-border-color};
   position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
   outline: none;
   background-color: var(--btn-bg);
-  border: $btn-border-width solid $btn-border-color;
+  border: $btn-border-width solid var(--btn-border-color);
   border-radius: $btn-border-radius;
   height: $btn-height;
   gap: $btn-gap;
@@ -67,6 +68,7 @@
     &-#{$name} {
       --btn-bg: #{map.get($color, "main")};
       --font-color-light: var(--white);
+      --btn-border-color: var(--btn-bg);
       &:hover:not(.no-hover, :active) {
         --btn-bg: #{map.get($color, "hover")};
         --font-color-light: var(--white);
