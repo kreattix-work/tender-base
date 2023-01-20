@@ -14,6 +14,11 @@ $tertiary-hover: lighten($tertiary, 3%);
 $tertiary-light: #cae3f1;
 $tertiary-extra-light: #cae3f1;
 
+$danger: #FA3B3B;
+$danger-hover: lighten($danger, 3%);
+$danger-light: rgba(255, 2, 2, 0.25);
+$danger-extra-light: rgba(255, 2, 2, 0.25);
+
 $theme-colors: (
   "primary": (
     "main": var(--primary),
@@ -32,6 +37,12 @@ $theme-colors: (
     "hover": var(--tertiary-hover),
     "light": var(--tertiary-light),
     "extra-light": var(--tertiary-extra-light),
+  ),
+  "danger": (
+    "main": var(--danger),
+    "hover": var(--danger-hover),
+    "light": var(--danger-light),
+    "extra-light": var(--danger-extra-light),
   ),
   "dark": (
     "main": var(--black-400),

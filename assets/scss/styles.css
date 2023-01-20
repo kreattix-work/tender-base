@@ -11,6 +11,10 @@
   --tertiary-hover: #2594d2;
   --tertiary-light: #cae3f1;
   --tertiary-extra-light: #cae3f1;
+  --danger: #FA3B3B;
+  --danger-hover: #fa4a4a;
+  --danger-light: rgba(255, 2, 2, 0.25);
+  --danger-extra-light: rgba(255, 2, 2, 0.25);
   --white: #ffffff;
   --black: #000000;
   --black-100: #f7f7f8;
@@ -240,13 +244,14 @@ body {
 
 .btn {
   --btn-bg: transparent;
+  --btn-border-color: var(--border-color);
   position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
   outline: none;
   background-color: var(--btn-bg);
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--btn-border-color);
   border-radius: var(--border-radius-xs);
   height: 32px;
   gap: 4px;
@@ -298,6 +303,7 @@ body {
 .btn-primary {
   --btn-bg: var(--primary);
   --font-color-light: var(--white);
+  --btn-border-color: var(--btn-bg);
 }
 .btn-primary:hover:not(.no-hover, :active) {
   --btn-bg: var(--primary-hover);
@@ -323,6 +329,7 @@ body {
 .btn-secondary {
   --btn-bg: var(--secondary);
   --font-color-light: var(--white);
+  --btn-border-color: var(--btn-bg);
 }
 .btn-secondary:hover:not(.no-hover, :active) {
   --btn-bg: var(--secondary-hover);
@@ -348,6 +355,7 @@ body {
 .btn-tertiary {
   --btn-bg: var(--tertiary);
   --font-color-light: var(--white);
+  --btn-border-color: var(--btn-bg);
 }
 .btn-tertiary:hover:not(.no-hover, :active) {
   --btn-bg: var(--tertiary-hover);
@@ -370,9 +378,36 @@ body {
   --btn-bg: var(--tertiary-extra-light);
   --font-color-light: var(--tertiary);
 }
+.btn-danger {
+  --btn-bg: var(--danger);
+  --font-color-light: var(--white);
+  --btn-border-color: var(--btn-bg);
+}
+.btn-danger:hover:not(.no-hover, :active) {
+  --btn-bg: var(--danger-hover);
+  --font-color-light: var(--white);
+}
+.btn-outlined-danger {
+  --font-color-light: var(--danger);
+  border-color: var(--danger-light);
+}
+.btn-outlined-danger:hover:not(.no-hover, :active) {
+  --btn-bg: var(--danger-extra-light);
+  --font-color-light: var(--danger);
+}
+.btn-hovered-danger {
+  --btn-bg: var(--default-hover-color);
+  --font-color-light: var(--danger);
+  border-color: var(--danger);
+}
+.btn-hovered-danger:hover:not(.no-hover, :active) {
+  --btn-bg: var(--danger-extra-light);
+  --font-color-light: var(--danger);
+}
 .btn-dark {
   --btn-bg: var(--black-400);
   --font-color-light: var(--white);
+  --btn-border-color: var(--btn-bg);
 }
 .btn-dark:hover:not(.no-hover, :active) {
   --btn-bg: var(--black-300);
@@ -424,6 +459,10 @@ body {
 }
 .badge-tertiary {
   --badge-bg: var(--tertiary);
+  --badge-font-color: var(--white);
+}
+.badge-danger {
+  --badge-bg: var(--danger);
   --badge-font-color: var(--white);
 }
 .badge-dark {

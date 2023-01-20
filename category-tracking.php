@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="d-flex align-items-center box-gx-4">
+                    <div class="d-flex align-items-center justify-content-end box-gx-4">
                         <div>
                             <div class="form-group">
                                 <span class="input-icon input-icon material-icons">search</span>

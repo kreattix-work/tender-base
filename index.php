@@ -15,6 +15,16 @@
     <div><a href="./buyer-behavior-analysis.php">Buyer Behavior Analysis</a></div>
     <div><a href="./supplier-tracking.php">Supplier Tracking</a></div>
     <div><a href="./category-tracking.php">Category Tracking</a></div>
+    <div><a href="./manage-team.php">Manage Team</a></div>
+    <div><a href="./add-member-a.php">Add Member A</a></div>
+    <div><a href="./manage-account-my-profile.php">Manage Account - My Profile</a></div>
+    <div><a href="./manage-account-my-profile-edit-personal-information.php">Manage Account - My Profile - Edit Personal Information</a></div>
+    <div><a href="./manage-account-my-profile-change-password.php">Manage Account - My Profile - Change Password</a></div>
+    <div><a href="./manage-account-tender-alert-category.php">Manage Account - Tender Alert - Category</a></div>
+    <div><a href="./manage-account-tender-alert-preference-settings.php">Manage Account - Tender Alert Preference Settins</a></div>
+    <div><a href="./manage-account-my-subscription.php">Manage Account - My Subscription</a></div>
+    <div><a href="./manage-account-payment-history.php">Manage Account - Payment History</a></div>
+    <div><a href="./create-email-template.php">Create Email Template</a></div>
 </body>
 
 </html>
