@@ -36,12 +36,24 @@
 
   &-lg {
     height: $btn-height + 6px;
-    padding: ($btn-padding-y + 4px) ($btn-padding-x + 4px);
+    padding: ($btn-padding-y + 4px) $btn-padding-x;
     font-size: var(--font-size-lg);
   }
   &-sm {
     height: $btn-height - 6px;
     padding: ($btn-padding-y - 4px) ($btn-padding-x - 4px);
+
+    &.btn-circle {
+      height: $btn-height - 8px;
+    }
+    .material-icons-outlined,
+    .material-icons {
+      font-size: $btn-icon-size - 4px;
+    }
+  }
+  &-xs {
+    height: $btn-height - 12px;
+    padding: 4px 8px;
 
     &.btn-circle {
       height: $btn-height - 8px;

@@ -1,0 +1,17 @@
+.data-card {
+  padding: var(--spacer-md) 24px;
+  transition: all 0.375s ease-in-out;
+  border-radius: var(--border-radius-xs);
+  &:hover {
+    background-color: $default-hover-color;
+    & .data-card-hover-content {
+      opacity: 1;
+      pointer-events: all;
+    }
+  }
+  &-hover-content {
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.375s ease-in-out;
+  }
+}

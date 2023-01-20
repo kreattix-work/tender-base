@@ -8,6 +8,11 @@
   .border-color-#{$name} {
     border-color: #{$color};
   }
+  .highlight-#{$name} {
+    background-color: #{$color};
+    padding: 0px 4px;
+    border-radius: var(--border-radius-xxs);
+  }
 }
 .flex-1 {
   flex: 1;
@@ -28,6 +33,9 @@
 .font-lg {
   font-size: var(--font-size-lg) !important;
 }
+.font-xl {
+  font-size: var(--font-size-xl) !important;
+}
 
 .font-weight-xs {
   font-weight: var(--font-weight-xs) !important;
@@ -38,49 +46,72 @@
 .font-weight {
   font-weight: var(--font-weight) !important;
 }
+.font-weight-lg {
+  font-weight: var(--font-weight-lg) !important;
+}
 
 .font-light {
   color: var(--font-color-light) !important;
 }
 
 .box-gx-1 {
-  & > *:not(:last-of-type) {
+  & > *:not(:last-child) {
     margin-right: 4px !important;
   }
 }
 .box-gx-2 {
-  & > *:not(:last-of-type) {
+  & > *:not(:last-child) {
     margin-right: 8px !important;
   }
 }
 .box-gx-3 {
-  & > *:not(:last-of-type) {
+  & > *:not(:last-child) {
     margin-right: 12px !important;
   }
 }
 .box-gx-4 {
-  & > *:not(:last-of-type) {
+  & > *:not(:last-child) {
     margin-right: 16px !important;
   }
 }
+.box-gx-5 {
+  & > *:not(:last-child) {
+    margin-right: 20px !important;
+  }
+}
+.box-gx-6 {
+  & > *:not(:last-child) {
+    margin-right: 24px !important;
+  }
+}
 .box-gy-1 {
-  & > *:not(:last-of-type) {
+  & > *:not(:last-child) {
     margin-bottom: 4px !important;
   }
 }
 .box-gy-2 {
-  & > *:not(:last-of-type) {
+  & > *:not(:last-child) {
     margin-bottom: 8px !important;
   }
 }
 .box-gy-3 {
-  & > *:not(:last-of-type) {
+  & > *:not(:last-child) {
     margin-bottom: 12px !important;
   }
 }
 .box-gy-4 {
-  & > *:not(:last-of-type) {
+  & > *:not(:last-child) {
     margin-bottom: 16px !important;
+  }
+}
+.box-gy-5 {
+  & > *:not(:last-child) {
+    margin-bottom: 20px !important;
+  }
+}
+.box-gy-6 {
+  & > *:not(:last-child) {
+    margin-bottom: 24px !important;
   }
 }
 
