@@ -1091,6 +1091,10 @@ body {
   flex: 1;
 }
 
+.icon-bullet {
+  font-size: 6px !important;
+}
+
 .icon-xs {
   font-size: 12px !important;
 }
@@ -1109,6 +1113,10 @@ body {
 
 .font-xl {
   font-size: var(--font-size-xl) !important;
+}
+
+.font-xxl {
+  font-size: var(--font-size-xxl) !important;
 }
 
 .font-weight-xs {

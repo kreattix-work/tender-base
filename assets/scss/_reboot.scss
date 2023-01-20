@@ -38,3 +38,13 @@ body {
 .divider {
   border-top: 1px solid var(--border-color);
 }
+
+// ol { 
+//   counter-reset: item;
+//   list-style-type: none;
+// }
+// li { display: block; }
+// li:before { 
+//   content: counter(item) "  "; 
+//   counter-increment: item 
+// }
