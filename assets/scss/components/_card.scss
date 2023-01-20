@@ -6,7 +6,11 @@
   &-body {
     padding: var(--spacer-md) var(--spacer);
 
-    & + & {
+    &-sm {
+      padding: var(--spacer-xxs) var(--spacer-xxs);
+    }
+
+    & + &:not(.no-border) {
       border-top: 1px solid var(--border-color);
     }
   }

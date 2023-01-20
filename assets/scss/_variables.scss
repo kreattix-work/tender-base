@@ -14,7 +14,7 @@ $tertiary-hover: lighten($tertiary, 3%);
 $tertiary-light: #cae3f1;
 $tertiary-extra-light: #cae3f1;
 
-$danger: #FA3B3B;
+$danger: #fa3b3b;
 $danger-hover: lighten($danger, 3%);
 $danger-light: rgba(255, 2, 2, 0.25);
 $danger-extra-light: rgba(255, 2, 2, 0.25);
@@ -54,7 +54,7 @@ $theme-colors: (
 
 $white: #ffffff;
 $black: #000000;
-$black-100: #f7f7f8;
+$black-100: #f6f6f6;
 $black-200: #d4d4d4;
 $black-300: #928d8d;
 $black-400: #585858;
@@ -71,7 +71,7 @@ $all-colors: (
   "black": var(--black),
   "default": $default-hover-color,
   "muted": $text-muted,
-  "dark" : $black-500,
+  "dark": $black-500,
   "primary": var(--primary),
   "secondary": var(--secondary),
   "tertiary": var(--tertiary),
@@ -92,6 +92,7 @@ $spacer-xxs: 8px;
 $border-width: 1px;
 $border-color: $black-200;
 
+$border-radius-xxs: 2px;
 $border-radius-xs: 4px;
 $border-radius-sm: 8px;
 $border-radius: 12px;
