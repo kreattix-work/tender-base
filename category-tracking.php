@@ -5,7 +5,7 @@
     <div class="col-6">
         <div class="form-group flex-1">
             <span class="input-icon input-icon material-icons">search</span>
-            <input type="text" placeholder="Search by category title or CPV..." class="form-control form-control-sm">
+            <input type="text" placeholder="Search by category title or CPV..." class="form-control form-control-rounded form-control-sm">
         </div>
     </div>
 </div>
@@ -35,7 +35,7 @@
                     </button>
                 </div>
             </div>
-        </div>        
+        </div>
     </div>
     <div class="card">
         <div class="card-body">
@@ -60,8 +60,8 @@
                         <div>
                             <div class="form-group">
                                 <span class="input-icon input-icon material-icons">search</span>
-                                <input type="text" placeholder="Search" class="form-control">
-                            </div>    
+                                <input type="text" placeholder="Search" class="form-control form-control-rounded">
+                            </div>
                         </div>
                         <div>
                             <button class="btn btn-rounded btn-outlined-dark px-5">
@@ -72,7 +72,7 @@
                     </div>
                 </div>
             </div>
-        </div>        
+        </div>
     </div>
 </div>
 

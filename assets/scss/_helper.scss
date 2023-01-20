@@ -30,6 +30,9 @@
   font-size: 16px !important;
 }
 
+.font-xs {
+  font-size: var(--font-size-xs) !important;
+}
 .font-sm {
   font-size: var(--font-size-sm) !important;
 }
@@ -145,4 +148,8 @@
 
 .rotate-90 {
   transform: rotate(90deg);
+}
+
+.no-border {
+  border-color: transparent !important;
 }

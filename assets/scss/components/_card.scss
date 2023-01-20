@@ -7,7 +7,7 @@
     padding: var(--spacer-md) var(--spacer);
 
     &-sm {
-      padding: var(--spacer-xxs) var(--spacer-xxs);
+      padding: var(--spacer-xxs) 6px;
     }
 
     & + &:not(.no-border) {
