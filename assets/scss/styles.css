@@ -510,7 +510,7 @@ body {
   color: var(--badge-font-color);
   height: 16px;
   border-radius: 16px;
-  padding: 3px 3px;
+  padding: 2px 2px;
 }
 .badge-sm {
   height: 12px;
