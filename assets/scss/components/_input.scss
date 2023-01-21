@@ -14,6 +14,7 @@ $form-control-font-color: var(--font-color);
   display: none;
 
   &-indicator {
+    margin-top: 1px;
     height: 1em;
     width: 1em;
     border-radius: 2px;
@@ -32,7 +33,6 @@ $form-control-font-color: var(--font-color);
   }
   &:checked {
     & + .form-checkbox-indicator {
-      margin-top: 2px;
       border: 1px solid var(--primary);
       background-color: var(--primary);
       span {
@@ -59,11 +59,15 @@ $form-control-font-color: var(--font-color);
   grid-template-rows: min-content min-content;
   grid-template-areas: "label label" "input input";
   align-items: center;
+  column-gap: 16px;
 
   &-inline {
     grid-template-columns: min-content;
     grid-template-areas: "label input";
     column-gap: 8px;
+    .form-label {
+      margin-bottom: 0px;
+    }
   }
   &-type-text {
     .form-control {
@@ -114,6 +118,19 @@ $form-control-font-color: var(--font-color);
 
 .form-label {
   grid-area: label;
+  font-weight: var(--font-weight-sm);
+  margin-bottom: 4px;
+}
+
+select {
+  appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%);
+  background-position: calc(100% - 12px) calc(50% + 1px),
+    calc(100% - 8px) calc(50% + 1px);
+  background-size: 4px 4px, 4px 4px;
+  background-repeat: no-repeat;
+  min-width: 45px;
 }
 
 .form-control {
@@ -157,5 +174,65 @@ $form-control-font-color: var(--font-color);
     height: initial;
     padding: 2px 4px;
     width: initial;
+  }
+}
+
+.form-range-group {
+  position: relative;
+  height: 32px;
+
+  input[type="range"] {
+    position: absolute;
+    width: 100%;
+    top: 7px;
+    left: 0;
+    appearance: none;
+    background-color: transparent;
+    border-color: transparent;
+    &:first-child {
+      z-index: 1;
+    }
+    &::-webkit-slider-thumb {
+      appearance: none;
+      width: 18px;
+      height: 18px;
+      background: var(--primary);
+      cursor: pointer;
+      border-radius: 50%;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+      margin-top: -8px;
+      z-index: 1;
+      transition: all 0.175s ease-in-out;
+      border: 2px solid var(--primary);
+      &:hover {
+        transform: scale(1.5);
+      }
+    }
+    &::-moz-range-thumb {
+      appearance: none;
+      width: 18px;
+      height: 18px;
+      background: var(--primary);
+      cursor: pointer;
+      border-radius: 50%;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+      margin-top: -8px;
+      z-index: 1;
+      transition: all 0.175s ease-in-out;
+      border: 2px solid white;
+      &:hover {
+        transform: scale(1.5);
+      }
+    }
+    &::-webkit-slider-runnable-track {
+      width: 100%;
+      height: 2px;
+      cursor: pointer;
+      box-shadow: none;
+      background: var(--primary);
+      border-radius: 0px;
+      border: 0px solid #010101;
+      z-index: 0;
+    }
   }
 }

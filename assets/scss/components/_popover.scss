@@ -5,8 +5,8 @@
     position: fixed;
     background-color: $white;
     border: 1px solid var(--border-color);
-    width: 300px;
-    max-width: 90vw;
+    min-width: 300px;
+    max-width: 400px;
     max-height: 90vh;
     z-index: 999;
     box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.1);

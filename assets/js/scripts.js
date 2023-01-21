@@ -18,7 +18,7 @@ $(function () {
     );
     const selectedPopover = $($(this).data("trigger-popover"));
     if (selectedPopover) {
-      selectedPopover.fadeToggle(375);
+      selectedPopover.fadeIn(375);
       let topOffset = $(this).offset().top + $(this).height() - window.scrollY;
       let leftOffset = $(this).offset().left;
 
