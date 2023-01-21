@@ -31,15 +31,15 @@
             <div id="popover-categories" class="popover-dialog" id="popoverid-4">
                 <div class="popover-content box-gy-3">
                     <div class="popover-header">
-                        <div class="text-muted font-weight-sm">Select Folder</div>
+                        <div class="text-muted font-weight-sm">All Categories</div>
                         <div>
-                            <button class="btn btn-sm btn-text p-0 no-hover">
+                            <button class="btn btn-sm btn-text p-0 no-hover close-popover">
                                 <span class="material-icons-outlined">close</span>
                             </button>
                         </div>
                     </div>
                     <div class="row-divider pb-1"></div>
-                    <div class="popover-header">
+                    <div class="popover-body">
                         <div class="box-gy-4">
                             <div class="d-flex align-items-center">
                                 <label class="form-checkbox-container">
@@ -233,10 +233,46 @@
                 </div>
             </div>
             <div class="col-divider"></div>
-            <button class="btn btn-text p-0 no-hover">
+            <button data-trigger-popover="#popover-advance" class="btn btn-text p-0 no-hover">
                 <span class="material-icons">saved_search</span>
                 <span>Advance</span>
             </button>
+            <div id="popover-advance" class="popover-dialog" id="popoverid-4">
+                <div class="popover-content box-gy-3">
+                    <div class="popover-header">
+                        <div class="text-muted font-weight-sm">Advance Search</div>
+                        <div>
+                            <button class="btn btn-sm btn-text p-0 no-hover close-popover">
+                                <span class="material-icons-outlined">close</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row-divider pb-1"></div>
+                    <div class="popover-body">
+                        <div class="box-gy-5">
+                            <div class="form-group">
+                                <label for="" class="form-label">Tender type</label>
+                                <input type="text" class="form-control" placeholder="All">
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="form-label">Buyer name</label>
+                                <input type="text" class="form-control" placeholder="Type name">
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="form-label">Supplier name</label>
+                                <input type="text" class="form-control" placeholder="Type name">
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="form-label">CPV Code</label>
+                                <input type="text" class="form-control" placeholder="Type code">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popover-actions">
+                    <button class="btn btn-primary btn-flat flex-1 close-popover">Apply</button>
+                </div>
+            </div>
             <div class="col-divider"></div>
             <button class="btn btn-text p-0 no-hover">
                 <span class="material-icons">turned_in_not</span>
@@ -256,20 +292,206 @@
                     <span class="font-weight-sm">Filter</span>
                 </button>
                 <div class="col-divider"></div>
-                <button class="btn btn-text p-0 no-hover">
+                <button class="btn btn-text p-0 no-hover" data-trigger-popover="#popover-location">
                     <span class="material-icons">arrow_drop_down</span>
                     <span class="font-weight-sm">Location</span>
                 </button>
+                <div id="popover-location" class="popover-dialog" id="popoverid-4">
+                    <div class="popover-content box-gy-3">
+                        <div class="popover-header">
+                            <div class="text-muted font-weight-sm">All Location</div>
+                            <div>
+                                <button class="btn btn-sm btn-text p-0 no-hover close-popover">
+                                    <span class="material-icons-outlined">close</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row-divider pb-1"></div>
+                        <div class="popover-body">
+                            <div class="box-gy-4">
+                                <div class="d-flex align-items-center">
+                                    <label class="form-checkbox-container">
+                                        <input type="checkbox" class="form-checkbox">
+                                        <div class="form-checkbox-indicator">
+                                            <span class="material-icons-outlined">done</span>
+                                        </div>
+                                        <span>UK</span>
+                                    </label>
+                                    <span data-collapse="#collapse-location-1" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                </div>
+                                <div id="collapse-location-1" class="collapse show ps-3 ms-3 box-gy-3">
+                                    <label class="form-checkbox-container">
+                                        <input type="checkbox" class="form-checkbox" checked>
+                                        <div class="form-checkbox-indicator">
+                                            <span class="material-icons-outlined">done</span>
+                                        </div>
+                                        <span class="font-weight-sm">Channel islands</span>
+                                    </label>
+                                    <label class="form-checkbox-container">
+                                        <input type="checkbox" class="form-checkbox" checked>
+                                        <div class="form-checkbox-indicator">
+                                            <span class="material-icons-outlined">done</span>
+                                        </div>
+                                        <span class="font-weight-sm">East midlands</span>
+                                    </label>
+                                    <label class="form-checkbox-container">
+                                        <input type="checkbox" class="form-checkbox" checked>
+                                        <div class="form-checkbox-indicator">
+                                            <span class="material-icons-outlined">done</span>
+                                        </div>
+                                        <span class="font-weight-sm">East of England</span>
+                                    </label>
+                                    <label class="form-checkbox-container">
+                                        <input type="checkbox" class="form-checkbox" checked>
+                                        <div class="form-checkbox-indicator">
+                                            <span class="material-icons-outlined">done</span>
+                                        </div>
+                                        <span class="font-weight-sm">England</span>
+                                    </label>
+                                    <label class="form-checkbox-container">
+                                        <input type="checkbox" class="form-checkbox" checked>
+                                        <div class="form-checkbox-indicator">
+                                            <span class="material-icons-outlined">done</span>
+                                        </div>
+                                        <span class="font-weight-sm">London</span>
+                                    </label>
+                                    <label class="form-checkbox-container">
+                                        <input type="checkbox" class="form-checkbox" checked>
+                                        <div class="form-checkbox-indicator">
+                                            <span class="material-icons-outlined">done</span>
+                                        </div>
+                                        <span class="font-weight-sm">Nort East</span>
+                                    </label>
+                                    <label class="form-checkbox-container">
+                                        <input type="checkbox" class="form-checkbox" checked>
+                                        <div class="form-checkbox-indicator">
+                                            <span class="material-icons-outlined">done</span>
+                                        </div>
+                                        <span class="font-weight-sm">North West</span>
+                                    </label>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <label class="form-checkbox-container">
+                                        <input type="checkbox" class="form-checkbox">
+                                        <div class="form-checkbox-indicator">
+                                            <span class="material-icons-outlined">done</span>
+                                        </div>
+                                        <span>Ireland</span>
+                                    </label>
+                                    <span data-collapse="#collapse-location-2" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                </div>
+                                <div id="collapse-location-2" class="collapse ps-3 ms-3 box-gy-3">
+                                    <label class="form-checkbox-container">
+                                        <input type="checkbox" class="form-checkbox" checked>
+                                        <div class="form-checkbox-indicator">
+                                            <span class="material-icons-outlined">done</span>
+                                        </div>
+                                        <span class="font-weight-sm">Ireland</span>
+                                    </label>
+                                    <label class="form-checkbox-container">
+                                        <input type="checkbox" class="form-checkbox" checked>
+                                        <div class="form-checkbox-indicator">
+                                            <span class="material-icons-outlined">done</span>
+                                        </div>
+                                        <span class="font-weight-sm">Other</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popover-actions">
+                        <button class="btn btn-primary btn-flat flex-1 close-popover">Save</button>
+                    </div>
+                </div>
                 <div class="col-divider"></div>
-                <button class="btn btn-text p-0 no-hover">
+                <button class="btn btn-text p-0 no-hover" data-trigger-popover="#popover-publish">
                     <span class="material-icons">arrow_drop_down</span>
                     <span class="font-weight-sm">Published Duration</span>
                 </button>
+                <div id="popover-publish" class="popover-dialog" id="popoverid-4">
+                    <div class="popover-content box-gy-3">
+                        <div class="popover-header">
+                            <div class="text-muted font-weight-sm">By Duration</div>
+                            <div>
+                                <button class="btn btn-sm btn-text p-0 no-hover close-popover">
+                                    <span class="material-icons-outlined">close</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row-divider pb-1"></div>
+                        <div class="popover-body">
+                            <div class="box-gy-5">
+                                <div class="form-group">
+                                    <label for="" class="form-label">Tender type</label>
+                                    <select class="form-control">
+                                        <option value="6">Last 6 months</option>
+                                        <option value="8">Last 8 months</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="" class="form-label">Published from</label>
+                                    <span class="input-icon input-icon-sufix material-icons">date_range</span>
+                                    <input class="form-control date-picker" value="04-11-2022" placeholder="Type name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="" class="form-label">Published to</label>
+                                    <span class="input-icon input-icon-sufix material-icons">date_range</span>
+                                    <input type="text" class="form-control date-picker" value="04-12-2022" placeholder="Type name">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popover-actions">
+                        <button class="btn btn-primary btn-flat flex-1 close-popover">Apply</button>
+                    </div>
+                </div>
                 <div class="col-divider"></div>
-                <button class="btn btn-text p-0 no-hover">
+                <button class="btn btn-text p-0 no-hover" data-trigger-popover="#popover-price">
                     <span class="material-icons">arrow_drop_down</span>
                     <span class="font-weight-sm">Price</span>
                 </button>
+                <div id="popover-price" class="popover-dialog" id="popoverid-4">
+                    <div class="popover-content box-gy-3">
+                        <div class="popover-header">
+                            <div class="text-muted font-weight-sm">By Duration</div>
+                            <div>
+                                <button class="btn btn-sm btn-text p-0 no-hover close-popover">
+                                    <span class="material-icons-outlined">close</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row-divider pb-1"></div>
+                        <div class="popover-body">
+                            <div class="box-gy-5">
+                                <div class="form-group">
+                                    <label for="" class="form-label">Tender value range</label>
+                                    <div class="form-group">
+                                        <span class="input-icon input-icon-prefix font-md mb-7px text-no-wrap">From : <span class="text-dark">£</span></span>
+                                        <input class="form-control date-picker ps-62px" value="0" placeholder="Type name">
+                                    </div>
+                                    <div class="form-group">
+                                        <span class="input-icon input-icon-prefix font-md mb-7px text-no-wrap">To : <span class="text-dark">£</span></span>
+                                        <input class="form-control date-picker ps-48px" value="0" placeholder="Type name">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="form-range-group">
+                                        <input type="range" min="0" max="100" value="0">
+                                        <input type="range" min="0" max="100" value="100">
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>£0</div>
+                                        <div> £1T</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popover-actions">
+                        <button class="btn btn-primary btn-flat flex-1 close-popover">Apply</button>
+                    </div>
+                </div>
                 <div class="col-divider"></div>
                 <div class="form-group">
                     <span class="input-icon input-icon material-icons">search</span>
@@ -389,7 +611,7 @@
                                             </div>
                                         </div>
                                         <div class="row-divider pb-1"></div>
-                                        <div class="popover-header">
+                                        <div class="popover-body">
                                             <div class="box-gy-4">
                                                 <label class="form-checkbox-container">
                                                     <input type="checkbox" class="form-checkbox">
@@ -510,7 +732,7 @@
                                             </div>
                                         </div>
                                         <div class="row-divider pb-1"></div>
-                                        <div class="popover-header">
+                                        <div class="popover-body">
                                             <div class="box-gy-4">
                                                 <label class="form-checkbox-container">
                                                     <input type="checkbox" class="form-checkbox">
@@ -633,7 +855,7 @@
                                             </div>
                                         </div>
                                         <div class="row-divider pb-1"></div>
-                                        <div class="popover-header">
+                                        <div class="popover-body">
                                             <div class="box-gy-4">
                                                 <label class="form-checkbox-container">
                                                     <input type="checkbox" class="form-checkbox">
@@ -748,7 +970,7 @@
                                             </div>
                                         </div>
                                         <div class="row-divider pb-1"></div>
-                                        <div class="popover-header">
+                                        <div class="popover-body">
                                             <div class="box-gy-4">
                                                 <label class="form-checkbox-container">
                                                     <input type="checkbox" class="form-checkbox">

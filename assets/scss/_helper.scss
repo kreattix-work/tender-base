@@ -18,7 +18,7 @@
   flex: 1;
 }
 
-.icon-bullet{
+.icon-bullet {
   font-size: 6px !important;
 }
 
@@ -35,6 +35,9 @@
 }
 .font-sm {
   font-size: var(--font-size-sm) !important;
+}
+.font-md {
+  font-size: var(--font-size) !important;
 }
 
 .font-lg {
@@ -152,4 +155,19 @@
 
 .no-border {
   border-color: transparent !important;
+}
+
+.text-no-wrap {
+  white-space: nowrap;
+}
+
+.mb-7px {
+  margin-bottom: 7px;
+}
+
+.ps-62px {
+  padding-left: 62px !important;
+}
+.ps-48px {
+  padding-left: 48px !important;
 }
