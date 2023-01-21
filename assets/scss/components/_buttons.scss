@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   outline: none;
   background-color: var(--btn-bg);
   border: $btn-border-width solid var(--btn-border-color);
@@ -27,8 +28,10 @@
     --font-color-light: #{$text-muted} !important;
   }
 
-  &:hover:not(.no-hover, :active) {
-    --btn-bg: var(--default-hover-color);
+  &:hover {
+    &:not(.no-hover, :active) {
+      --btn-bg: var(--default-hover-color);
+    }
     --font-color-light: var(--font-color);
   }
 
@@ -39,6 +42,9 @@
 
   &-rounded {
     border-radius: var(--border-radius-lg);
+  }
+  &-flat {
+    border-radius: 0;
   }
   &.btn-square {
     width: 32px;
@@ -84,6 +90,7 @@
   }
 
   &-text {
+    height: initial;
     border: none;
     padding: $btn-text-padding-y $btn-text-padding-x;
   }
@@ -100,16 +107,20 @@
       --btn-bg: #{map.get($color, "main")};
       --font-color-light: var(--white);
       --btn-border-color: var(--btn-bg);
-      &:hover:not(.no-hover, :active) {
-        --btn-bg: #{map.get($color, "hover")};
+      &:hover {
+        &:not(.no-hover, :active) {
+          --btn-bg: #{map.get($color, "hover")};
+        }
         --font-color-light: var(--white);
       }
     }
     &-outlined-#{$name} {
       --font-color-light: #{map.get($color, "main")};
       --btn-border-color: #{map.get($color, "light")};
-      &:hover:not(.no-hover, :active) {
-        --btn-bg: #{map.get($color, "extra-light")};
+      &:hover {
+        &:not(.no-hover, :active) {
+          --btn-bg: #{map.get($color, "extra-light")};
+        }
         --font-color-light: #{map.get($color, "main")};
       }
     }
@@ -118,8 +129,10 @@
       --font-color-light: #{map.get($color, "main")};
       --btn-border-color: #{map.get($color, "main")};
 
-      &:hover:not(.no-hover, :active) {
-        --btn-bg: #{map.get($color, "extra-light")};
+      &:hover {
+        &:not(.no-hover, :active) {
+          --btn-bg: #{map.get($color, "extra-light")};
+        }
         --font-color-light: #{map.get($color, "main")};
       }
     }

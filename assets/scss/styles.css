@@ -104,6 +104,10 @@ body {
   border-top: 1px solid var(--border-color);
 }
 
+[data-trigger-popover] {
+  cursor: pointer;
+}
+
 .page-layout {
   display: grid;
   grid-template-rows: 74px 1fr;
@@ -250,6 +254,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   outline: none;
   background-color: var(--btn-bg);
   border: 1px solid var(--btn-border-color);
@@ -269,9 +274,11 @@ body {
   --btn-border-color: #d4d4d4 !important;
   --font-color-light: #928d8d !important;
 }
+.btn:hover {
+  --font-color-light: var(--font-color);
+}
 .btn:hover:not(.no-hover, :active) {
   --btn-bg: var(--default-hover-color);
-  --font-color-light: var(--font-color);
 }
 .btn .material-icons-outlined,
 .btn .material-icons {
@@ -279,6 +286,9 @@ body {
 }
 .btn-rounded {
   border-radius: var(--border-radius-lg);
+}
+.btn-flat {
+  border-radius: 0;
 }
 .btn.btn-square {
   width: 32px;
@@ -320,6 +330,7 @@ body {
   font-size: 16px;
 }
 .btn-text {
+  height: initial;
   border: none;
   padding: 7px 7px;
 }
@@ -335,130 +346,160 @@ body {
   --font-color-light: var(--white);
   --btn-border-color: var(--btn-bg);
 }
+.btn-primary:hover {
+  --font-color-light: var(--white);
+}
 .btn-primary:hover:not(.no-hover, :active) {
   --btn-bg: var(--primary-hover);
-  --font-color-light: var(--white);
 }
 .btn-outlined-primary {
   --font-color-light: var(--primary);
   --btn-border-color: var(--primary-light);
 }
+.btn-outlined-primary:hover {
+  --font-color-light: var(--primary);
+}
 .btn-outlined-primary:hover:not(.no-hover, :active) {
   --btn-bg: var(--primary-extra-light);
-  --font-color-light: var(--primary);
 }
 .btn-hovered-primary {
   --btn-bg: var(--default-hover-color);
   --font-color-light: var(--primary);
   --btn-border-color: var(--primary);
 }
+.btn-hovered-primary:hover {
+  --font-color-light: var(--primary);
+}
 .btn-hovered-primary:hover:not(.no-hover, :active) {
   --btn-bg: var(--primary-extra-light);
-  --font-color-light: var(--primary);
 }
 .btn-secondary {
   --btn-bg: var(--secondary);
   --font-color-light: var(--white);
   --btn-border-color: var(--btn-bg);
 }
+.btn-secondary:hover {
+  --font-color-light: var(--white);
+}
 .btn-secondary:hover:not(.no-hover, :active) {
   --btn-bg: var(--secondary-hover);
-  --font-color-light: var(--white);
 }
 .btn-outlined-secondary {
   --font-color-light: var(--secondary);
   --btn-border-color: var(--secondary-light);
 }
+.btn-outlined-secondary:hover {
+  --font-color-light: var(--secondary);
+}
 .btn-outlined-secondary:hover:not(.no-hover, :active) {
   --btn-bg: var(--secondary-extra-light);
-  --font-color-light: var(--secondary);
 }
 .btn-hovered-secondary {
   --btn-bg: var(--default-hover-color);
   --font-color-light: var(--secondary);
   --btn-border-color: var(--secondary);
 }
+.btn-hovered-secondary:hover {
+  --font-color-light: var(--secondary);
+}
 .btn-hovered-secondary:hover:not(.no-hover, :active) {
   --btn-bg: var(--secondary-extra-light);
-  --font-color-light: var(--secondary);
 }
 .btn-tertiary {
   --btn-bg: var(--tertiary);
   --font-color-light: var(--white);
   --btn-border-color: var(--btn-bg);
 }
+.btn-tertiary:hover {
+  --font-color-light: var(--white);
+}
 .btn-tertiary:hover:not(.no-hover, :active) {
   --btn-bg: var(--tertiary-hover);
-  --font-color-light: var(--white);
 }
 .btn-outlined-tertiary {
   --font-color-light: var(--tertiary);
   --btn-border-color: var(--tertiary-light);
 }
+.btn-outlined-tertiary:hover {
+  --font-color-light: var(--tertiary);
+}
 .btn-outlined-tertiary:hover:not(.no-hover, :active) {
   --btn-bg: var(--tertiary-extra-light);
-  --font-color-light: var(--tertiary);
 }
 .btn-hovered-tertiary {
   --btn-bg: var(--default-hover-color);
   --font-color-light: var(--tertiary);
   --btn-border-color: var(--tertiary);
 }
+.btn-hovered-tertiary:hover {
+  --font-color-light: var(--tertiary);
+}
 .btn-hovered-tertiary:hover:not(.no-hover, :active) {
   --btn-bg: var(--tertiary-extra-light);
-  --font-color-light: var(--tertiary);
 }
 .btn-danger {
   --btn-bg: var(--danger);
   --font-color-light: var(--white);
   --btn-border-color: var(--btn-bg);
 }
+.btn-danger:hover {
+  --font-color-light: var(--white);
+}
 .btn-danger:hover:not(.no-hover, :active) {
   --btn-bg: var(--danger-hover);
-  --font-color-light: var(--white);
 }
 .btn-outlined-danger {
   --font-color-light: var(--danger);
   --btn-border-color: var(--danger-light);
 }
+.btn-outlined-danger:hover {
+  --font-color-light: var(--danger);
+}
 .btn-outlined-danger:hover:not(.no-hover, :active) {
   --btn-bg: var(--danger-extra-light);
-  --font-color-light: var(--danger);
 }
 .btn-hovered-danger {
   --btn-bg: var(--default-hover-color);
   --font-color-light: var(--danger);
   --btn-border-color: var(--danger);
 }
+.btn-hovered-danger:hover {
+  --font-color-light: var(--danger);
+}
 .btn-hovered-danger:hover:not(.no-hover, :active) {
   --btn-bg: var(--danger-extra-light);
-  --font-color-light: var(--danger);
 }
 .btn-dark {
   --btn-bg: var(--black-400);
   --font-color-light: var(--white);
   --btn-border-color: var(--btn-bg);
 }
+.btn-dark:hover {
+  --font-color-light: var(--white);
+}
 .btn-dark:hover:not(.no-hover, :active) {
   --btn-bg: var(--black-300);
-  --font-color-light: var(--white);
 }
 .btn-outlined-dark {
   --font-color-light: var(--black-400);
   --btn-border-color: var(--black-200);
 }
+.btn-outlined-dark:hover {
+  --font-color-light: var(--black-400);
+}
 .btn-outlined-dark:hover:not(.no-hover, :active) {
   --btn-bg: var(--black-100);
-  --font-color-light: var(--black-400);
 }
 .btn-hovered-dark {
   --btn-bg: var(--default-hover-color);
   --font-color-light: var(--black-400);
   --btn-border-color: var(--black-400);
 }
+.btn-hovered-dark:hover {
+  --font-color-light: var(--black-400);
+}
 .btn-hovered-dark:hover:not(.no-hover, :active) {
   --btn-bg: var(--black-100);
-  --font-color-light: var(--black-400);
 }
 
 .badge {
@@ -546,6 +587,45 @@ body {
 .content-body {
   background-color: #f1f1f1;
   padding: var(--spacer-md) var(--spacer);
+}
+
+.form-checkbox {
+  margin: 0;
+  display: none;
+}
+.form-checkbox-indicator {
+  height: 1em;
+  width: 1em;
+  border-radius: 2px;
+  border: 1px solid var(--border-color);
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  transition: all 0.175s ease-in-out;
+}
+.form-checkbox-indicator span {
+  transition: all 0.175s ease-in-out;
+  opacity: 0;
+  font-size: 100%;
+}
+.form-checkbox:checked + .form-checkbox-indicator {
+  border: 1px solid var(--primary);
+  background-color: var(--primary);
+}
+.form-checkbox:checked + .form-checkbox-indicator span {
+  opacity: 1;
+}
+.form-checkbox:checked + .form-checkbox-indicator + span {
+  color: var(--font-color-dark);
+}
+.form-checkbox-container {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  gap: 4px;
+  align-items: center;
 }
 
 .form-group {
@@ -859,6 +939,29 @@ body {
   opacity: 0;
   pointer-events: none;
   transition: all 0.375s ease-in-out;
+}
+
+.popover-dialog {
+  display: none;
+  position: fixed;
+  background-color: #ffffff;
+  border: 1px solid var(--border-color);
+  width: 300px;
+  max-width: 90vw;
+  max-height: 90vh;
+  z-index: 999;
+  overflow: auto;
+}
+.popover-content {
+  padding: var(--spacer-md) var(--spacer-md);
+}
+.popover-actions {
+  display: flex;
+}
+.popover-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .bg-white {
