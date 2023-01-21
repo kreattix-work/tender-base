@@ -9,6 +9,49 @@ $form-control-font-size: var(--font-size);
 $form-control-font-weight: var(--font-weight);
 $form-control-font-color: var(--font-color);
 
+.form-checkbox {
+  margin: 0;
+  display: none;
+
+  &-indicator {
+    height: 1em;
+    width: 1em;
+    border-radius: 2px;
+    border: 1px solid var(--border-color);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    transition: all 0.175s ease-in-out;
+    span {
+      transition: all 0.175s ease-in-out;
+      opacity: 0;
+      font-size: 100%;
+    }
+  }
+  &:checked {
+    & + .form-checkbox-indicator {
+      border: 1px solid var(--primary);
+      background-color: var(--primary);
+      span {
+        opacity: 1;
+      }
+      & + span {
+        color: var(--font-color-dark);
+      }
+    }
+  }
+
+  &-container {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }
+}
+
 .form-group {
   position: relative;
   display: grid;

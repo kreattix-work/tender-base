@@ -169,9 +169,51 @@
                                     <span class="text-muted icon-sm material-icons-outlined">attach_file</span>
                                     <span>Attachment</span>
                                 </div>
-                                <div class="box-gx-1 d-flex align-items-center">
+                                <div class="d-flex align-items-center box-gx-1" data-trigger-popover="#popoverid-1">
                                     <span class="text-muted icon-sm material-icons-outlined">folder</span>
                                     <span>Save</span>
+                                </div>
+                                <div class="popover-dialog" id="popoverid-1">
+                                    <div class="popover-content box-gy-3">
+                                        <div class="popover-header">
+                                            <div class="text-muted font-weight-sm">Select Folder</div>
+                                            <div>
+                                                <button class="btn btn-sm btn-text p-0 no-hover">
+                                                    <span class="material-icons-outlined">add</span>
+                                                    <span>Create New</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="row-divider pb-1"></div>
+                                        <div class="popover-header">
+                                            <div class="box-gy-4">
+                                                <label class="form-checkbox-container">
+                                                    <input type="checkbox" class="form-checkbox">
+                                                    <div class="form-checkbox-indicator">
+                                                        <span class="material-icons-outlined">done</span>
+                                                    </div>
+                                                    <span>Folder Name</span>
+                                                </label>
+                                                <label class="form-checkbox-container">
+                                                    <input type="checkbox" class="form-checkbox">
+                                                    <div class="form-checkbox-indicator">
+                                                        <span class="material-icons-outlined">done</span>
+                                                    </div>
+                                                    <span>Folder Name</span>
+                                                </label>
+                                                <label class="form-checkbox-container">
+                                                    <input type="checkbox" class="form-checkbox">
+                                                    <div class="form-checkbox-indicator">
+                                                        <span class="material-icons-outlined">done</span>
+                                                    </div>
+                                                    <span>Folder Name</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="popover-actions">
+                                        <button class="btn btn-primary btn-flat flex-1 close-popover">Save</button>
+                                    </div>
                                 </div>
                                 <div class="box-gx-1 d-flex align-items-center">
                                     <span class="text-muted icon-sm material-icons-outlined">person_add_alt_1</span>
@@ -248,9 +290,51 @@
                                     <span class="text-muted icon-sm material-icons-outlined">attach_file</span>
                                     <span>Attachment</span>
                                 </div>
-                                <div class="box-gx-1 d-flex align-items-center">
+                                <div class="box-gx-1 d-flex align-items-center" data-trigger-popover="#popoverid-2">
                                     <span class="text-muted icon-sm material-icons-outlined">folder</span>
                                     <span>Save</span>
+                                </div>
+                                <div class="popover-dialog" id="popoverid-2">
+                                    <div class="popover-content box-gy-3">
+                                        <div class="popover-header">
+                                            <div class="text-muted font-weight-sm">Select Folder</div>
+                                            <div>
+                                                <button class="btn btn-sm btn-text p-0 no-hover">
+                                                    <span class="material-icons-outlined">add</span>
+                                                    <span>Create New</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="row-divider pb-1"></div>
+                                        <div class="popover-header">
+                                            <div class="box-gy-4">
+                                                <label class="form-checkbox-container">
+                                                    <input type="checkbox" class="form-checkbox">
+                                                    <div class="form-checkbox-indicator">
+                                                        <span class="material-icons-outlined">done</span>
+                                                    </div>
+                                                    <span>Folder Name</span>
+                                                </label>
+                                                <label class="form-checkbox-container">
+                                                    <input type="checkbox" class="form-checkbox">
+                                                    <div class="form-checkbox-indicator">
+                                                        <span class="material-icons-outlined">done</span>
+                                                    </div>
+                                                    <span>Folder Name</span>
+                                                </label>
+                                                <label class="form-checkbox-container">
+                                                    <input type="checkbox" class="form-checkbox">
+                                                    <div class="form-checkbox-indicator">
+                                                        <span class="material-icons-outlined">done</span>
+                                                    </div>
+                                                    <span>Folder Name</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="popover-actions">
+                                        <button class="btn btn-primary btn-flat flex-1 close-popover">Save</button>
+                                    </div>
                                 </div>
                                 <div class="box-gx-1 d-flex align-items-center">
                                     <span class="text-secondary icon-sm material-icons-outlined">person_add_alt_1</span>
@@ -328,10 +412,52 @@
                                     <span class="text-muted icon-sm material-icons-outlined">attach_file</span>
                                     <span>Attachment</span>
                                 </div>
-                                <div class="box-gx-1 d-flex align-items-center">
+                                <div class="box-gx-1 d-flex align-items-center" data-trigger-popover="#popoverid-3">
                                     <span class="text-primary icon-sm material-icons-outlined">folder</span>
                                     <span>Saved to :</span>
                                     <span class="text-primary">Food</span>
+                                </div>
+                                <div class="popover-dialog" id="popoverid-3">
+                                    <div class="popover-content box-gy-3">
+                                        <div class="popover-header">
+                                            <div class="text-muted font-weight-sm">Select Folder</div>
+                                            <div>
+                                                <button class="btn btn-sm btn-text p-0 no-hover">
+                                                    <span class="material-icons-outlined">add</span>
+                                                    <span>Create New</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="row-divider pb-1"></div>
+                                        <div class="popover-header">
+                                            <div class="box-gy-4">
+                                                <label class="form-checkbox-container">
+                                                    <input type="checkbox" class="form-checkbox">
+                                                    <div class="form-checkbox-indicator">
+                                                        <span class="material-icons-outlined">done</span>
+                                                    </div>
+                                                    <span>Folder Name</span>
+                                                </label>
+                                                <label class="form-checkbox-container">
+                                                    <input type="checkbox" class="form-checkbox">
+                                                    <div class="form-checkbox-indicator">
+                                                        <span class="material-icons-outlined">done</span>
+                                                    </div>
+                                                    <span>Folder Name</span>
+                                                </label>
+                                                <label class="form-checkbox-container">
+                                                    <input type="checkbox" class="form-checkbox">
+                                                    <div class="form-checkbox-indicator">
+                                                        <span class="material-icons-outlined">done</span>
+                                                    </div>
+                                                    <span>Folder Name</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="popover-actions">
+                                        <button class="btn btn-primary btn-flat flex-1 close-popover">Save</button>
+                                    </div>
                                 </div>
                                 <div class="box-gx-1 d-flex align-items-center">
                                     <span class="text-primary icon-sm material-icons-outlined">person_add_alt_1</span>
@@ -401,10 +527,52 @@
                                     <span class="text-muted icon-sm material-icons-outlined">attach_file</span>
                                     <span>Attachment</span>
                                 </div>
-                                <div class="box-gx-1 d-flex align-items-center">
+                                <div class="box-gx-1 d-flex align-items-center" data-trigger-popover="#popoverid-4">
                                     <span class="text-primary icon-sm material-icons-outlined">folder</span>
                                     <span>Saved to :</span>
                                     <span class="text-primary">Food</span>
+                                </div>
+                                <div class="popover-dialog" id="popoverid-4">
+                                    <div class="popover-content box-gy-3">
+                                        <div class="popover-header">
+                                            <div class="text-muted font-weight-sm">Select Folder</div>
+                                            <div>
+                                                <button class="btn btn-sm btn-text p-0 no-hover">
+                                                    <span class="material-icons-outlined">add</span>
+                                                    <span>Create New</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="row-divider pb-1"></div>
+                                        <div class="popover-header">
+                                            <div class="box-gy-4">
+                                                <label class="form-checkbox-container">
+                                                    <input type="checkbox" class="form-checkbox">
+                                                    <div class="form-checkbox-indicator">
+                                                        <span class="material-icons-outlined">done</span>
+                                                    </div>
+                                                    <span>Folder Name</span>
+                                                </label>
+                                                <label class="form-checkbox-container">
+                                                    <input type="checkbox" class="form-checkbox">
+                                                    <div class="form-checkbox-indicator">
+                                                        <span class="material-icons-outlined">done</span>
+                                                    </div>
+                                                    <span>Folder Name</span>
+                                                </label>
+                                                <label class="form-checkbox-container">
+                                                    <input type="checkbox" class="form-checkbox" checked>
+                                                    <div class="form-checkbox-indicator">
+                                                        <span class="material-icons-outlined">done</span>
+                                                    </div>
+                                                    <span>Agriculture and food</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="popover-actions">
+                                        <button class="btn btn-primary btn-flat flex-1 close-popover">Save</button>
+                                    </div>
                                 </div>
                                 <div class="box-gx-1 d-flex align-items-center">
                                     <span class="text-primary icon-sm material-icons-outlined">person_add_alt_1</span>

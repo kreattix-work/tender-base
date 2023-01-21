@@ -1,0 +1,26 @@
+.popover {
+  &-dialog {
+    display: none;
+    position: fixed;
+    background-color: $white;
+    border: 1px solid var(--border-color);
+    width: 300px;
+    max-width: 90vw;
+    max-height: 90vh;
+    z-index: 999;
+    overflow: auto;
+  }
+
+  &-content {
+    padding: var(--spacer-md) var(--spacer-md);
+  }
+  &-actions {
+    display: flex;
+  }
+
+  &-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
