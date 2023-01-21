@@ -1,6 +1,7 @@
 .popover {
   &-dialog {
     display: none;
+    flex-direction: column;
     position: fixed;
     background-color: $white;
     border: 1px solid var(--border-color);
@@ -8,14 +9,21 @@
     max-width: 90vw;
     max-height: 90vh;
     z-index: 999;
-    overflow: auto;
+    box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.1);
   }
 
   &-content {
+    flex: 1;
+    height: 100%;
     padding: var(--spacer-md) var(--spacer-md);
+    overflow: auto;
+    padding-bottom: 48px;
   }
   &-actions {
     display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
   }
 
   &-header {

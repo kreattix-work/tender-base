@@ -51,6 +51,11 @@ body {
 
 // events
 
-[data-trigger-popover] {
+[data-trigger-popover],
+[data-collapse] {
   cursor: pointer;
+}
+
+.collapse:not(.show) {
+  display: none;
 }

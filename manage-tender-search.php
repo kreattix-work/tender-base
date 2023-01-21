@@ -24,10 +24,214 @@
             </div>
             <span>In:</span>
             <div class="col-divider"></div>
-            <button class="btn btn-text p-0 no-hover">
+            <button data-trigger-popover="#popover-categories" class="btn btn-text p-0 no-hover">
                 <span class="material-icons">format_list_bulleted</span>
                 <span>Categories</span>
             </button>
+            <div id="popover-categories" class="popover-dialog" id="popoverid-4">
+                <div class="popover-content box-gy-3">
+                    <div class="popover-header">
+                        <div class="text-muted font-weight-sm">Select Folder</div>
+                        <div>
+                            <button class="btn btn-sm btn-text p-0 no-hover">
+                                <span class="material-icons-outlined">close</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row-divider pb-1"></div>
+                    <div class="popover-header">
+                        <div class="box-gy-4">
+                            <div class="d-flex align-items-center">
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox">
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span>Agriculture and food</span>
+                                </label>
+                                <span data-collapse="#collapseid-1" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                            </div>
+                            <div id="collapseid-1" class="collapse show ps-3 ms-3 box-gy-3">
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span class="font-weight-sm">Agricultural, forestry, horticultural, aquacultural and apicultural services.</span>
+                                </label>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox">
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span>Computer and related service</span>
+                                </label>
+                                <span data-collapse="#collapseid-2" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                            </div>
+                            <div id="collapseid-2" class="collapse ps-3 ms-3 box-gy-3">
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span class="font-weight-sm">Item 1</span>
+                                </label>
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span class="font-weight-sm">Item 2</span>
+                                </label>
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span class="font-weight-sm">Item 3</span>
+                                </label>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox">
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span>Construction & Real estate</span>
+                                </label>
+                                <span data-collapse="#collapseid-3" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                            </div>
+                            <div id="collapseid-3" class="collapse ps-3 ms-3 box-gy-3">
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span class="font-weight-sm">Item 1</span>
+                                </label>
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span class="font-weight-sm">Item 2</span>
+                                </label>
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span class="font-weight-sm">Item 3</span>
+                                </label>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox">
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span>Education</span>
+                                </label>
+                                <span data-collapse="#collapseid-4" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                            </div>
+                            <div id="collapseid-4" class="collapse ps-3 ms-3 box-gy-3">
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span class="font-weight-sm">Item 1</span>
+                                </label>
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span class="font-weight-sm">Item 2</span>
+                                </label>
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span class="font-weight-sm">Item 3</span>
+                                </label>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox">
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span>Other</span>
+                                </label>
+                                <span data-collapse="#collapseid-5" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                            </div>
+                            <div id="collapseid-5" class="collapse ps-3 ms-3 box-gy-3">
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span class="font-weight-sm">Item 1</span>
+                                </label>
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span class="font-weight-sm">Item 2</span>
+                                </label>
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span class="font-weight-sm">Item 3</span>
+                                </label>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox">
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span>Other</span>
+                                </label>
+                                <span data-collapse="#collapseid-6" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                            </div>
+                            <div id="collapseid-6" class="collapse ps-3 ms-3 box-gy-3">
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span class="font-weight-sm">Item 1</span>
+                                </label>
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span class="font-weight-sm">Item 2</span>
+                                </label>
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span class="font-weight-sm">Item 3</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popover-actions">
+                    <button class="btn btn-primary btn-flat flex-1 close-popover">Save</button>
+                </div>
+            </div>
             <div class="col-divider"></div>
             <button class="btn btn-text p-0 no-hover">
                 <span class="material-icons">saved_search</span>

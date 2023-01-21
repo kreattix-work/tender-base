@@ -37,6 +37,7 @@ $(function () {
       selectedPopover.css({
         top: topOffset,
         left: leftOffset,
+        height: selectedPopover.innerHeight() + 2,
       });
     }
   });
@@ -46,6 +47,13 @@ $(function () {
     const siderSubmenu = $(this).parent().children(".sider-submenu");
     if (siderSubmenu && siderSubmenu.length) {
       siderSubmenu.slideToggle(375);
+    }
+  });
+
+  $("[data-collapse]").on("click", function () {
+    const selectedCollapse = $($(this).data("collapse"));
+    if (selectedCollapse) {
+      selectedCollapse.slideToggle(375);
     }
   });
 

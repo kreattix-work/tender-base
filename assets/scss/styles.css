@@ -104,8 +104,13 @@ body {
   border-top: 1px solid var(--border-color);
 }
 
-[data-trigger-popover] {
+[data-trigger-popover],
+[data-collapse] {
   cursor: pointer;
+}
+
+.collapse:not(.show) {
+  display: none;
 }
 
 .page-layout {
@@ -611,6 +616,7 @@ body {
   font-size: 100%;
 }
 .form-checkbox:checked + .form-checkbox-indicator {
+  margin-top: 2px;
   border: 1px solid var(--primary);
   background-color: var(--primary);
 }
@@ -625,7 +631,6 @@ body {
   position: relative;
   display: flex;
   gap: 4px;
-  align-items: center;
 }
 
 .form-group {
@@ -943,6 +948,7 @@ body {
 
 .popover-dialog {
   display: none;
+  flex-direction: column;
   position: fixed;
   background-color: #ffffff;
   border: 1px solid var(--border-color);
@@ -950,13 +956,20 @@ body {
   max-width: 90vw;
   max-height: 90vh;
   z-index: 999;
-  overflow: auto;
+  box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.1);
 }
 .popover-content {
+  flex: 1;
+  height: 100%;
   padding: var(--spacer-md) var(--spacer-md);
+  overflow: auto;
+  padding-bottom: 48px;
 }
 .popover-actions {
   display: flex;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 .popover-header {
   display: flex;
