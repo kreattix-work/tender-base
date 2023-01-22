@@ -493,9 +493,77 @@
                     </div>
                 </div>
                 <div class="col-divider"></div>
-                <div class="form-group">
-                    <span class="input-icon input-icon material-icons">search</span>
+                <div class="form-group" data-trigger-popover="#popover-search">
+                    <span class="input-icon material-icons">search</span>
                     <input type="text" placeholder="Search by town" class="form-control form-control-rounded form-control-sm">
+                </div>
+                <div id="popover-search" class="popover-dialog" id="popoverid-4">
+                    <div class="popover-content box-gy-3">
+                        <div class="popover-body">
+                            <div class="box-gy-4">
+                                <div class="text-muted font-weight-sm box-gy-2">
+                                    <div class="d-flex align-items-center box-gx-2">
+                                        <span class="icon-sm material-icons">search</span>
+                                        <span>Sugestions</span>
+                                    </div>
+                                    <div class="d-flex align-items-center box-gx-2">
+                                        <span class="icon-sm material-icons">search</span>
+                                        <span>Sugestions</span>
+                                    </div>
+                                    <div class="d-flex align-items-center box-gx-2">
+                                        <span class="icon-sm material-icons">search</span>
+                                        <span>Sugestions</span>
+                                    </div>
+                                </div>
+                                <div class="row-divider"></div>
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox">
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span>Channel islands</span>
+                                </label>
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox">
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span>East midlands</span>
+                                </label>
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox">
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span>East of England</span>
+                                </label>
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox">
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span>Town name</span>
+                                </label>
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox">
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span>London</span>
+                                </label>
+                                <label class="form-checkbox-container">
+                                    <input type="checkbox" class="form-checkbox">
+                                    <div class="form-checkbox-indicator">
+                                        <span class="material-icons-outlined">done</span>
+                                    </div>
+                                    <span>Town name</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popover-actions">
+                        <button class="btn btn-primary btn-flat flex-1 close-popover">Apply</button>
+                    </div>
                 </div>
             </div>
             <div class="card-filter-container">
@@ -641,9 +709,36 @@
                                         <button class="btn btn-primary btn-flat flex-1 close-popover">Save</button>
                                     </div>
                                 </div>
-                                <div class="box-gx-1 d-flex align-items-center">
+                                <div class="box-gx-1 d-flex align-items-center" data-trigger-popover="#popover-assign-tender-1">
                                     <span class="text-muted icon-sm material-icons-outlined">person_add_alt_1</span>
                                     <span>Assign tender to</span>
+                                </div>
+                                <div id="popover-assign-tender-1" class="popover-dialog" id="popoverid-4">
+                                    <div class="popover-content box-gy-3">
+                                        <div class="popover-header">
+                                            <div class="text-muted font-weight-sm">Assign tender to</div>
+                                            <div>
+                                                <button class="btn btn-sm btn-text p-0 no-hover close-popover">
+                                                    <span class="material-icons-outlined">close</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="row-divider pb-1"></div>
+                                        <div class="popover-body">
+                                            <div class="box-gy-5">
+                                                <div class="form-group">
+                                                    <label for="" class="form-label">Select Team</label>
+                                                    <select class="form-control">
+                                                        <option value="6">Department Name</option>
+                                                        <option value="6">Department Name 1</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="popover-actions">
+                                        <button class="btn btn-primary btn-flat flex-1 close-popover">Apply</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -762,10 +857,37 @@
                                         <button class="btn btn-primary btn-flat flex-1 close-popover">Save</button>
                                     </div>
                                 </div>
-                                <div class="box-gx-1 d-flex align-items-center">
+                                <div class="box-gx-1 d-flex align-items-center" data-trigger-popover="#popover-assign-tender-2">
                                     <span class="text-secondary icon-sm material-icons-outlined">person_add_alt_1</span>
                                     <span>Assigned To :</span>
                                     <span class="text-secondary">TEAM NAME (Member Name)</span>
+                                </div>
+                                <div id="popover-assign-tender-2" class="popover-dialog" id="popoverid-4">
+                                    <div class="popover-content box-gy-3">
+                                        <div class="popover-header">
+                                            <div class="text-muted font-weight-sm">Assign tender to</div>
+                                            <div>
+                                                <button class="btn btn-sm btn-text p-0 no-hover close-popover">
+                                                    <span class="material-icons-outlined">close</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="row-divider pb-1"></div>
+                                        <div class="popover-body">
+                                            <div class="box-gy-5">
+                                                <div class="form-group">
+                                                    <label for="" class="form-label">Select Team</label>
+                                                    <select class="form-control">
+                                                        <option value="6">Department Name</option>
+                                                        <option value="6">Department Name 1</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="popover-actions">
+                                        <button class="btn btn-primary btn-flat flex-1 close-popover">Apply</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -885,10 +1007,37 @@
                                         <button class="btn btn-primary btn-flat flex-1 close-popover">Save</button>
                                     </div>
                                 </div>
-                                <div class="box-gx-1 d-flex align-items-center">
+                                <div class="box-gx-1 d-flex align-items-center" data-trigger-popover="#popover-assign-tender-3">
                                     <span class="text-primary icon-sm material-icons-outlined">person_add_alt_1</span>
                                     <span>Assigned To</span>
                                     <span class="text-primary">TEAM NAME (Member Name)</span>
+                                </div>
+                                <div id="popover-assign-tender-3" class="popover-dialog" id="popoverid-4">
+                                    <div class="popover-content box-gy-3">
+                                        <div class="popover-header">
+                                            <div class="text-muted font-weight-sm">Assign tender to</div>
+                                            <div>
+                                                <button class="btn btn-sm btn-text p-0 no-hover close-popover">
+                                                    <span class="material-icons-outlined">close</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="row-divider pb-1"></div>
+                                        <div class="popover-body">
+                                            <div class="box-gy-5">
+                                                <div class="form-group">
+                                                    <label for="" class="form-label">Select Team</label>
+                                                    <select class="form-control">
+                                                        <option value="6">Department Name</option>
+                                                        <option value="6">Department Name 1</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="popover-actions">
+                                        <button class="btn btn-primary btn-flat flex-1 close-popover">Apply</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1000,10 +1149,37 @@
                                         <button class="btn btn-primary btn-flat flex-1 close-popover">Save</button>
                                     </div>
                                 </div>
-                                <div class="box-gx-1 d-flex align-items-center">
+                                <div class="box-gx-1 d-flex align-items-center" data-trigger-popover="#popover-assign-tender-4">
                                     <span class="text-primary icon-sm material-icons-outlined">person_add_alt_1</span>
                                     <span>Assigned To</span>
                                     <span class="text-primary">TEAM NAME (Member Name)</span>
+                                </div>
+                                <div id="popover-assign-tender-4" class="popover-dialog" id="popoverid-4">
+                                    <div class="popover-content box-gy-3">
+                                        <div class="popover-header">
+                                            <div class="text-muted font-weight-sm">Assign tender to</div>
+                                            <div>
+                                                <button class="btn btn-sm btn-text p-0 no-hover close-popover">
+                                                    <span class="material-icons-outlined">close</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="row-divider pb-1"></div>
+                                        <div class="popover-body">
+                                            <div class="box-gy-5">
+                                                <div class="form-group">
+                                                    <label for="" class="form-label">Select Team</label>
+                                                    <select class="form-control">
+                                                        <option value="6">Department Name</option>
+                                                        <option value="6">Department Name 1</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="popover-actions">
+                                        <button class="btn btn-primary btn-flat flex-1 close-popover">Apply</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
