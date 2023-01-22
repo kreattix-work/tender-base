@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined&family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="/assets/plugins/bootstrap/bootstrap-grid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/plugins/datepicker/bootstrap-datepicker3.css"
+    />
+
+    <link rel="stylesheet" href="/assets/scss/styles.css" />
+  </head>
+  <body>
+    <div class="page-layout">
+      <header class="page-header">
+        <div class="page-header-item page-header-main">
+          <a href="#" class="page-header-logo">
+            <img src="../assets/images/logo.png" alt="" />
+          </a>
+        </div>
+        <div class="page-header-item page-header-content">
+          <div class="page-header-content-item">
+            <div class="profile-container">
+              <div class="avatar">JM</div>
+              <div class="profile-name">Jewel Majumder</div>
+              <div class="profile-id">Customer ID : 263248</div>
+            </div>
+          </div>
+          <div class="page-header-content-item">
+            <div class="page-header-actions">
+              <button class="btn btn-rounded">
+                <span class="material-icons-outlined">email</span>
+                <span>Create</span>
+              </button>
+              <button class="btn btn-rounded btn-text">
+                <span class="material-icons-outlined">notifications</span>
+                <div class="badge badge-floating badge-secondary">9+</div>
+              </button>
+              <button class="btn btn-rounded">
+                <span class="material-icons-outlined">logout</span>
+                <span>Log out</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <aside class="page-sider">
+        <ul class="sider-menu">
+          <li class="sider-menu-item">
+            <a href="#" class="sider-menu-item-link">
+              <span class="material-icons">dashboard</span>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li class="sider-menu-item submenu-open">
+            <a href="#" class="sider-menu-item-link">
+              <span class="material-icons">assignment</span>
+              <span>Manage tender</span>
+              <span class="dropdown-menu-icon material-icons"
+                >arrow_drop_down</span
+              >
+            </a>
+            <ul class="sider-submenu">
+              <li class="sider-submenu-item active">
+                <a href="#" class="sider-submenu-item-link">
+                  <span class="material-icons">trending_flat</span>
+                  <span>Search tender</span>
+                </a>
+              </li>
+              <li class="sider-submenu-item">
+                <a href="#" class="sider-submenu-item-link">
+                  <span class="material-icons">trending_flat</span>
+                  <span>My matching tender</span>
+                </a>
+              </li>
+              <li class="sider-submenu-item">
+                <a href="#" class="sider-submenu-item-link">
+                  <span class="material-icons">trending_flat</span>
+                  <span>Saved tenders</span>
+                  <span class="dropdown-menu-icon material-icons"
+                    >arrow_drop_down</span
+                  >
+                </a>
+              </li>
+              <li class="sider-submenu-item">
+                <a href="#" class="sider-submenu-item-link">
+                  <span class="material-icons">trending_flat</span>
+                  <span>Tender assigned to team</span>
+                </a>
+              </li>
+              <li class="sider-submenu-item">
+                <a href="#" class="sider-submenu-item-link">
+                  <span class="material-icons">trending_flat</span>
+                  <span>Team saved tender</span>
+                </a>
+              </li>
+              <li class="sider-submenu-item">
+                <a href="#" class="sider-submenu-item-link">
+                  <span class="material-icons">trending_flat</span>
+                  <span>Tender Notice</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="sider-menu-item">
+            <a href="#" class="sider-menu-item-link">
+              <span class="ci ci-chart-pie-slice"></span>
+              <span>Buyer Behaviour Analysis</span>
+            </a>
+          </li>
+          <li class="sider-menu-item">
+            <a href="#" class="sider-menu-item-link">
+              <span class="ci ci-chart-line-up"></span>
+              <span>Supplier Tracking</span>
+            </a>
+          </li>
+          <li class="sider-menu-item">
+            <a href="#" class="sider-menu-item-link">
+              <span class="ci ci-analysis-chart"></span>
+              <span>Category Tracking</span>
+            </a>
+          </li>
+          <li class="sider-menu-item">
+            <a href="#" class="sider-menu-item-link">
+              <span class="material-icons-outlined">local_library</span>
+              <span>Tender Training</span>
+            </a>
+          </li>
+          <li class="sider-menu-item">
+            <a href="#" class="sider-menu-item-link">
+              <span class="material-icons-outlined">groups</span>
+              <span>Manage Team</span>
+            </a>
+          </li>
+          <li class="sider-menu-item">
+            <a href="#" class="sider-menu-item-link">
+              <span class="material-icons-outlined">person</span>
+              <span>Manage Account</span>
+              <span class="dropdown-menu-icon material-icons"
+                >arrow_drop_down</span
+              >
+            </a>
+          </li>
+          <li class="sider-menu-item">
+            <a href="#" class="sider-menu-item-link">
+              <span class="ci ci-24-hours-support"></span>
+              <span>Support</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+
+      <div class="page-content">
+        <div class="content-header py-4">
+          <div class="box-gy-4">
+            <div class="content-header-title">
+              GB-Merseyside: RFCA (NW) Merseyside Cadet Hut Refurbishments -
+              Tenderbase
+            </div>
+            <div>
+              <span class="text-muted font-weight-sm">Authority :</span>
+              <span class="font-lg"
+                >Department for Business, Energy & Industrial Strategy
+                (BEIS)</span
+              >
+            </div>
+            <div class="d-flex box-gx-2">
+              <button class="btn btn-primary font-weight-sm">
+                <span>Download full notice</span>
+              </button>
+              <button class="btn btn-outlined-secondary font-weight-sm">
+                <span class="material-icons-outlined icon-sm"
+                  >person_add_alt_1</span
+                >
+                <span>Assign to team</span>
+              </button>
+              <button class="btn btn-outlined-dark font-weight-sm">
+                <span class="material-icons icon-sm">assignment_ind</span>
+                <span>Ask the expert</span>
+              </button>
+              <button class="btn btn-outlined-dark font-weight-sm">
+                <span class="material-icons icon-sm">pending_actions</span>
+                <span>Ask for summary</span>
+              </button>
+              <button class="btn btn-outlined-dark font-weight-sm">
+                <span class="material-icons icon-sm">insert_drive_file</span>
+                <span>Print</span>
+              </button>
+              <button class="btn btn-outlined-dark font-weight-sm">
+                <span class="material-icons icon-sm">save</span>
+                <span>Save tender</span>
+              </button>
+              <button class="btn btn-outlined-dark btn-square font-weight-sm">
+                <span class="material-icons-outlined text-primary icon-sm"
+                  >done</span
+                >
+              </button>
+              <button class="btn btn-outlined-dark btn-square font-weight-sm">
+                <span class="material-icons-outlined text-secondary icon-sm"
+                  >close</span
+                >
+              </button>
+              <button class="btn btn-outlined-dark font-weight-sm">
+                <span class="material-icons-outlined icon-sm">share</span>
+                <span>Share via email</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="content-body bg-white">
+          <div class="row">
+            <div class="col">
+              <div class="box-gy-6">
+                <div class="box-gy-2">
+                  <div class="font-weight-sm font-lg text-muted">
+                    Descriptions
+                  </div>
+                  <div>
+                    The WEA is seeking to secure a supply chain of providers to
+                    support delivery of Multiply funded activity in the Greater
+                    Manchester Combined Authority area. We are inviting
+                    expressions of interest (EOI) from organisations that wish
+                    to deliver GMCA Multiply courses as part of our supply
+                    chain. We wish to hear from organisations with..... SEE
+                    MORE.
+                  </div>
+                </div>
+
+                <div class="box-gy-4">
+                  <div class="row">
+                    <div class="col-6 box-gy-1">
+                      <div class="font-weight-sm text-muted">Tender Type</div>
+                      <span class="material-icons-outlined icon-xs"
+                        >trending_up</span
+                      >
+                    </div>
+                    <div class="col box-gy-1 font-weight-sm">
+                      <div class="text-muted">Region</div>
+                      <div class="text-dark">UK</div>
+                    </div>
+                    <div class="col box-gy-1 font-weight-sm">
+                      <div class="text-muted">Tenderbase Id</div>
+                      <div class="text-dark">0512200171</div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6 box-gy-1">
+                      <div class="font-weight-sm text-muted">Procedure</div>
+                      <span class="text-dark">Restricted</span>
+                    </div>
+                    <div class="col box-gy-1 font-weight-sm">
+                      <div class="text-muted">Suitable for SME</div>
+                      <div class="text-dark">Yes</div>
+                    </div>
+                    <div class="col box-gy-1 font-weight-sm">
+                      <div class="text-muted">Nationwide</div>
+                      <div class="text-dark">False</div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6 box-gy-1">
+                      <div class="font-weight-sm text-muted">Notice Type</div>
+                      <span class="text-dark">Contract</span>
+                    </div>
+                    <div class="col box-gy-1 font-weight-sm">
+                      <div class="text-muted">Tender Identifier</div>
+                      <div class="text-dark">TPHeat001-DN513110-55308925</div>
+                    </div>
+                    <div class="col box-gy-1 font-weight-sm">
+                      <div class="text-muted">Attached documents</div>
+                      <div class="text-dark">Notice_3.pdf (Download)</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row-divider"></div>
+
+                <div>
+                  <div class="row">
+                    <div class="col box-gy-2">
+                      <div class="font-weight-sm font-lg text-muted">
+                        Buyer Info :
+                      </div>
+                      <div class="box-gy-1">
+                        <div class="font-lg text-dark">
+                          Department for Business, Energy & Industrial Strategy
+                          (BEIS)
+                        </div>
+                        <div>
+                          Address - Oxford Nanopore Technologies Limited,
+                          Oxford.
+                        </div>
+                        <div>Phone number - 1334444233</div>
+                        <div>
+                          <span>Email - </span>
+                          <span class="text-dark">buyer@email.com</span>
+                        </div>
+                        <div>
+                          <span>Website - </span>
+                          <span class="text-dark">buyer.com</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-auto align-self-end">
+                      <button class="btn btn-outlined-dark">
+                        <span>View profile</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row-divider"></div>
+
+                <div class="box-gy-2">
+                  <div class="font-weight-sm font-lg text-muted">
+                    Tender CPV Codes
+                  </div>
+                  <div
+                    class="d-flex ps-2 align-items-center box-gx-2 text-dark"
+                  >
+                    <span class="material-icons icon-bullet">lens</span>
+                    <span
+                      >48400000 - Business transaction and personal business
+                      software package
+                    </span>
+                  </div>
+                  <div
+                    class="d-flex ps-2 align-items-center box-gx-2 text-dark"
+                  >
+                    <span class="material-icons icon-bullet">lens</span>
+                    <span
+                      >48400000 - Business transaction and personal business
+                      software package
+                    </span>
+                  </div>
+                </div>
+
+                <div class="row-divider"></div>
+
+                <div class="box-gy-4">
+                  <div class="font-weight-sm text-dark font-xxl">
+                    Information about lots
+                  </div>
+                  <div class="row">
+                    <div class="col-6 box-gy-1">
+                      <div class="font-weight-sm text-muted">
+                        Number of lots:
+                      </div>
+                      <span class="text-dark">3</span>
+                    </div>
+                    <div class="col box-gy-1 font-weight-sm">
+                      <div class="text-muted">
+                        Total value of the procurement
+                      </div>
+                      <div class="text-dark">
+                        Value excluding VAT: £256,700,000
+                      </div>
+                    </div>
+                    <div class="col-auto box-gy-1 font-weight-sm">
+                      <button class="btn btn-outlined-primary">
+                        <span>See Lot Info</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row-divider"></div>
+
+                <div>
+                  <div class="font-weight-sm font-lg text-muted">
+                    Possible competitors
+                  </div>
+                  <ol class="box-gy-5">
+                    <li>
+                      <div class="box-gy-3">
+                        <div class="row">
+                          <div class="col-20">
+                            <div class="box-gy-3">
+                              <div class="box-gy-1">
+                                <div
+                                  class="d-flex box-gx-1 align-items-center text-muted"
+                                >
+                                  <span class="material-icons-outlined icon-sm"
+                                    >room</span
+                                  >
+                                  <span class="font-weight-sm"
+                                    >United Kingdom</span
+                                  >
+                                </div>
+                                <div class="text-dark font-lg">
+                                  Framework - Multiple Operators As Listed In
+                                  Section Vi
+                                </div>
+                                <div class="font-weight-sm text-muted">
+                                  Framework - Multiple Operators as listed in
+                                  Section VI
+                                </div>
+                              </div>
+                              <div class="box-gy-1">
+                                <div>Last Awarded Tender</div>
+                                <div class="text-secondary">
+                                  S/10353 National Framework Apprenticeship
+                                  Training & End Point Assessment, Tranche 1
+                                  March 2021
+                                </div>
+                                <div>Date - 06/04/2021</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-8 box-gy-1">
+                            <div class="text-muted font-weight-sm">
+                              Total Awarded Tenders
+                            </div>
+                            <div class="text-dark">1</div>
+                          </div>
+                          <div class="col box-gy-1">
+                            <div class="text-muted font-weight-sm">
+                              Total Awarded Price
+                            </div>
+                            <div class="text-dark">99999999</div>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-8 box-gy-1">
+                            <div class="text-muted font-weight-sm">
+                              How Frequently Awarded
+                            </div>
+                            <div class="text-dark">Once in 2 years</div>
+                          </div>
+                          <div class="col box-gy-1">
+                            <div class="text-muted font-weight-sm">
+                              Worked with Buyer
+                            </div>
+                            <div class="text-dark">NO</div>
+                          </div>
+                          <div class="col-auto">
+                            <button class="btn btn-outlined-dark">
+                              <span>Show Less</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row align-items-center">
+                        <div class="col">
+                          <div class="box-gy-3">
+                            <div class="box-gy-1">
+                              <div
+                                class="d-flex box-gx-1 align-items-center text-muted"
+                              >
+                                <span class="material-icons-outlined icon-sm"
+                                  >room</span
+                                >
+                                <span class="font-weight-sm"
+                                  >United Kingdom</span
+                                >
+                              </div>
+                              <div class="text-dark font-lg">
+                                Framework - Multiple Operators As Listed In
+                                Section Vi
+                              </div>
+                              <div class="font-weight-sm text-muted">
+                                Framework - Multiple Operators as listed in
+                                Section VI
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-auto">
+                          <button class="btn btn-outlined-dark">
+                            <span>More info</span>
+                          </button>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row align-items-center">
+                        <div class="col">
+                          <div class="box-gy-3">
+                            <div class="box-gy-1">
+                              <div
+                                class="d-flex box-gx-1 align-items-center text-muted"
+                              >
+                                <span class="material-icons-outlined icon-sm"
+                                  >room</span
+                                >
+                                <span class="font-weight-sm"
+                                  >United Kingdom</span
+                                >
+                              </div>
+                              <div class="text-dark font-lg">
+                                Framework - Multiple Operators As Listed In
+                                Section Vi
+                              </div>
+                              <div class="font-weight-sm text-muted">
+                                Framework - Multiple Operators as listed in
+                                Section VI
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-auto">
+                          <button class="btn btn-outlined-dark">
+                            <span>More info</span>
+                          </button>
+                        </div>
+                      </div>
+                    </li>
+                  </ol>
+                </div>
+
+                <div class="row-divider"></div>
+              </div>
+            </div>
+            <div class="col-10"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="/assets/plugins/jquery/jquery.js"></script>
+<script src="/assets/plugins/datepicker/bootstrap-datepicker.js"></script>
+<script src="/assets/js/scripts.js"></script>
