@@ -104,6 +104,24 @@ body {
   border-top: 1px solid var(--border-color);
 }
 
+ol.custom-bullets {
+  counter-reset: item;
+  list-style-type: none;
+  padding-left: 0;
+}
+ol.custom-bullets li {
+  position: relative;
+  padding-left: 18px;
+}
+ol.custom-bullets li:before {
+  content: counter(item) "  ";
+  position: absolute;
+  left: 0;
+  font-size: var(--font-lg);
+  font-weight: var(--font-weight-sm);
+  counter-increment: item;
+}
+
 [data-trigger-popover],
 [data-collapse] {
   cursor: pointer;
@@ -715,6 +733,7 @@ select {
 .form-control {
   --input-font-color: $form-control-font-color;
   --input-bg: var(--white);
+  font-family: var(--font-family);
   grid-area: input;
   border: 1px solid var(--border-color);
   height: 32px;
@@ -960,6 +979,9 @@ select {
   background: #ffffff;
   box-shadow: var(--box-shadow-lg);
   border-radius: var(--border-radius-xs);
+}
+.card-bordered {
+  border: 1px solid var(--border-color);
 }
 .card-body {
   padding: var(--spacer-md) var(--spacer);
@@ -1448,6 +1470,10 @@ select {
   border-color: transparent !important;
 }
 
+.no-shadow {
+  box-shadow: 0 0 0 transparent;
+}
+
 .text-no-wrap {
   white-space: nowrap;
 }
@@ -1462,4 +1488,16 @@ select {
 
 .ps-48px {
   padding-left: 48px !important;
+}
+
+.mh-250 {
+  min-height: 250px;
+}
+
+.mh-100 {
+  min-height: 100px;
+}
+
+.mh-80 {
+  min-height: 80px;
 }/*# sourceMappingURL=styles.css.map */

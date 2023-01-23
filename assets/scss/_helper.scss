@@ -156,6 +156,9 @@
 .no-border {
   border-color: transparent !important;
 }
+.no-shadow {
+  box-shadow: 0 0 0 transparent;
+}
 
 .text-no-wrap {
   white-space: nowrap;
@@ -170,4 +173,14 @@
 }
 .ps-48px {
   padding-left: 48px !important;
+}
+
+.mh-250 {
+  min-height: 250px;
+}
+.mh-100 {
+  min-height: 100px;
+}
+.mh-80 {
+  min-height: 80px;
 }
