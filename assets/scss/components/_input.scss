@@ -136,6 +136,7 @@ select {
 .form-control {
   --input-font-color: $form-control-font-color;
   --input-bg: #{$form-control-bg};
+  font-family: var(--font-family);
   grid-area: input;
   border: $form-control-border-width solid $form-control-border-color;
   height: $form-control-height;
