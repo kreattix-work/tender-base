@@ -35,8 +35,18 @@ body {
   border-left: 1px solid var(--border-color);
   height: 16px;
 }
+.col-divider-full {
+  margin: auto;
+  border-left: 1px solid var(--border-color);
+  height: 80%;
+}
 .divider {
   border-top: 1px solid var(--border-color);
+}
+.reset-ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 ol.custom-bullets {

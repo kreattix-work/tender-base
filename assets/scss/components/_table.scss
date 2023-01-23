@@ -1,0 +1,21 @@
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  thead {
+    th {
+      color: var(--font-color-light);
+      font-weight: var(--font-weight-sm);
+      text-align: left;
+      padding: 16px 0;
+    }
+  }
+  tbody {
+    td,
+    th {
+      color: var(--font-color-light);
+      font-weight: var(--font-weight);
+      text-align: left;
+      padding: 12px 0;
+    }
+  }
+}

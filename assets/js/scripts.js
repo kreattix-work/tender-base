@@ -1,4 +1,8 @@
 $(function () {
+  $(".ui-tabs").each(function () {
+    $(this).tabs();
+  });
+
   // close popover
   $("body, html").on("click", function (e) {
     const elements = $(".popover-dialog, [data-trigger-popover]");
