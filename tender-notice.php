@@ -264,7 +264,7 @@
                 </div>
 
                 <div class="row-divider"></div>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between align-items-center">
                     <div class="text-muted font-weight-sm">Tender Notes</div>
                     <button class="btn btn-square" data-collapse="#collapse-form">
                         <span class="material-icons">arrow_drop_up</span>
@@ -285,11 +285,11 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-between">
-                        <div class="d-flex align-items-center box-gx-2">
+                        <div class="d-flex align-items-center box-gx-3">
                             <button class="btn">Select team</button>
                             <div class="text-secondary font-weight-sm">Please select aleast one user</div>
                         </div>
-                        <div class="d-flex box-gx-2">
+                        <div class="d-flex box-gx-3">
                             <button class="btn">Reset</button>
                             <button class="btn">Save note</button>
                         </div>
