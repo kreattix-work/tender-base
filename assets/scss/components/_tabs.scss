@@ -1,0 +1,36 @@
+.ui-tabs {
+  &-header {
+    border-bottom: 1px solid var(--border-color);
+  }
+  &-buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  &-action {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+    font-weight: var(--font-weight-sm);
+
+    &-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 1px solid transparent;
+      padding-bottom: 15px;
+      a {
+        text-decoration: none;
+        color: #928d8d;
+      }
+    }
+  }
+  &-active {
+    font-weight: var(--font-weight);
+    border-bottom: 1px solid $black-500;
+    a {
+      color: #262525;
+    }
+  }
+}
