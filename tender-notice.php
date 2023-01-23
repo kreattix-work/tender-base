@@ -41,25 +41,25 @@
                 <span class="material-icons-outlined icon-sm">share</span>
                 <span>Share via email</span>
             </button>
-            
         </div>
     </div>
-    
 </div>
 <div class="content-body bg-white">
     <div class="row">
-        <div class="col">   
+        <div class="col">
             <div class="box-gy-6">
                 <div class="box-gy-2">
                     <div class="font-weight-sm font-lg text-muted">Descriptions</div>
-                    <div>The WEA is seeking to secure a supply chain of providers to support delivery of Multiply funded activity in the Greater Manchester Combined Authority area. We are inviting expressions of interest (EOI) from organisations that wish to deliver GMCA Multiply courses as part of our supply chain. We wish to hear from organisations with..... SEE MORE.</div>
+                    <div>
+                        <span class="font-weight-sm">The WEA is seeking to secure a supply chain of providers to support delivery of Multiply funded activity in the Greater Manchester Combined Authority area. We are inviting expressions of interest (EOI) from organisations that wish to deliver GMCA Multiply courses as part of our supply chain. We wish to hear from organisations with.....</span>
+                        <span class="text-dark">SEE MORE.</span>
+                    </div>
                 </div>
-    
                 <div class="box-gy-4">
                     <div class="row">
                         <div class="col-6 box-gy-1">
                             <div class="font-weight-sm text-muted">Tender Type</div>
-                            <span class="material-icons-outlined icon-xs">trending_up</span>
+                            <span class="material-icons-outlined icon-xs text-secondary">trending_up</span>
                         </div>
                         <div class="col box-gy-1 font-weight-sm">
                             <div class="text-muted">Region</div>
@@ -95,7 +95,7 @@
                         </div>
                         <div class="col box-gy-1 font-weight-sm">
                             <div class="text-muted">Attached documents</div>
-                            <div class="text-dark">Notice_3.pdf (Download)</div>
+                            <div class="text-dark">Notice_3.pdf <span class="text-secondary">(Download)</span></div>
                         </div>
                     </div>
                 </div>
@@ -108,14 +108,14 @@
                             <div class="font-weight-sm font-lg text-muted">Buyer Info :</div>
                             <div class="box-gy-1">
                                 <div class="font-lg text-dark">Department for Business, Energy & Industrial Strategy (BEIS)</div>
-                                <div>Address - Oxford Nanopore Technologies Limited, Oxford.</div>
-                                <div>Phone number - 1334444233</div>
+                                <div><span class="font-weight-sm">Address -</span> Oxford Nanopore Technologies Limited, Oxford.</div>
+                                <div><span class="font-weight-sm">Phone number -</span> 1334444233</div>
                                 <div>
-                                    <span>Email - </span> 
+                                    <span class="font-weight-sm">Email - </span>
                                     <span class="text-dark">buyer@email.com</span>
                                 </div>
                                 <div>
-                                    <span>Website - </span>
+                                    <span class="font-weight-sm">Website - </span>
                                     <span class="text-dark">buyer.com</span>
                                 </div>
                             </div>
@@ -133,17 +133,17 @@
                 <div class="box-gy-2">
                     <div class="font-weight-sm font-lg text-muted">Tender CPV Codes</div>
                     <div class="d-flex ps-2 align-items-center box-gx-2 text-dark">
-                        <span class="material-icons icon-bullet">lens</span> 
+                        <span class="material-icons icon-bullet">lens</span>
                         <span>48400000 - Business transaction and personal business software package </span>
                     </div>
                     <div class="d-flex ps-2 align-items-center box-gx-2 text-dark">
-                        <span class="material-icons icon-bullet">lens</span> 
+                        <span class="material-icons icon-bullet">lens</span>
                         <span>48400000 - Business transaction and personal business software package </span>
                     </div>
                 </div>
 
                 <div class="row-divider"></div>
-                
+
                 <div class="box-gy-4">
                     <div class="font-weight-sm text-dark font-xxl">Information about lots</div>
                     <div class="row">
@@ -167,7 +167,7 @@
 
                 <div>
                     <div class="font-weight-sm font-lg text-muted">Possible competitors</div>
-                    <ol class="box-gy-5">
+                    <ol class="box-gy-5 custom-bullets">
                         <li>
                             <div class="box-gy-3">
                                 <div class="row">
@@ -182,9 +182,9 @@
                                                 <div class="font-weight-sm text-muted">Framework - Multiple Operators as listed in Section VI</div>
                                             </div>
                                             <div class="box-gy-1">
-                                                <div>Last Awarded Tender</div>
+                                                <div class="font-weight-sm text-muted">Last Awarded Tender</div>
                                                 <div class="text-secondary">S/10353 National Framework Apprenticeship Training & End Point Assessment, Tranche 1 March 2021</div>
-                                                <div>Date - 06/04/2021</div>
+                                                <div class="font-weight-sm text-muted">Date - 06/04/2021</div>
                                             </div>
                                         </div>
                                     </div>
@@ -216,7 +216,7 @@
                                         </button>
                                     </div>
                                 </div>
-                            </div>    
+                            </div>
                         </li>
                         <li>
                             <div class="row align-items-center">
@@ -264,10 +264,85 @@
                 </div>
 
                 <div class="row-divider"></div>
-
+                <div class="d-flex justify-content-between">
+                    <div class="text-muted font-weight-sm">Tender Notes</div>
+                    <button class="btn btn-square" data-collapse="#collapse-form">
+                        <span class="material-icons">arrow_drop_up</span>
+                    </button>
+                </div>
+                <div class="collapse show box-gy-4" id="collapse-form">
+                    <div class="">Note</div>
+                    <div class="card card-bordered no-shadow">
+                        <div class="card-body px-4 box-gy-4">
+                            <div class="card card-bordered no-shadow mh-80">
+                                <div class="card-body px-4 text-muted font-weight-sm">
+                                    Note text edittor will be here
+                                </div>
+                            </div>
+                            <div class="form-group form-group-type-text">
+                                <textarea placeholder="Write note here" class="form-control px-0 mh-250"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex align-items-center box-gx-2">
+                            <button class="btn">Select team</button>
+                            <div class="text-secondary font-weight-sm">Please select aleast one user</div>
+                        </div>
+                        <div class="d-flex box-gx-2">
+                            <button class="btn">Reset</button>
+                            <button class="btn">Save note</button>
+                        </div>
+                    </div>
+                    <div class="row-divider  my-5"></div>
+                </div>
             </div>
         </div>
-        <div class="col-10"></div>
+        <div class="col-8">
+            <div class="card bg-default no-shadow">
+                <div class="card-body box-gy-4">
+                    <div class="box-gy-2">
+                        <div class="text-muted font-weight-sm">Tender Value</div>
+                        <div class="row">
+                            <div class="col box-gy-1">
+                                <div class="text-muted">High</div>
+                                <div class="">N/A</div>
+                            </div>
+                            <div class="col box-gy-1">
+                                <div class="text-muted">High</div>
+                                <div class="">N/A</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-divider"></div>
+                    <div class="row">
+                        <div class="col box-gy-1">
+                            <div class="text-muted">Published</div>
+                            <div class="">Mar 15, 2021</div>
+                        </div>
+                        <div class="col box-gy-1">
+                            <div class="text-muted">Deadline</div>
+                            <div class="">N/A</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col box-gy-1">
+                            <div class="text-muted">Contract Start</div>
+                            <div class="">Nov 04, 2022</div>
+                        </div>
+                        <div class="col box-gy-1">
+                            <div class="text-muted">Contract End</div>
+                            <div class="">Dec 04, 2022</div>
+                        </div>
+                    </div>
+                    <div class="row-divider"></div>
+                    <button class="btn">
+                        <span class="material-icons-outlined icon-sm">today</span>
+                        <span>Add to calender</span>
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

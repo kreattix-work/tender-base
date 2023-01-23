@@ -3,6 +3,10 @@
   box-shadow: var(--box-shadow-lg);
   border-radius: var(--border-radius-xs);
 
+  &-bordered {
+    border: 1px solid var(--border-color);
+  }
+
   &-body {
     padding: var(--spacer-md) var(--spacer);
 

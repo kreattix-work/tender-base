@@ -35,19 +35,37 @@ body {
   border-left: 1px solid var(--border-color);
   height: 16px;
 }
+.col-divider-full {
+  margin: auto;
+  border-left: 1px solid var(--border-color);
+  height: 80%;
+}
 .divider {
   border-top: 1px solid var(--border-color);
 }
+.reset-ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
-// ol {
-//   counter-reset: item;
-//   list-style-type: none;
-// }
-// li { display: block; }
-// li:before {
-//   content: counter(item) "  ";
-//   counter-increment: item
-// }
+ol.custom-bullets {
+  counter-reset: item;
+  list-style-type: none;
+  padding-left: 0;
+  li {
+    position: relative;
+    padding-left: 18px;
+  }
+  li:before {
+    content: counter(item) "  ";
+    position: absolute;
+    left: 0;
+    font-size: var(--font-lg);
+    font-weight: var(--font-weight-sm);
+    counter-increment: item;
+  }
+}
 
 // events
 

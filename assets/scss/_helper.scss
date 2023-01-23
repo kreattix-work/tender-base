@@ -3,7 +3,7 @@
     background-color: #{$color};
   }
   .text-#{$name} {
-    color: #{$color};
+    color: #{$color} !important;
   }
   .border-color-#{$name} {
     border-color: #{$color};
@@ -50,6 +50,13 @@
 
 .font-xxl {
   font-size: var(--font-size-xxl) !important;
+}
+
+.font-title {
+  font-size: var(--font-size-title) !important;
+}
+.font-title-lg {
+  font-size: var(--font-size-title-lg) !important;
 }
 
 .font-weight-xs {
@@ -99,6 +106,17 @@
     margin-right: 24px !important;
   }
 }
+.box-gx-7 {
+  & > *:not(:last-child) {
+    margin-right: 28px !important;
+  }
+}
+.box-gx-8 {
+  & > *:not(:last-child) {
+    margin-right: 32px !important;
+  }
+}
+
 .box-gy-1 {
   & > *:not(:last-child) {
     margin-bottom: 4px !important;
@@ -138,6 +156,15 @@
 .w-100 {
   width: 100%;
 }
+.w-50 {
+  width: 50%;
+}
+.w-55 {
+  width: 55%;
+}
+.w-60 {
+  width: 60%;
+}
 
 .text-nowrap {
   white-space: nowrap;
@@ -156,18 +183,37 @@
 .no-border {
   border-color: transparent !important;
 }
+.no-shadow {
+  box-shadow: 0 0 0 transparent;
+}
 
 .text-no-wrap {
   white-space: nowrap;
 }
 
-.mb-7px {
-  margin-bottom: 7px;
+.mt-6 {
+  margin-top: 24px !important;
 }
-
+.mb-7px {
+  margin-bottom: 7px !important;
+}
 .ps-62px {
   padding-left: 62px !important;
 }
 .ps-48px {
   padding-left: 48px !important;
+}
+
+.mh-250 {
+  min-height: 250px;
+}
+.mh-100 {
+  min-height: 100px;
+}
+.mh-80 {
+  min-height: 80px;
+}
+.g-64,
+.gx-64 {
+  --bs-gutter-x: 64px;
 }
