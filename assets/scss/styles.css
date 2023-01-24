@@ -1139,12 +1139,19 @@ select {
   text-align: left;
   padding: 16px 0;
 }
+.table thead th:not(:last-of-type) {
+  padding-right: var(--spacer);
+}
 .table tbody td,
 .table tbody th {
   color: var(--font-color-light);
   font-weight: var(--font-weight);
   text-align: left;
   padding: 12px 0;
+}
+.table tbody td:not(:last-of-type),
+.table tbody th:not(:last-of-type) {
+  padding-right: var(--spacer);
 }
 
 .bg-white {
@@ -1528,8 +1535,8 @@ select {
   height: 100%;
 }
 
-.w-100 {
-  width: 100%;
+.w-40 {
+  width: 40%;
 }
 
 .w-50 {
@@ -1542,6 +1549,10 @@ select {
 
 .w-60 {
   width: 60%;
+}
+
+.w-100 {
+  width: 100%;
 }
 
 .text-nowrap {

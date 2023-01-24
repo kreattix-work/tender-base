@@ -8,7 +8,7 @@
         </div>
         <div>
             <button class="btn btn-text btn-rounded">
-                <span class="material-icons-outlined">notification_add</span>
+                <span class="material-icons-outlined">add_alert</span>
             </button>
         </div>
     </div>
@@ -138,6 +138,31 @@
                     </tbody>
                 </table>
             </div>
+
+            <div class="d-flex justify-content-between align-items-center mt-5">
+                <div class="d-flex align-items-center box-gx-2">
+                    <span class="font-weight-sm">Showing Entities</span>
+                    <select class="form-control form-control-xs">
+                        <option value=" 10" selected>10</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                    </select>
+                    <span class="font-weight-sm">Page 1 of 5</span>
+                </div>
+                <div class="d-flex box-gx-2">
+                    <button class="btn btn-outlined btn-sm btn-square" disabled>
+                        <span class="material-icons-outlined">chevron_left</span>
+                    </button>
+                    <button class="btn btn-outlined-secondary btn-sm btn-square">1</button>
+                    <button class="btn btn-outlined btn-sm btn-square">2</button>
+                    <button class="btn btn-outlined btn-sm btn-square">3</button>
+                    <button class="btn btn-outlined btn-sm btn-square">4</button>
+                    <button class="btn btn-outlined btn-sm btn-square">5</button>
+                    <button class="btn btn-outlined-secondary btn-sm btn-square">
+                        <span class="material-icons-outlined">chevron_right</span>
+                    </button>
+                </div>
+            </div>
         </div>
         <div id="tabs-2">
             <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id
@@ -162,28 +187,6 @@
                 commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
         </div>
 
-    </div>
-    <div class="d-flex justify-content-between align-items-center mt-5">
-        <div class="d-flex align-items-center box-gx-2">
-            <span class="font-weight-sm">Showing Entities</span>
-            <select class="form-control form-control-xs">
-                <option value=" 10" selected>10</option>
-                <option value="50">50</option>
-                <option value="100">100</option>
-            </select>
-            <span class="font-weight-sm">Page 1 of 5</span>
-        </div>
-        <div class="d-flex box-gx-2">
-            <button class="btn btn-outlined btn-sm btn-square" disabled>
-                <span class="material-icons-outlined">chevron_left</span>
-            </button>
-            <button class="btn btn-outlined-secondary btn-sm btn-square">1</button>
-            <button class="btn btn-outlined btn-sm btn-square">2</button>
-            <button class="btn btn-outlined btn-sm btn-square">3</button>
-            <button class="btn btn-outlined-secondary btn-sm btn-square">
-                <span class="material-icons-outlined">chevron_right</span>
-            </button>
-        </div>
     </div>
 </div>
 

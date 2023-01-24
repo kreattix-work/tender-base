@@ -7,6 +7,9 @@
       font-weight: var(--font-weight-sm);
       text-align: left;
       padding: 16px 0;
+      &:not(:last-of-type) {
+        padding-right: var(--spacer);
+      }
     }
   }
   tbody {
@@ -16,6 +19,9 @@
       font-weight: var(--font-weight);
       text-align: left;
       padding: 12px 0;
+      &:not(:last-of-type) {
+        padding-right: var(--spacer);
+      }
     }
   }
 }

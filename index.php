@@ -29,6 +29,8 @@
     <div><a href="./manage-account-my-subscription.php">Manage Account - My Subscription</a></div>
     <div><a href="./manage-account-payment-history.php">Manage Account - Payment History</a></div>
     <div><a href="./create-email-template.php">Create Email Template</a></div>
+    <div><a href="./supplier-profile-awarded-tender.php">supplier-profile-awarded-tender</a></div>
+    <div><a href="./supplier-profile-buyer-details.php">supplier-profile-buyer-details</a></div>
 </body>
 
 </html>
