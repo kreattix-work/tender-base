@@ -34,8 +34,8 @@
         </div>
     </div>
     <div class="row mt-6">
-        <div class="col-24">
-            <div class="row gx-64">
+        <div class="col-23">
+            <div class="row gx-60">
                 <div class="col">
                     <div class="box-gy-1">
                         <div class="font-title-lg text-dark">169B</div>
@@ -103,19 +103,96 @@
                 convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare
                 leo nisi vel felis. Mauris consectetur tortor et purus.</p>
         </div>
-
         <div id="tabs-2">
-            <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula
-                accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent
-                taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu
-                urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem
-                enim, pretium nec, feugiat nec, luctus a, lacus.</p>
-            <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla
-                facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti.
-                Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio.
-                Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat
-                porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas
-                commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="w-40">Tender Title</th>
+                            <th>Total Value</th>
+                            <th>Date</th>
+                            <th>Type</th>
+                            <th>Buyer Name</th>
+                            <th>Contact start date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-dark">Award Of Borders College - Mini-Competition Cloud Services Framework Sp-18-027</td>
+                            <td>185K</td>
+                            <td>08/03/2021</td>
+                            <td>N/A</td>
+                            <td class="text-secondary">Apuc Limited</td>
+                            <td>08/03/2021</td>
+                        </tr>
+                        <tr>
+                            <td class="text-dark">Award Of Borders College - Mini-Competition Cloud Services Framework Sp-18-027</td>
+                            <td>185K</td>
+                            <td>08/03/2021</td>
+                            <td>N/A</td>
+                            <td class="text-secondary">Apuc Limited</td>
+                            <td>08/03/2021</td>
+                        </tr>
+                        <tr>
+                            <td class="text-dark">Award Of Borders College - Mini-Competition Cloud Services Framework Sp-18-027</td>
+                            <td>185K</td>
+                            <td>08/03/2021</td>
+                            <td>N/A</td>
+                            <td class="text-secondary">Apuc Limited</td>
+                            <td>08/03/2021</td>
+                        </tr>
+                        <tr>
+                            <td class="text-dark">Award Of Borders College - Mini-Competition Cloud Services Framework Sp-18-027</td>
+                            <td>185K</td>
+                            <td>08/03/2021</td>
+                            <td>N/A</td>
+                            <td class="text-secondary">Apuc Limited</td>
+                            <td>08/03/2021</td>
+                        </tr>
+                        <tr>
+                            <td class="text-dark">Award Of Borders College - Mini-Competition Cloud Services Framework Sp-18-027</td>
+                            <td>185K</td>
+                            <td>08/03/2021</td>
+                            <td>N/A</td>
+                            <td class="text-secondary">Apuc Limited</td>
+                            <td>08/03/2021</td>
+                        </tr>
+                        <tr>
+                            <td class="text-dark">Award Of Borders College - Mini-Competition Cloud Services Framework Sp-18-027</td>
+                            <td>185K</td>
+                            <td>08/03/2021</td>
+                            <td>N/A</td>
+                            <td class="text-secondary">Apuc Limited</td>
+                            <td>08/03/2021</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center mt-5">
+                <div class="d-flex align-items-center box-gx-2">
+                    <span class="font-weight-sm">Showing Entities</span>
+                    <select class="form-control form-control-xs">
+                        <option value=" 10" selected>10</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                    </select>
+                    <span class="font-weight-sm">Page 1 of 5</span>
+                </div>
+                <div class="d-flex box-gx-2">
+                    <button class="btn btn-outlined btn-sm btn-square" disabled>
+                        <span class="material-icons-outlined">chevron_left</span>
+                    </button>
+                    <button class="btn btn-outlined-secondary btn-sm btn-square">1</button>
+                    <button class="btn btn-outlined btn-sm btn-square">2</button>
+                    <button class="btn btn-outlined btn-sm btn-square">3</button>
+                    <button class="btn btn-outlined btn-sm btn-square">4</button>
+                    <button class="btn btn-outlined btn-sm btn-square">5</button>
+                    <button class="btn btn-outlined-secondary btn-sm btn-square">
+                        <span class="material-icons-outlined">chevron_right</span>
+                    </button>
+                </div>
+            </div>
         </div>
         <div id="tabs-3">
             <div class="table-responsive">
