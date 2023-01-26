@@ -44,9 +44,9 @@
                     <div class="font-lg text-dark">Agriculture and Food</div>
                 </div>
                 <div class="col">
-                    <div class="d-flex justify-content-center box-gx-4">
-                        <div>
-                            <span class="font-weight-sm text-secondary">Buyer:</span>
+                    <div class="d-flex align-items-center justify-content-center box-gx-4">
+                        <div class="highlight-secondary-light radius-1 py-1 px-2 text-dark">
+                            <span>Buyer:</span>
                             <span>12</span>
                         </div>
                         <div>

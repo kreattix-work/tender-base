@@ -95,13 +95,54 @@
             </div>
         </div>
         <div id="tabs-1">
-            <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id
-                nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie
-                lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula
-                suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur
-                ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque
-                convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare
-                leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+            <div class="row">
+                <div class="col py-4">
+                    <div class="card no-shadow border-placeholder">
+                        <div class="card-body box-gy-4">
+                            <div class="font-lg font-weight-sm text-dark">Total VS Supplier awarded tenders</div>
+                            <div class="row-divider"></div>
+                            <div class="row align-items-center justify-content-between">
+                                <div class="col-auto d-flex box-gx-6 align-items-center">
+                                    <div class="font-weight-sm ">Buyer Worked With :</div>
+                                    <div class="border-placeholder text-dark px-3 py-1 radius-1">1</div>
+                                </div>
+                                <div class="col-auto d-flex box-gx-6 align-items-center">
+                                    <div class="font-weight-sm ">Total Awarded Tender :</div>
+                                    <div class="border-primary text-primary px-3 py-1 radius-1">3</div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center pt-5 pb-4">
+                                <div class="w-50">
+                                    <canvas id="myDoughnutChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>             
+                </div>
+                <div class="col py-4">
+                    <div class="card no-shadow border-placeholder">
+                        <div class="card-body box-gy-4">
+                            <div class="font-lg font-weight-sm text-dark">Awarded Tenders Overtime</div>
+                            <div class="row-divider"></div>
+                            <div class="row align-items-center justify-content-between">
+                                <div class="col-auto d-flex box-gx-6 align-items-center">
+                                    <div class="font-weight-sm ">Total Awarded Tender :</div>
+                                    <div class="border-primary text-primary px-3 py-1 radius-1">3</div>
+                                </div>
+                                <div class="col-auto d-flex box-gx-6 align-items-center">
+                                    <div class="font-weight-sm ">Awarded Tender in NOV</div>
+                                    <div class="border-placeholder text-dark px-3 py-1 radius-1">1</div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center pt-5 pb-4">
+                                <div class="w-100">
+                                    <canvas id="myBarChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div id="tabs-2">
             <div class="table-responsive">
@@ -309,3 +350,68 @@
 
 
 <?php include_once './includes/footer.php'; ?>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  //DoughnutChart 
+  const doughnutChart = document.getElementById('myDoughnutChart');
+
+  new Chart(doughnutChart, {
+    type: 'doughnut',
+    data: {
+      labels: ['Awarded', 'Total'],
+      datasets: [{
+        backgroundColor: [
+        '#E5F1F0',
+        '#83BFB8'
+        ],
+        data: [25, 75],
+        borderWidth: 0,
+        cutout: '12%'
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          display: false
+        },
+        x: {
+          display: false
+        }
+      }
+    }
+  });
+
+  //BarChart   
+  const barChart = document.getElementById('myBarChart');
+
+  new Chart(barChart, {
+    type: 'bar',
+    data: {
+      labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+      datasets: [{
+        data: [0, 0, 0, 0, 0, 0, 0.6, 1.5, 0, 0, 2.6, 0],
+        borderWidth: 1,
+        borderRadius: 50,
+        backgroundColor: ["#CDEBE8","#CDEBE8","#CDEBE8","#CDEBE8","#CDEBE8","#CDEBE8","#CDEBE8","#CDEBE8","#CDEBE8","#CDEBE8", "#83BFB8", "#83BFB8"] 
+      }]
+    },
+    options: {
+      plugins: {
+        legend: {
+          display: false
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+        },
+        x: {
+            display: true,
+            grid: {
+                display: false
+            }
+        }
+      }
+    }
+  });
+</script>

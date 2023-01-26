@@ -70,6 +70,7 @@ $all-colors: (
   "white": var(--white),
   "black": var(--black),
   "default": $default-hover-color,
+  "placeholder": $placeholder-color,
   "muted": $text-muted,
   "dark": $black-500,
   "primary": var(--primary),
@@ -97,6 +98,14 @@ $border-radius-xs: 4px;
 $border-radius-sm: 8px;
 $border-radius: 12px;
 $border-radius-lg: 20px;
+
+$all-radius: (
+  1:$border-radius-xxs,
+  2:$border-radius-xs,
+  3:$border-radius-sm,
+  4:$border-radius,
+  5:$border-radius-lg,
+);
 
 $box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
 $box-shadow-lg: 0px 5px 15px rgba(0, 0, 0, 0.1);
