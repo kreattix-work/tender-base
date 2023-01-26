@@ -8,12 +8,22 @@
   .border-color-#{$name} {
     border-color: #{$color};
   }
+  .border-#{$name} {
+    border: 1px solid #{$color};
+  }
   .highlight-#{$name} {
     background-color: #{$color};
     padding: 0px 4px;
     border-radius: var(--border-radius-xxs);
   }
 }
+
+@each $index, $radius in $all-radius {
+  .radius-#{$index} {
+    border-radius: $radius;
+  }
+}
+
 .flex-1 {
   flex: 1;
 }
