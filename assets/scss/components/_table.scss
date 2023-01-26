@@ -13,14 +13,25 @@
     }
   }
   tbody {
+    color: var(--font-color-light);
     td,
     th {
-      color: var(--font-color-light);
       font-weight: var(--font-weight);
       text-align: left;
       padding: 12px 0;
       &:not(:last-of-type) {
         padding-right: var(--spacer);
+      }
+    }
+  }
+  &.table-bordered {
+    tbody {
+      tr {
+        border-bottom: 1px solid var(--border-color);
+        th,
+        td {
+          padding-bottom: var(--spacer-md);
+        }
       }
     }
   }
