@@ -56,14 +56,15 @@ $form-control-font-color: var(--font-color);
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: min-content min-content;
-  grid-template-areas: "label label" "input input";
+  grid-template-rows: min-content min-content min-content;
+  grid-template-areas: "label label" "input input" "note note";
   align-items: center;
   column-gap: 16px;
 
   &-inline {
     grid-template-columns: min-content;
-    grid-template-areas: "label input";
+    grid-template-rows: min-content min-content;
+    grid-template-areas: "label input" "offset note";
     column-gap: 8px;
     .form-label {
       margin-bottom: 0px;
@@ -97,6 +98,11 @@ $form-control-font-color: var(--font-color);
   font-size: var(--font-size-xl);
   padding: 0px 12px;
 
+  &-as-text {
+    height: auto;
+    font-size: var(--font-size);
+  }
+
   &-prefix {
     &-with-divider {
       border-right: 1px solid var(--border-color);
@@ -114,6 +120,13 @@ $form-control-font-color: var(--font-color);
       padding-right: 40px;
     }
   }
+}
+
+.form-note {
+  grid-area: note;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-sm);
+  margin-top: 8px;
 }
 
 .form-label {
@@ -154,14 +167,22 @@ select {
   }
 
   &:disabled,
-  &:read-only:not(select) {
+  &:read-only:not(select, [data-trigger-popover]) {
     --input-font-color: #{$text-muted};
     --input-bg: #{$disabled-color};
   }
   &:read-only {
     cursor: pointer;
   }
+  &-lg {
+    height: $form-control-height + 8px;
+    padding: ($form-control-padding-y) ($form-control-padding-x);
 
+    .material-icons-outlined,
+    .material-icons {
+      font-size: $btn-icon-size + 4px;
+    }
+  }
   &-sm {
     height: $form-control-height - 6px;
     padding: ($form-control-padding-y - 4px) ($form-control-padding-x - 4px);
