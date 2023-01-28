@@ -2,6 +2,9 @@
   padding: var(--spacer-md) 24px;
   transition: all 0.375s ease-in-out;
   border-radius: var(--border-radius-xs);
+  &-sm{
+    padding: var(--spacer-md) 12px;
+  }
   &:hover {
     background-color: $default-hover-color;
     & .data-card-hover-content {
