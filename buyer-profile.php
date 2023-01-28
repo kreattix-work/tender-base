@@ -93,7 +93,131 @@
                 </button>
             </div>
         </div>
-        <div id="tabs-1">
+        <div id="tabs-1" class="py-5 box-gy-6">
+            <div class="row">
+                <div class="col-6">
+                    <div class="widget-box bg-primary-light fill-container">
+                        <div class="widget-text">Total Contracts & frameworks awarded</div>
+                        <div class="widget-title text-dark">60</div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="widget-box bg-secondary-light fill-container">
+                        <div class="widget-text">Total contract & framework value</div>
+                        <div class="widget-title text-dark">£488,714,338.1 GBP</div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="widget-box bg-default-light fill-container">
+                        <div class="widget-text">Average contract & framework value</div>
+                        <div class="widget-title text-dark">£488,714,338.1 GBP</div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="widget-box bg-default-light fill-container">
+                        <div class="widget-text">Reported % of value awarded to SMEs</div>
+                        <div class="widget-title text-dark">£488,714,338.1 GBP</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row-divider"></div>
+            <div class="row">
+                <div class="col-12 box-gy-4 font-lg font-weight-sm">
+                    <div>Laboratory, optical and precision equipments (excl. glasses) - 38000000</div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="d-flex align-items-center box-gx-2">
+                                <div class="badge badge-sm bg-primary-light d-inline-flex w-20"></div>
+                                <span>8</span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="d-flex align-items-center box-gx-2">
+                                <div class="badge badge-sm bg-secondary-light d-inline-flex w-50"></div>
+                                <span>£2,164,106.42</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 box-gy-4 font-lg font-weight-sm">
+                    <div>Laboratory, optical and precision equipments (excl. glasses) - 38000000</div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="d-flex align-items-center box-gx-2">
+                                <div class="badge badge-sm bg-primary-light d-inline-flex w-35"></div>
+                                <span>15</span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="d-flex align-items-center box-gx-2">
+                                <div class="badge badge-sm bg-secondary-light d-inline-flex w-25"></div>
+                                <span>£2,164,106.42</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 box-gy-4 font-lg font-weight-sm">
+                    <div>Laboratory, optical and precision equipments (excl. glasses) - 38000000</div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="d-flex align-items-center box-gx-2">
+                                <div class="badge badge-sm bg-primary-light d-inline-flex w-10"></div>
+                                <span>2</span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="d-flex align-items-center box-gx-2">
+                                <div class="badge badge-sm bg-secondary-light d-inline-flex w-35"></div>
+                                <span>£2,164,106.42</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 box-gy-4 font-lg font-weight-sm">
+                    <div>Laboratory, optical and precision equipments (excl. glasses) - 38000000</div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="d-flex align-items-center box-gx-2">
+                                <div class="badge badge-sm bg-primary-light d-inline-flex w-20"></div>
+                                <span>8</span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="d-flex align-items-center box-gx-2">
+                                <div class="badge badge-sm bg-secondary-light d-inline-flex w-50"></div>
+                                <span>£2,164,106.42</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 box-gy-4 font-lg font-weight-sm">
+                    <div>Laboratory, optical and precision equipments (excl. glasses) - 38000000</div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="d-flex align-items-center box-gx-2">
+                                <div class="badge badge-sm bg-primary-light d-inline-flex w-20"></div>
+                                <span>8</span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="d-flex align-items-center box-gx-2">
+                                <div class="badge badge-sm bg-secondary-light d-inline-flex w-50"></div>
+                                <span>£2,164,106.42</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tabs-2">
             <div class="table-responsive">
                 <table class="table">
                     <thead>
@@ -163,15 +287,6 @@
                     </button>
                 </div>
             </div>
-        </div>
-        <div id="tabs-2">
-            <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id
-                nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie
-                lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula
-                suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur
-                ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque
-                convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare
-                leo nisi vel felis. Mauris consectetur tortor et purus.</p>
         </div>
         <div id="tabs-3">
             <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula

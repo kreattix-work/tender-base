@@ -1,14 +1,19 @@
 .widget {
   &-box {
-    min-height: 134px;
+    padding: 16px 16px;
     border-radius: var(--border-radius);
     background-color: $default-hover-color;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     flex-direction: column;
     gap: 8px;
+    &-centered {
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+    &-fixed {
+      min-height: 134px;
+    }
   }
   &-title {
     font-size: var(--font-size-title);
