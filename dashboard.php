@@ -46,19 +46,19 @@
                 <div class="col-24">
                     <div class="row align-items-center">
                         <div class="col-8">
-                            <div class="widget-box bg-primary-light">
+                            <div class="widget-box widget-box-centered widget-box-fixed bg-primary-light">
                                 <div class="widget-title text-primary">Live</div>
                                 <div class="widget-text">1000 Live Tenders</div>
                             </div>
                         </div>
                         <div class="col-8">
-                            <div class="widget-box bg-secondary-light">
+                            <div class="widget-box widget-box-centered widget-box-fixed bg-secondary-light">
                                 <div class="widget-title text-secondary">Awarded</div>
                                 <div class="widget-text">102 awarded Tenders</div>
                             </div>
                         </div>
                         <div class="col-8">
-                            <div class="widget-box bg-tertiary-light">
+                            <div class="widget-box widget-box-centered widget-box-fixed bg-tertiary-light">
                                 <div class="widget-title text-tertiary">Upcoming</div>
                                 <div class="widget-text">102 awarded Tenders</div>
                             </div>
