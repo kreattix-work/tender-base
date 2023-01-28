@@ -7,7 +7,7 @@
     </button>
 </div>
 <div class="content-body box-gy-3">
-    <div class="card">
+    <div class="card shadow-sm">
         <div class="card-body">
             <div class="card-filter-container justify-content-between">
                 <div class="">Department Name</div>
@@ -107,7 +107,7 @@
     </div>
 </div>
 <div class="content-body box-gy-3">
-    <div class="card">
+    <div class="card shadow-sm">
         <div class="card-body">
             <div class="card-filter-container justify-content-between">
                 <div class="">Department Name</div>

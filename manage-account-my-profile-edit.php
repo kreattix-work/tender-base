@@ -14,7 +14,7 @@
 <div class="row">
     <div class="col-16">
         <div class="content-body">
-            <div class="card">
+            <div class="card shadow-sm">
                 <div class="card-body">
                     <div class="ui-tabs">
                         <div class="ui-tabs-header d-flex align-items-center justify-content-between">

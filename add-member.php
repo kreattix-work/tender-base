@@ -9,7 +9,7 @@
     </div>
 </div>
 <div class="content-body">
-    <div class="card py-5">
+    <div class="card shadow-sm py-5">
         <form class="card-body box-gy-6">
             <div class="row">
                 <div class="col-6"></div>

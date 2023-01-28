@@ -1487,6 +1487,28 @@ select {
   border-radius: var(--border-radius-xxs);
 }
 
+.bg-normal {
+  background-color: #585858;
+}
+
+.text-normal {
+  color: #585858 !important;
+}
+
+.border-color-normal {
+  border-color: #585858;
+}
+
+.border-normal {
+  border: 1px solid #585858;
+}
+
+.highlight-normal {
+  background-color: #585858;
+  padding: 0px 4px;
+  border-radius: var(--border-radius-xxs);
+}
+
 .bg-primary {
   background-color: var(--primary);
 }
@@ -2254,6 +2276,10 @@ select {
 
 .w-100 {
   width: 100%;
+}
+
+.min-h-200 {
+  min-height: 200px;
 }
 
 .min-w200 {

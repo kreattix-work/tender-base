@@ -14,7 +14,7 @@
 <div class="row">
     <div class="col-16">
         <div class="content-body">
-            <div class="card">
+            <div class="card shadow-sm">
                 <div class="card-body">
                     <form class="box-gy-4">
                         <div class="form-group d-flex justify-content-between">
