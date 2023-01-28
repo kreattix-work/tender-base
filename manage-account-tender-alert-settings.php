@@ -326,7 +326,7 @@
                     <div class="font-weight-sm text-dark font-xxl py-4">Tender keywords</div>
                     <div class="font-weight-sm text-muted">We will filter tenders based on keywords.</div>
                     <div class="pt-3">
-                        <div class="card bg-default">
+                        <div class="card bg-default no-shadow">
                             <div class="card-body card-body-sm">
                                 <div class="row g-2 chip-row-colored">
                                     <div class="col-auto no-wrap">
