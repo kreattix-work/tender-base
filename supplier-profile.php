@@ -117,7 +117,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>             
+                    </div>
                 </div>
                 <div class="col py-4">
                     <div class="card no-shadow border-placeholder">
@@ -159,7 +159,9 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="text-dark">Award Of Borders College - Mini-Competition Cloud Services Framework Sp-18-027</td>
+                            <td class="text-dark">
+                                Award Of Borders College - Mini-Competition Cloud Services Framework Sp-18-027
+                            </td>
                             <td>185K</td>
                             <td>08/03/2021</td>
                             <td>N/A</td>
@@ -167,7 +169,9 @@
                             <td>08/03/2021</td>
                         </tr>
                         <tr>
-                            <td class="text-dark">Award Of Borders College - Mini-Competition Cloud Services Framework Sp-18-027</td>
+                            <td class="text-dark">
+                                Award Of Borders College - Mini-Competition Cloud Services Framework Sp-18-027
+                            </td>
                             <td>185K</td>
                             <td>08/03/2021</td>
                             <td>N/A</td>
@@ -175,7 +179,9 @@
                             <td>08/03/2021</td>
                         </tr>
                         <tr>
-                            <td class="text-dark">Award Of Borders College - Mini-Competition Cloud Services Framework Sp-18-027</td>
+                            <td class="text-dark">
+                                Award Of Borders College - Mini-Competition Cloud Services Framework Sp-18-027
+                            </td>
                             <td>185K</td>
                             <td>08/03/2021</td>
                             <td>N/A</td>
@@ -183,7 +189,9 @@
                             <td>08/03/2021</td>
                         </tr>
                         <tr>
-                            <td class="text-dark">Award Of Borders College - Mini-Competition Cloud Services Framework Sp-18-027</td>
+                            <td class="text-dark">
+                                Award Of Borders College - Mini-Competition Cloud Services Framework Sp-18-027
+                            </td>
                             <td>185K</td>
                             <td>08/03/2021</td>
                             <td>N/A</td>
@@ -191,7 +199,9 @@
                             <td>08/03/2021</td>
                         </tr>
                         <tr>
-                            <td class="text-dark">Award Of Borders College - Mini-Competition Cloud Services Framework Sp-18-027</td>
+                            <td class="text-dark">
+                                Award Of Borders College - Mini-Competition Cloud Services Framework Sp-18-027
+                            </td>
                             <td>185K</td>
                             <td>08/03/2021</td>
                             <td>N/A</td>
@@ -199,7 +209,9 @@
                             <td>08/03/2021</td>
                         </tr>
                         <tr>
-                            <td class="text-dark">Award Of Borders College - Mini-Competition Cloud Services Framework Sp-18-027</td>
+                            <td class="text-dark">
+                                Award Of Borders College - Mini-Competition Cloud Services Framework Sp-18-027
+                            </td>
                             <td>185K</td>
                             <td>08/03/2021</td>
                             <td>N/A</td>
@@ -344,7 +356,6 @@
                 porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas
                 commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
         </div>
-
     </div>
 </div>
 
@@ -352,66 +363,68 @@
 <?php include_once './includes/footer.php'; ?>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
-  //DoughnutChart 
-  const doughnutChart = document.getElementById('myDoughnutChart');
+//DoughnutChart 
+const doughnutChart = document.getElementById('myDoughnutChart');
 
-  new Chart(doughnutChart, {
+new Chart(doughnutChart, {
     type: 'doughnut',
     data: {
-      labels: ['Awarded', 'Total'],
-      datasets: [{
-        backgroundColor: [
-        '#E5F1F0',
-        '#83BFB8'
-        ],
-        data: [25, 75],
-        borderWidth: 0,
-        cutout: '12%'
-      }]
+        labels: ['Awarded', 'Total'],
+        datasets: [{
+            backgroundColor: [
+                '#E5F1F0',
+                '#83BFB8'
+            ],
+            data: [25, 75],
+            borderWidth: 0,
+            cutout: '12%'
+        }]
     },
     options: {
-      scales: {
-        y: {
-          display: false
-        },
-        x: {
-          display: false
-        }
-      }
-    }
-  });
-
-  //BarChart   
-  const barChart = document.getElementById('myBarChart');
-
-  new Chart(barChart, {
-    type: 'bar',
-    data: {
-      labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-      datasets: [{
-        data: [0, 0, 0, 0, 0, 0, 0.6, 1.5, 0, 0, 2.6, 0],
-        borderWidth: 1,
-        borderRadius: 50,
-        backgroundColor: ["#CDEBE8","#CDEBE8","#CDEBE8","#CDEBE8","#CDEBE8","#CDEBE8","#CDEBE8","#CDEBE8","#CDEBE8","#CDEBE8", "#83BFB8", "#83BFB8"] 
-      }]
-    },
-    options: {
-      plugins: {
-        legend: {
-          display: false
-        }
-      },
-      scales: {
-        y: {
-          beginAtZero: true,
-        },
-        x: {
-            display: true,
-            grid: {
+        scales: {
+            y: {
+                display: false
+            },
+            x: {
                 display: false
             }
         }
-      }
     }
-  });
+});
+
+//BarChart   
+const barChart = document.getElementById('myBarChart');
+
+new Chart(barChart, {
+    type: 'bar',
+    data: {
+        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+        datasets: [{
+            data: [0, 0, 0, 0, 0, 0, 0.6, 1.5, 0, 0, 2.6, 0],
+            borderWidth: 1,
+            borderRadius: 50,
+            backgroundColor: ["#CDEBE8", "#CDEBE8", "#CDEBE8", "#CDEBE8", "#CDEBE8", "#CDEBE8",
+                "#CDEBE8", "#CDEBE8", "#CDEBE8", "#CDEBE8", "#83BFB8", "#83BFB8"
+            ]
+        }]
+    },
+    options: {
+        plugins: {
+            legend: {
+                display: false
+            }
+        },
+        scales: {
+            y: {
+                beginAtZero: true,
+            },
+            x: {
+                display: true,
+                grid: {
+                    display: false
+                }
+            }
+        }
+    }
+});
 </script>

@@ -2,7 +2,8 @@
 
 <div class="content-header py-4">
     <div class="box-gy-4">
-        <div class="content-header-title">GB-Merseyside: RFCA (NW) Merseyside Cadet Hut Refurbishments - Tenderbase</div>
+        <div class="content-header-title">GB-Merseyside: RFCA (NW) Merseyside Cadet Hut Refurbishments - Tenderbase
+        </div>
         <div>
             <span class="text-muted font-weight-sm">Authority :</span>
             <span class="font-lg">Department for Business, Energy & Industrial Strategy (BEIS)</span>
@@ -51,7 +52,11 @@
                 <div class="box-gy-2">
                     <div class="font-weight-sm font-lg text-muted">Descriptions</div>
                     <div>
-                        <span class="font-weight-sm">The WEA is seeking to secure a supply chain of providers to support delivery of Multiply funded activity in the Greater Manchester Combined Authority area. We are inviting expressions of interest (EOI) from organisations that wish to deliver GMCA Multiply courses as part of our supply chain. We wish to hear from organisations with.....</span>
+                        <span class="font-weight-sm">The WEA is seeking to secure a supply chain of providers to support
+                            delivery of Multiply funded activity in the Greater Manchester Combined Authority area. We
+                            are inviting expressions of interest (EOI) from organisations that wish to deliver GMCA
+                            Multiply courses as part of our supply chain. We wish to hear from organisations
+                            with.....</span>
                         <span class="text-dark">SEE MORE.</span>
                     </div>
                 </div>
@@ -107,8 +112,10 @@
                         <div class="col box-gy-2">
                             <div class="font-weight-sm font-lg text-muted">Buyer Info :</div>
                             <div class="box-gy-1">
-                                <div class="font-lg text-dark">Department for Business, Energy & Industrial Strategy (BEIS)</div>
-                                <div><span class="font-weight-sm">Address -</span> Oxford Nanopore Technologies Limited, Oxford.</div>
+                                <div class="font-lg text-dark">Department for Business, Energy & Industrial Strategy
+                                    (BEIS)</div>
+                                <div><span class="font-weight-sm">Address -</span> Oxford Nanopore Technologies Limited,
+                                    Oxford.</div>
                                 <div><span class="font-weight-sm">Phone number -</span> 1334444233</div>
                                 <div>
                                     <span class="font-weight-sm">Email - </span>
@@ -156,7 +163,7 @@
                             <div class="text-dark">Value excluding VAT: £256,700,000</div>
                         </div>
                         <div class="col-auto box-gy-1 font-weight-sm">
-                            <button class="btn btn-outlined-primary">
+                            <button data-trigger-modal="#tender-modal" class="btn btn-outlined-primary">
                                 <span>See Lot Info</span>
                             </button>
                         </div>
@@ -178,12 +185,15 @@
                                                     <span class="material-icons-outlined icon-sm">room</span>
                                                     <span class="font-weight-sm">United Kingdom</span>
                                                 </div>
-                                                <div class="text-dark font-lg">Framework - Multiple Operators As Listed In Section Vi</div>
-                                                <div class="font-weight-sm text-muted">Framework - Multiple Operators as listed in Section VI</div>
+                                                <div class="text-dark font-lg">Framework - Multiple Operators As Listed
+                                                    In Section Vi</div>
+                                                <div class="font-weight-sm text-muted">Framework - Multiple Operators as
+                                                    listed in Section VI</div>
                                             </div>
                                             <div class="box-gy-1">
                                                 <div class="font-weight-sm text-muted">Last Awarded Tender</div>
-                                                <div class="text-secondary">S/10353 National Framework Apprenticeship Training & End Point Assessment, Tranche 1 March 2021</div>
+                                                <div class="text-secondary">S/10353 National Framework Apprenticeship
+                                                    Training & End Point Assessment, Tranche 1 March 2021</div>
                                                 <div class="font-weight-sm text-muted">Date - 06/04/2021</div>
                                             </div>
                                         </div>
@@ -227,8 +237,10 @@
                                                 <span class="material-icons-outlined icon-sm">room</span>
                                                 <span class="font-weight-sm">United Kingdom</span>
                                             </div>
-                                            <div class="text-dark font-lg">Framework - Multiple Operators As Listed In Section Vi</div>
-                                            <div class="font-weight-sm text-muted">Framework - Multiple Operators as listed in Section VI</div>
+                                            <div class="text-dark font-lg">Framework - Multiple Operators As Listed In
+                                                Section Vi</div>
+                                            <div class="font-weight-sm text-muted">Framework - Multiple Operators as
+                                                listed in Section VI</div>
                                         </div>
                                     </div>
                                 </div>
@@ -248,8 +260,10 @@
                                                 <span class="material-icons-outlined icon-sm">room</span>
                                                 <span class="font-weight-sm">United Kingdom</span>
                                             </div>
-                                            <div class="text-dark font-lg">Framework - Multiple Operators As Listed In Section Vi</div>
-                                            <div class="font-weight-sm text-muted">Framework - Multiple Operators as listed in Section VI</div>
+                                            <div class="text-dark font-lg">Framework - Multiple Operators As Listed In
+                                                Section Vi</div>
+                                            <div class="font-weight-sm text-muted">Framework - Multiple Operators as
+                                                listed in Section VI</div>
                                         </div>
                                     </div>
                                 </div>
@@ -345,15 +359,72 @@
         </div>
     </div>
 </div>
-
-<button data-trigger-modal="#tender-modal">Open Modal</button>
-
 <div class="modal" id="tender-modal">
     <div class="modal-dialog">
-        <div class="modal-body">
-            <button class="btn btn-square" data-dismiss-modal="#tender-modal">
-                <span class="material-icons">close</span>
-            </button>
+        <div class="modal-body box-gy-6">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="font-xxl text-dark">Showing 3 Lots informations</div>
+                <button class="btn btn-square" data-dismiss-modal="#tender-modal">
+                    <span class="material-icons">close</span>
+                </button>
+            </div>
+            <div class="box-gy-1">
+                <div class="text-muted font-weight-400">Title</div>
+                <div class="text-dark">Hearing Aids</div>
+            </div>
+            <div class="box-gy-1">
+                <div class="text-muted font-weight-400">Lot No</div>
+                <div class="text-dark">1</div>
+            </div>
+            <div class="box-gy-1">
+                <div class="text-muted font-weight-400">Additional CPV code(s)</div>
+                <li class="text-dark">33185000 - Hearing aids</li>
+            </div>
+            <div class="box-gy-1">
+                <div class="text-muted font-weight-400">Place of performance NUTS codes</div>
+                <li class="text-dark">UK - United states</li>
+            </div>
+            <div class="box-gy-1">
+                <div class="text-muted font-weight-400">Main site or place of performance</div>
+                <div class="text-dark">This Lot covers a range of Hearing Aids for adults with mild to moderate hearing
+                    loss, moderate to severe hearing loss (multiple power Hearing Aids), and severe to profound hearing
+                    loss (high/super power Hearing Aids), paediatric Hearing Aids and innovation Hearing Aids, including
+                    re-chargeable devices. These include but are not limited to;</div>
+            </div>
+            <ul class="box-gy-1">
+                <li class="text-dark">BTE (Behind the Ear) — Moderate Power,</li>
+                <li class="text-dark">Mini BTE (Behind the Ear) — Moderate Power,</li>
+                <li class="text-dark">ITE (In the Ear) — Moderate Power,</li>
+                <li class="text-dark">BTE (Behind the Ear) — Moderate Power,</li>
+                <li class="text-dark">Mini BTE (Behind the Ear) — Moderate Power,</li>
+                <li class="text-dark">ITE (In the Ear) — Moderate Power,</li>
+            </ul>
+            <div class="box-gy-1">
+                <div class="text-muted font-weight-400">This lot will also cover essential components including:</div>
+                <li class="text-dark">Tubing</li>
+                <li class="text-dark">Domes</li>
+            </div>
+            <div class="box-gy-1">
+                <div class="text-muted font-weight-400">Award criteria</div>
+                <div class="text-dark">Quality criterion - Name: Audiologist Support / Weighting: 2</div>
+                <div class="text-dark">Quality criterion - Name: Covid Recovery / Weighting: 10</div>
+                <div class="text-dark">Quality criterion - Name: Social Equality / Weighting: 3</div>
+            </div>
+            <div class="box-gy-1">
+                <div class="text-muted font-weight-400">Information about options</div>
+                <div class="text-dark">Options: Yes</div>
+            </div>
+            <div class="box-gy-1">
+                <div class="text-muted font-weight-400">Description of options</div>
+                <div class="text-dark">The procurement is related to a project and/or programme financed by European
+                    Union funds: No</div>
+            </div>
+            <div class="box-gy-1">
+                <div class="text-muted font-weight-400">Additional information</div>
+                <div class="text-dark">NHS Supply Chain anticipates appointing all applicants who have met the minimum
+                    requirements which are set out in these tender documents and whose total score meets or exceeds a
+                    hurdle of at least 30 % at tender evaluation stage.</div>
+            </div>
         </div>
     </div>
 </div>

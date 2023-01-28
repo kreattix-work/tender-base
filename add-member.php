@@ -123,7 +123,7 @@
             </div>
             <div class="row">
                 <div class="col-6 text-right font-lg text-dark mt-3">
-                    <labels for="fname">Assign Category & Location</label>
+                    <label for="fname">Assign Category & Location</label>
                 </div>
                 <div class="col-12">
                     <div class="row">
@@ -135,7 +135,7 @@
                         <div class="form-group flex-1">
                             <span class="input-icon input-icon-prefix material-icons-outlined">location_on</span>
                             <select class="form-control form-control-lg font-lg font-weight-sm">
-                                <option value="6"> 15 selected</option>
+                                <option value=""> 15 selected</option>
                             </select>
                         </div>
                     </div>
