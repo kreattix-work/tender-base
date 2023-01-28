@@ -14,7 +14,7 @@
 <div class="row">
     <div class="col-16">
         <div class="content-body">
-            <div class="card">
+            <div class="card shadow-sm">
                 <div class="card-body">
                     <div class="ui-tabs">
                         <div class="ui-tabs-header d-flex align-items-center justify-content-between">
@@ -35,12 +35,18 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-12">
-                                        <label class="font-weight-sm">Email Address</label>
-                                        <input type="email" class="font-lg font-weight-sm form-control form-control-lg">
+                                        <div class="form-group">
+                                            <label class="font-weight-sm">Email Address</label>
+                                            <input type="email"
+                                                class="font-lg font-weight-sm form-control form-control-lg">
+                                        </div>
                                     </div>
                                     <div class="col-12">
-                                        <label class="font-weight-sm">Mobile</label>
-                                        <input type="text" class="font-lg font-weight-sm form-control form-control-lg">
+                                        <div class="form-group">
+                                            <label class="font-weight-sm">Mobile</label>
+                                            <input type="text"
+                                                class="font-lg font-weight-sm form-control form-control-lg">
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -110,14 +116,19 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-12">
-                                        <label class="font-weight-sm">City</label>
-                                        <input type="text" class="font-lg font-weight-sm form-control form-control-lg">
+                                        <div class="form-group">
+                                            <label class="font-weight-sm">City</label>
+                                            <input type="text"
+                                                class="font-lg font-weight-sm form-control form-control-lg">
+                                        </div>
                                     </div>
                                     <div class="col-12">
-                                        <label class="font-weight-sm">Country</label>
-                                        <select class="form-control form-control-lg font-lg font-weight-sm">
-                                            <option value="">Type</option>
-                                        </select>
+                                        <div class="form-group">
+                                            <label class="font-weight-sm">Country</label>
+                                            <select class="form-control form-control-lg font-lg font-weight-sm">
+                                                <option value="">Type</option>
+                                            </select>
+                                        </div>
                                     </div>
                                 </div>
                             </form>
