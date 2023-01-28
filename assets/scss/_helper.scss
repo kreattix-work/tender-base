@@ -40,7 +40,6 @@
   font-size: 16px !important;
 }
 
-// default
 // font-size: 12px (default)
 // font-lg: 14px
 // font-xl: 16px
@@ -48,7 +47,7 @@
 // font-weight: 500 (default)
 // font-weight-sm: 400
 // font-weight-lg: 600
-// font-color: black400 (default) 
+// font-color: black400 (default)
 // text-dark: black500
 // text-muted: black300
 
@@ -181,6 +180,10 @@
   }
 }
 
+.min-w200 {
+  min-width: 200px;
+}
+
 .text-nowrap {
   white-space: nowrap;
 }
@@ -203,6 +206,9 @@
 }
 .shadow-sm {
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.03);
+}
+.no-bg {
+  background-color: transparent;
 }
 
 .text-right {

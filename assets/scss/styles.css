@@ -1316,6 +1316,45 @@ select {
   padding: var(--spacer);
 }
 
+.chip {
+  --chip-border-color: $black-200;
+  font-weight: var(--font-weight-sm);
+  background-color: #f6f6f6;
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid var(--chip-border-color);
+}
+.chip .chip-icon {
+  font-size: 16px;
+  margin-left: 8px;
+}
+.chip-primary {
+  --chip-border-color: var(--primary-light);
+  color: var(--primary);
+}
+.chip-secondary {
+  --chip-border-color: var(--secondary-light);
+  color: var(--secondary);
+}
+.chip-tertiary {
+  --chip-border-color: var(--tertiary-light);
+  color: var(--tertiary);
+}
+.chip-danger {
+  --chip-border-color: var(--danger-light);
+  color: var(--danger);
+}
+.chip-dark {
+  --chip-border-color: var(--black-200);
+  color: var(--black-400);
+}
+
+.chip-row-colored .chip {
+  background-color: #ffffff;
+}
+
 .bg-white {
   background-color: var(--white);
 }
@@ -2217,6 +2256,10 @@ select {
   width: 100%;
 }
 
+.min-w200 {
+  min-width: 200px;
+}
+
 .text-nowrap {
   white-space: nowrap;
 }
@@ -2242,6 +2285,10 @@ select {
 
 .shadow-sm {
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.03);
+}
+
+.no-bg {
+  background-color: transparent;
 }
 
 .text-right {
