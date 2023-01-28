@@ -1077,6 +1077,9 @@ select {
   transition: all 0.375s ease-in-out;
   border-radius: var(--border-radius-xs);
 }
+.data-card-sm {
+  padding: var(--spacer-md) 12px;
+}
 .data-card:hover {
   background-color: #f6f6f6;
 }
