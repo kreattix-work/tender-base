@@ -11,7 +11,7 @@
     </div>
 </div>
 <div class="content-body box-gy-3">
-    <div class="card">
+    <div class="card shadow-sm">
         <div class="card-body card-filter-container">
             <button class="btn btn-text p-0 no-hover">
                 <span class="material-icons">arrow_drop_down</span>
@@ -20,7 +20,8 @@
             <div class="col-divider"></div>
             <div class="form-group form-group-type-text flex-1">
                 <span class="input-icon input-icon-prefix material-icons">search</span>
-                <input type="text" placeholder="Title or Tender id" class="form-control form-control-rounded form-control-sm">
+                <input type="text" placeholder="Title or Tender id"
+                    class="form-control form-control-rounded form-control-sm">
             </div>
             <span>In:</span>
             <div class="col-divider"></div>
@@ -49,7 +50,8 @@
                                     </div>
                                     <span>Agriculture and food</span>
                                 </label>
-                                <span data-collapse="#collapseid-1" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                <span data-collapse="#collapseid-1"
+                                    class="dropdown-menu-icon material-icons">arrow_drop_down</span>
                             </div>
                             <div id="collapseid-1" class="collapse show ps-3 ms-3 box-gy-3">
                                 <label class="form-checkbox-container">
@@ -57,7 +59,8 @@
                                     <div class="form-checkbox-indicator">
                                         <span class="material-icons-outlined">done</span>
                                     </div>
-                                    <span class="font-weight-sm">Agricultural, forestry, horticultural, aquacultural and apicultural services.</span>
+                                    <span class="font-weight-sm">Agricultural, forestry, horticultural, aquacultural and
+                                        apicultural services.</span>
                                 </label>
                             </div>
                             <div class="d-flex align-items-center">
@@ -68,7 +71,8 @@
                                     </div>
                                     <span>Computer and related service</span>
                                 </label>
-                                <span data-collapse="#collapseid-2" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                <span data-collapse="#collapseid-2"
+                                    class="dropdown-menu-icon material-icons">arrow_drop_down</span>
                             </div>
                             <div id="collapseid-2" class="collapse ps-3 ms-3 box-gy-3">
                                 <label class="form-checkbox-container">
@@ -101,7 +105,8 @@
                                     </div>
                                     <span>Construction & Real estate</span>
                                 </label>
-                                <span data-collapse="#collapseid-3" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                <span data-collapse="#collapseid-3"
+                                    class="dropdown-menu-icon material-icons">arrow_drop_down</span>
                             </div>
                             <div id="collapseid-3" class="collapse ps-3 ms-3 box-gy-3">
                                 <label class="form-checkbox-container">
@@ -134,7 +139,8 @@
                                     </div>
                                     <span>Education</span>
                                 </label>
-                                <span data-collapse="#collapseid-4" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                <span data-collapse="#collapseid-4"
+                                    class="dropdown-menu-icon material-icons">arrow_drop_down</span>
                             </div>
                             <div id="collapseid-4" class="collapse ps-3 ms-3 box-gy-3">
                                 <label class="form-checkbox-container">
@@ -167,7 +173,8 @@
                                     </div>
                                     <span>Other</span>
                                 </label>
-                                <span data-collapse="#collapseid-5" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                <span data-collapse="#collapseid-5"
+                                    class="dropdown-menu-icon material-icons">arrow_drop_down</span>
                             </div>
                             <div id="collapseid-5" class="collapse ps-3 ms-3 box-gy-3">
                                 <label class="form-checkbox-container">
@@ -200,7 +207,8 @@
                                     </div>
                                     <span>Other</span>
                                 </label>
-                                <span data-collapse="#collapseid-6" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                <span data-collapse="#collapseid-6"
+                                    class="dropdown-menu-icon material-icons">arrow_drop_down</span>
                             </div>
                             <div id="collapseid-6" class="collapse ps-3 ms-3 box-gy-3">
                                 <label class="form-checkbox-container">
@@ -284,7 +292,7 @@
             </button>
         </div>
     </div>
-    <div class="card">
+    <div class="card shadow-sm">
         <div class="card-body d-flex justify-content-between">
             <div class="card-filter-container">
                 <button class=" btn btn-text btn-outlined-dark p-0 no-hover">
@@ -317,7 +325,8 @@
                                         </div>
                                         <span>UK</span>
                                     </label>
-                                    <span data-collapse="#collapse-location-1" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                    <span data-collapse="#collapse-location-1"
+                                        class="dropdown-menu-icon material-icons">arrow_drop_down</span>
                                 </div>
                                 <div id="collapse-location-1" class="collapse show ps-3 ms-3 box-gy-3">
                                     <label class="form-checkbox-container">
@@ -378,7 +387,8 @@
                                         </div>
                                         <span>Ireland</span>
                                     </label>
-                                    <span data-collapse="#collapse-location-2" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                    <span data-collapse="#collapse-location-2"
+                                        class="dropdown-menu-icon material-icons">arrow_drop_down</span>
                                 </div>
                                 <div id="collapse-location-2" class="collapse ps-3 ms-3 box-gy-3">
                                     <label class="form-checkbox-container">
@@ -436,7 +446,8 @@
                                 <div class="form-group">
                                     <label for="" class="form-label">Published to</label>
                                     <span class="input-icon input-icon-sufix material-icons">date_range</span>
-                                    <input type="text" class="form-control date-picker" value="04-12-2022" placeholder="Type name">
+                                    <input type="text" class="form-control date-picker" value="04-12-2022"
+                                        placeholder="Type name">
                                 </div>
                             </div>
                         </div>
@@ -466,12 +477,16 @@
                                 <div class="form-group">
                                     <label for="" class="form-label">Tender value range</label>
                                     <div class="form-group">
-                                        <span class="input-icon input-icon-prefix font-md mb-7px text-no-wrap">From : <span class="text-dark">£</span></span>
-                                        <input class="form-control date-picker ps-62px" value="0" placeholder="Type name">
+                                        <span class="input-icon input-icon-prefix font-md mb-7px text-no-wrap">From :
+                                            <span class="text-dark">£</span></span>
+                                        <input class="form-control date-picker ps-62px" value="0"
+                                            placeholder="Type name">
                                     </div>
                                     <div class="form-group">
-                                        <span class="input-icon input-icon-prefix font-md mb-7px text-no-wrap">To : <span class="text-dark">£</span></span>
-                                        <input class="form-control date-picker ps-48px" value="0" placeholder="Type name">
+                                        <span class="input-icon input-icon-prefix font-md mb-7px text-no-wrap">To :
+                                            <span class="text-dark">£</span></span>
+                                        <input class="form-control date-picker ps-48px" value="0"
+                                            placeholder="Type name">
                                     </div>
                                 </div>
                                 <div>
@@ -495,7 +510,8 @@
                 <div class="col-divider"></div>
                 <div class="form-group" data-trigger-popover="#popover-search">
                     <span class="input-icon material-icons">search</span>
-                    <input type="text" placeholder="Search by town" class="form-control form-control-rounded form-control-sm">
+                    <input type="text" placeholder="Search by town"
+                        class="form-control form-control-rounded form-control-sm">
                 </div>
                 <div id="popover-search" class="popover-dialog" id="popoverid-4">
                     <div class="popover-content box-gy-3">
@@ -609,8 +625,10 @@
                     <div class="row gx-0">
                         <div class="col box-gy-3">
                             <div class="d-flex align-items-center box-gx-2">
-                                <span class="font-lg text-dark">GB-Merseyside: RFCA (NW) Merseyside Cadet Hut Refurbishments</span>
-                                <span class="font-weight-sm text-dark highlight-secondary-light">Possible bidding competitors</span>
+                                <span class="font-lg text-dark">GB-Merseyside: RFCA (NW) Merseyside Cadet Hut
+                                    Refurbishments</span>
+                                <span class="font-weight-sm text-dark highlight-secondary-light">Possible bidding
+                                    competitors</span>
                                 <span class="material-icons-outlined icon-sm">done_all</span>
                                 <button class="btn btn-xs btn-rounded no-hover">
                                     <div class="font-sm text-muted">
@@ -709,7 +727,8 @@
                                         <button class="btn btn-primary btn-flat flex-1 close-popover">Save</button>
                                     </div>
                                 </div>
-                                <div class="box-gx-1 d-flex align-items-center" data-trigger-popover="#popover-assign-tender-1">
+                                <div class="box-gx-1 d-flex align-items-center"
+                                    data-trigger-popover="#popover-assign-tender-1">
                                     <span class="text-muted icon-sm material-icons-outlined">person_add_alt_1</span>
                                     <span>Assign tender to</span>
                                 </div>
@@ -753,8 +772,10 @@
                     <div class="row gx-0">
                         <div class="col box-gy-3">
                             <div class="d-flex align-items-center box-gx-2">
-                                <span class="font-lg text-dark">GB-Merseyside: RFCA (NW) Merseyside Cadet Hut Refurbishments</span>
-                                <span class="font-weight-sm text-dark highlight-secondary-light">Possible bidding competitors</span>
+                                <span class="font-lg text-dark">GB-Merseyside: RFCA (NW) Merseyside Cadet Hut
+                                    Refurbishments</span>
+                                <span class="font-weight-sm text-dark highlight-secondary-light">Possible bidding
+                                    competitors</span>
                                 <span class="material-icons-outlined icon-sm">done_all</span>
                                 <button class="btn btn-hovered btn-rounded btn-xs p-1 no-border">
                                     <span class="material-icons-outlined icon-sm">remove_red_eye</span>
@@ -857,7 +878,8 @@
                                         <button class="btn btn-primary btn-flat flex-1 close-popover">Save</button>
                                     </div>
                                 </div>
-                                <div class="box-gx-1 d-flex align-items-center" data-trigger-popover="#popover-assign-tender-2">
+                                <div class="box-gx-1 d-flex align-items-center"
+                                    data-trigger-popover="#popover-assign-tender-2">
                                     <span class="text-secondary icon-sm material-icons-outlined">person_add_alt_1</span>
                                     <span>Assigned To :</span>
                                     <span class="text-secondary">TEAM NAME (Member Name)</span>
@@ -902,8 +924,10 @@
                     <div class="row gx-0">
                         <div class="col box-gy-3">
                             <div class="d-flex align-items-center box-gx-2">
-                                <span class="font-lg text-dark">GB-Merseyside: RFCA (NW) Merseyside Cadet Hut Refurbishments</span>
-                                <span class="font-weight-sm text-dark highlight-secondary-light">Possible bidding competitors</span>
+                                <span class="font-lg text-dark">GB-Merseyside: RFCA (NW) Merseyside Cadet Hut
+                                    Refurbishments</span>
+                                <span class="font-weight-sm text-dark highlight-secondary-light">Possible bidding
+                                    competitors</span>
                                 <span class="material-icons-outlined icon-sm">done_all</span>
                                 <button class="btn btn-hovered btn-rounded btn-xs p-1 no-border">
                                     <span class="material-icons-outlined icon-sm">remove_red_eye</span>
@@ -1007,7 +1031,8 @@
                                         <button class="btn btn-primary btn-flat flex-1 close-popover">Save</button>
                                     </div>
                                 </div>
-                                <div class="box-gx-1 d-flex align-items-center" data-trigger-popover="#popover-assign-tender-3">
+                                <div class="box-gx-1 d-flex align-items-center"
+                                    data-trigger-popover="#popover-assign-tender-3">
                                     <span class="text-primary icon-sm material-icons-outlined">person_add_alt_1</span>
                                     <span>Assigned To</span>
                                     <span class="text-primary">TEAM NAME (Member Name)</span>
@@ -1052,8 +1077,10 @@
                     <div class="row gx-0">
                         <div class="col box-gy-3">
                             <div class="d-flex align-items-center box-gx-2">
-                                <span class="font-lg text-dark">GB-Merseyside: RFCA (NW) Merseyside Cadet Hut Refurbishments</span>
-                                <span class="font-weight-sm text-dark highlight-secondary-light">Possible bidding competitors</span>
+                                <span class="font-lg text-dark">GB-Merseyside: RFCA (NW) Merseyside Cadet Hut
+                                    Refurbishments</span>
+                                <span class="font-weight-sm text-dark highlight-secondary-light">Possible bidding
+                                    competitors</span>
                                 <button class="btn btn-hovered btn-rounded btn-xs p-1 no-border">
                                     <span class="material-icons-outlined icon-sm">remove_red_eye</span>
                                 </button>
@@ -1149,7 +1176,8 @@
                                         <button class="btn btn-primary btn-flat flex-1 close-popover">Save</button>
                                     </div>
                                 </div>
-                                <div class="box-gx-1 d-flex align-items-center" data-trigger-popover="#popover-assign-tender-4">
+                                <div class="box-gx-1 d-flex align-items-center"
+                                    data-trigger-popover="#popover-assign-tender-4">
                                     <span class="text-primary icon-sm material-icons-outlined">person_add_alt_1</span>
                                     <span>Assigned To</span>
                                     <span class="text-primary">TEAM NAME (Member Name)</span>

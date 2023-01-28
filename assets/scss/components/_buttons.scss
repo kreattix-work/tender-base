@@ -58,6 +58,10 @@
     height: $btn-height + 6px;
     padding: ($btn-padding-y + 4px) $btn-padding-x;
     font-size: var(--font-size-lg);
+    &.btn-square {
+      width: 40px;
+      height: 40px;
+    }
   }
   &-sm {
     height: $btn-height - 6px;
