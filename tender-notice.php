@@ -346,4 +346,16 @@
     </div>
 </div>
 
+<button data-trigger-modal="#tender-modal">Open Modal</button>
+
+<div class="modal" id="tender-modal">
+    <div class="modal-dialog">
+        <div class="modal-body">
+            <button class="btn btn-square" data-dismiss-modal="#tender-modal">
+                <span class="material-icons">close</span>
+            </button>
+        </div>
+    </div>
+</div>
+
 <?php include_once './includes/footer.php'; ?>

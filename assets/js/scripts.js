@@ -68,4 +68,32 @@ $(function () {
       format: "dd-M-yyyy",
     });
   });
+
+  $("[data-trigger-modal]").on("click", function () {
+    const button = $(this);
+    const modal = $(button.data("trigger-modal"));
+    if (modal.length) {
+      modal.addClass("show");
+    }
+  });
+  $("[data-dismiss-modal]").on("click", function () {
+    const button = $(this);
+    const modal = $(button.data("dismiss-modal"));
+    if (modal.length) {
+      modal.addClass("hiding");
+      setTimeout(function () {
+        modal.removeClass("show hiding");
+      }, 400);
+    }
+  });
+
+  $(".modal").on("click", function (e) {
+    const modal = $(this);
+    if (modal.length && e.target === this) {
+      modal.addClass("hiding");
+      setTimeout(function () {
+        modal.removeClass("show hiding");
+      }, 400);
+    }
+  });
 });
