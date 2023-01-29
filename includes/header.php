@@ -7,11 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined&family=Material+Icons"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined&family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/assets/plugins/bootstrap/bootstrap-grid.css" />
@@ -94,8 +92,8 @@
                             </a>
                             <ul class="sider-submenu">
                                 <li class="sider-submenu-item">
-                                    <div class="box-gy-2 px-2 pb-2">
-                                        <div class="d-flex justify-content-between px-2">
+                                    <div class="box-gy-2 pb-2">
+                                        <div class="d-flex justify-content-between px-4">
                                             <div class="">
                                                 <div class="">My Folder <strong>(4)</strong></div>
                                                 <div class="font-sm font-weignt-sm text-muted">Create & customize tender</div>
@@ -104,12 +102,12 @@
                                                 <span class="material-icons-outlined">add</span>
                                             </button>
                                         </div>
-                                        <div class="d-flex justify-content-between bg-primary-light-hover transition radius-2 px-2 py-1">
+                                        <div class="d-flex justify-content-between bg-primary-light-hover transition px-4 py-1">
                                             <div class="d-flex align-items-center box-gx-2">
                                                 <span class="icon-sm material-icons-outlined">folder</span>
                                                 <div>All (<span class="text-primary">100</span>)</div>
                                             </div>
-                                            <div class="hover-popover">
+                                            <div class="hover-popover d-flex align-items-center">
                                                 <span class="text-primary material-icons-outlined icon-sm">more_vert</span>
                                                 <div class="hover-popover-item">
                                                     <button class="btn btn-text justify-content-start hover-popover-item-button">Rename</button>
@@ -117,12 +115,12 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="d-flex justify-content-between bg-primary-light-hover transition radius-2 px-2 py-1">
+                                        <div class="d-flex justify-content-between bg-primary-light-hover transition px-4 py-1">
                                             <div class="d-flex align-items-center box-gx-2">
                                                 <span class="icon-sm material-icons-outlined">folder</span>
                                                 <div>Real- Estate(<span class="text-primary">10</span>)</div>
                                             </div>
-                                            <div class="hover-popover">
+                                            <div class="hover-popover d-flex align-items-center">
                                                 <span class="text-primary material-icons-outlined icon-sm">more_vert</span>
                                                 <div class="hover-popover-item">
                                                     <button class="btn btn-text justify-content-start hover-popover-item-button">Rename</button>
@@ -130,12 +128,12 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="d-flex justify-content-between bg-primary-light-hover transition radius-2 px-2 py-1">
+                                        <div class="d-flex justify-content-between bg-primary-light-hover transition px-4 py-1">
                                             <div class="d-flex align-items-center box-gx-2">
                                                 <span class="icon-sm material-icons-outlined">folder</span>
                                                 <div>Computer Services(<span class="text-primary">25</span>)</div>
                                             </div>
-                                            <div class="hover-popover">
+                                            <div class="hover-popover d-flex align-items-center">
                                                 <span class="text-primary material-icons-outlined icon-sm">more_vert</span>
                                                 <div class="hover-popover-item">
                                                     <button class="btn btn-text justify-content-start hover-popover-item-button">Rename</button>
@@ -143,12 +141,12 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="d-flex justify-content-between bg-primary-light-hover transition radius-2 px-2 py-1">
+                                        <div class="d-flex justify-content-between bg-primary-light-hover transition px-4 py-1">
                                             <div class="d-flex align-items-center box-gx-2">
                                                 <span class="icon-sm material-icons-outlined">folder</span>
                                                 <div>Agriculture and Farm..(<span class="text-primary">55</span>)</div>
                                             </div>
-                                            <div class="hover-popover">
+                                            <div class="hover-popover d-flex align-items-center">
                                                 <span class="text-primary material-icons-outlined icon-sm">more_vert</span>
                                                 <div class="hover-popover-item">
                                                     <button class="btn btn-text justify-content-start hover-popover-item-button">Rename</button>
@@ -156,12 +154,12 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="d-flex justify-content-between bg-primary-light-hover transition radius-2 px-2 py-1">
+                                        <div class="d-flex justify-content-between bg-primary-light-hover transition px-4 py-1">
                                             <div class="d-flex align-items-center box-gx-2">
                                                 <span class="icon-sm material-icons-outlined">folder</span>
                                                 <div>Food (<span class="text-primary">10</span>)</div>
                                             </div>
-                                            <div class="hover-popover">
+                                            <div class="hover-popover d-flex align-items-center">
                                                 <span class="text-primary material-icons-outlined icon-sm">more_vert</span>
                                                 <div class="hover-popover-item">
                                                     <button class="btn btn-text justify-content-start hover-popover-item-button">Rename</button>
