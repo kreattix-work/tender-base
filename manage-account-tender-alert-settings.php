@@ -185,8 +185,8 @@
                                 </div>
                                 <span>UK</span>
                             </label>
-                            <span data-collapse="#collapse-location-1"
-                                class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                            <span data-collapse="#collapse-location-1" data-collapse-status="open"
+                                class="dropdown-menu-icon material-icons rotate-180-on-open">arrow_drop_down</span>
                         </div>
                         <div id="collapse-location-1" class="collapse show ps-3 ms-3 box-gy-3">
                             <label class="form-checkbox-container">
@@ -247,8 +247,8 @@
                                 </div>
                                 <span>Ireland</span>
                             </label>
-                            <span data-collapse="#collapse-location-2"
-                                class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                            <span data-collapse="#collapse-location-2" data-collapse-status="close"
+                                class="dropdown-menu-icon material-icons rotate-180-on-open">arrow_drop_down</span>
                         </div>
                         <div id="collapse-location-2" class="collapse ps-3 ms-3 box-gy-3">
                             <label class="form-checkbox-container">
