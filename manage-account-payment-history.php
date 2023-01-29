@@ -5,9 +5,9 @@
 </div>
 <div class="content-body box-gy-3">
     <div class="card">
-        <div class="card-body">
+        <div class="card-body px-4">
             <div class="table-responsive">
-                <table class="table table-bordered">
+                <table class="table table-bordered table-active-header">
                     <thead>
                         <tr class="">
                             <th>Description</th>
