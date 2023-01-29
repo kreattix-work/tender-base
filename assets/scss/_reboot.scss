@@ -145,3 +145,34 @@ ol.custom-bullets {
     }
   }
 }
+
+.sort-btn {
+  .sort-icon-group {
+    display: flex;
+    flex-direction: column;
+    .sort-icon {
+      font-size: 20px;
+      &:first-of-type {
+        margin-bottom: -4px;
+      }
+      &:last-of-type {
+        margin-top: -4px;
+      }
+    }
+  }
+}
+.sort-status-desc {
+  .sort-icon {
+    &:first-of-type {
+      color: var(--primary);
+    }
+  }
+}
+
+.sort-status-asc {
+  .sort-icon {
+    &:last-of-type {
+      color: var(--primary);
+    }
+  }
+}

@@ -200,6 +200,28 @@ ol.custom-bullets li:before {
   pointer-events: all;
 }
 
+.sort-btn .sort-icon-group {
+  display: flex;
+  flex-direction: column;
+}
+.sort-btn .sort-icon-group .sort-icon {
+  font-size: 20px;
+}
+.sort-btn .sort-icon-group .sort-icon:first-of-type {
+  margin-bottom: -4px;
+}
+.sort-btn .sort-icon-group .sort-icon:last-of-type {
+  margin-top: -4px;
+}
+
+.sort-status-desc .sort-icon:first-of-type {
+  color: var(--primary);
+}
+
+.sort-status-asc .sort-icon:last-of-type {
+  color: var(--primary);
+}
+
 .page-layout {
   display: grid;
   grid-template-rows: 74px 1fr;
