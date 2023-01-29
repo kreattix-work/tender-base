@@ -102,6 +102,7 @@ $border-radius: 12px;
 $border-radius-lg: 20px;
 
 $all-radius: (
+  0: 0,
   1: $border-radius-xxs,
   2: $border-radius-xs,
   3: $border-radius-sm,

@@ -22,6 +22,18 @@
   .radius-#{$index} {
     border-radius: $radius;
   }
+  .radius-top-left-#{$index} {
+    border-top-left-radius: $radius;
+  }
+  .radius-bottom-left-#{$index} {
+    border-bottom-left-radius: $radius;
+  }
+  .radius-top-right-#{$index} {
+    border-top-right-radius: $radius;
+  }
+  .radius-bottom-right-#{$index} {
+    border-bottom-right-radius: $radius;
+  }
 }
 
 .flex-1 {

@@ -120,4 +120,23 @@ $(function () {
       }, 400);
     }
   });
+
+  $(".js-select2").select2({
+    templateResult: formatState,
+    templateSelection: formatState,
+  });
+
+  function formatState(opt) {
+    var optimage = $(opt.element).attr("data-img");
+    if (optimage) {
+      let $opt = $(
+        `<div class="row gx-2 align-items-center">
+          <div class="col-auto d-flex align-items-center"><img src="${optimage}" class="select2-dp-image" /></div>
+          <div class="col font-normal font-weight-sm">${opt.text}</div>
+        </div>`
+      );
+      return $opt;
+    }
+    return `<div class="font-normal font-weight-sm">${opt.text}</div>`;
+  }
 });

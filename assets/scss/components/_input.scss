@@ -52,6 +52,49 @@ $form-control-font-color: var(--font-color);
   }
 }
 
+.form-radio {
+  margin: 0;
+  display: none;
+
+  &-indicator {
+    margin-top: 1px;
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+    border: 1px solid var(--border-color);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    transition: all 0.175s ease-in-out;
+    span {
+      transition: all 0.175s ease-in-out;
+      opacity: 0;
+      font-size: 1.2em;
+    }
+  }
+  &:checked {
+    & + .form-radio-indicator {
+      border: 1px solid transparent;
+      color: var(--primary);
+      span {
+        opacity: 1;
+      }
+      & + span {
+        color: var(--font-color-dark);
+      }
+    }
+  }
+
+  &-container {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    gap: 4px;
+  }
+}
+
 .form-group {
   position: relative;
   display: grid;
@@ -196,6 +239,43 @@ select {
     height: initial;
     padding: 2px 4px;
     width: initial;
+  }
+}
+
+.select2 {
+  grid-area: input;
+  .select2-selection {
+    --input-font-color: $form-control-font-color;
+    --input-bg: #{$form-control-bg};
+    font-family: var(--font-family);
+    border: $form-control-border-width solid $form-control-border-color;
+    height: $form-control-height;
+    border-radius: 4px;
+    padding: $form-control-padding-y $form-control-padding-x - 8px;
+    outline: 0;
+    background-color: var(--input-bg);
+    font-weight: $form-control-font-weight;
+    font-size: $form-control-font-size;
+    color: var(--input-font-color);
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
+.select2-selection__arrow {
+  height: 100% !important;
+  right: 3px !important;
+}
+.select2-container {
+  // display: flex !important;
+  > * {
+    flex: 1;
+  }
+}
+
+.form-control-lg {
+  & + .select2 .select2-selection {
+    height: $form-control-height + 8px;
   }
 }
 
