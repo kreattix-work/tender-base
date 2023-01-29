@@ -47,10 +47,19 @@ $(function () {
   });
 
   // siderbar submenu
-  $(".sider-menu-item-link").on("click", function () {
-    const siderSubmenu = $(this).parent().children(".sider-submenu");
+  $(".sider-menu-item-link, .sider-submenu-item-link").on("click", function () {
+    const parent = $(this).parent();
+    const siderSubmenu = parent.children(".sider-submenu");
     if (siderSubmenu && siderSubmenu.length) {
-      siderSubmenu.slideToggle(375);
+      if (parent.hasClass("active")) {
+        setTimeout(function () {
+          parent.removeClass("active");
+        }, 375);
+        siderSubmenu.slideUp(375);
+      } else {
+        parent.addClass("active");
+        siderSubmenu.slideDown(375);
+      }
     }
   });
 

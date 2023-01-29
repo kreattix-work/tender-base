@@ -174,6 +174,32 @@ ol.custom-bullets li:before {
   display: none !important;
 }
 
+.hover-popover {
+  position: relative;
+  cursor: pointer;
+}
+.hover-popover .hover-popover-item {
+  z-index: 9;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  padding: 6px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.375s ease-in-out;
+}
+.hover-popover .hover-popover-item .hover-popover-item-button {
+  padding: 6px;
+  min-width: 100px;
+}
+.hover-popover:hover .hover-popover-item {
+  opacity: 1;
+  pointer-events: all;
+}
+
 .page-layout {
   display: grid;
   grid-template-rows: 74px 1fr;
@@ -210,6 +236,10 @@ ol.custom-bullets li:before {
   grid-area: content;
 }
 
+.sider-submenu-item.active {
+  background-color: var(--default-hover-color);
+}
+
 .sider-menu, .sider-submenu {
   list-style: none;
   padding: 0;
@@ -223,6 +253,7 @@ ol.custom-bullets li:before {
   --sider-menu-font-color: var(--font-color);
   --sider-menu-bg: transparent;
   position: relative;
+  border-radius: 4px;
 }
 .sider-menu-item-link, .sider-submenu-item-link {
   display: grid;
@@ -1461,8 +1492,14 @@ select {
 .bg-white {
   background-color: var(--white);
 }
+.bg-white-hover:hover {
+  background-color: var(--white);
+}
 
 .text-white {
+  color: var(--white) !important;
+}
+.text-white-hover:hover {
   color: var(--white) !important;
 }
 
@@ -1483,8 +1520,14 @@ select {
 .bg-black {
   background-color: var(--black);
 }
+.bg-black-hover:hover {
+  background-color: var(--black);
+}
 
 .text-black {
+  color: var(--black) !important;
+}
+.text-black-hover:hover {
   color: var(--black) !important;
 }
 
@@ -1505,8 +1548,14 @@ select {
 .bg-default {
   background-color: #f6f6f6;
 }
+.bg-default-hover:hover {
+  background-color: #f6f6f6;
+}
 
 .text-default {
+  color: #f6f6f6 !important;
+}
+.text-default-hover:hover {
   color: #f6f6f6 !important;
 }
 
@@ -1527,8 +1576,14 @@ select {
 .bg-placeholder {
   background-color: #d4d4d4;
 }
+.bg-placeholder-hover:hover {
+  background-color: #d4d4d4;
+}
 
 .text-placeholder {
+  color: #d4d4d4 !important;
+}
+.text-placeholder-hover:hover {
   color: #d4d4d4 !important;
 }
 
@@ -1549,8 +1604,14 @@ select {
 .bg-muted {
   background-color: #928d8d;
 }
+.bg-muted-hover:hover {
+  background-color: #928d8d;
+}
 
 .text-muted {
+  color: #928d8d !important;
+}
+.text-muted-hover:hover {
   color: #928d8d !important;
 }
 
@@ -1571,8 +1632,14 @@ select {
 .bg-dark {
   background-color: #262525;
 }
+.bg-dark-hover:hover {
+  background-color: #262525;
+}
 
 .text-dark {
+  color: #262525 !important;
+}
+.text-dark-hover:hover {
   color: #262525 !important;
 }
 
@@ -1593,8 +1660,14 @@ select {
 .bg-normal {
   background-color: #585858;
 }
+.bg-normal-hover:hover {
+  background-color: #585858;
+}
 
 .text-normal {
+  color: #585858 !important;
+}
+.text-normal-hover:hover {
   color: #585858 !important;
 }
 
@@ -1615,8 +1688,14 @@ select {
 .bg-primary {
   background-color: var(--primary);
 }
+.bg-primary-hover:hover {
+  background-color: var(--primary);
+}
 
 .text-primary {
+  color: var(--primary) !important;
+}
+.text-primary-hover:hover {
   color: var(--primary) !important;
 }
 
@@ -1637,8 +1716,14 @@ select {
 .bg-danger {
   background-color: var(--danger);
 }
+.bg-danger-hover:hover {
+  background-color: var(--danger);
+}
 
 .text-danger {
+  color: var(--danger) !important;
+}
+.text-danger-hover:hover {
   color: var(--danger) !important;
 }
 
@@ -1659,8 +1744,14 @@ select {
 .bg-secondary {
   background-color: var(--secondary);
 }
+.bg-secondary-hover:hover {
+  background-color: var(--secondary);
+}
 
 .text-secondary {
+  color: var(--secondary) !important;
+}
+.text-secondary-hover:hover {
   color: var(--secondary) !important;
 }
 
@@ -1681,8 +1772,14 @@ select {
 .bg-tertiary {
   background-color: var(--tertiary);
 }
+.bg-tertiary-hover:hover {
+  background-color: var(--tertiary);
+}
 
 .text-tertiary {
+  color: var(--tertiary) !important;
+}
+.text-tertiary-hover:hover {
   color: var(--tertiary) !important;
 }
 
@@ -1703,8 +1800,14 @@ select {
 .bg-primary-light {
   background-color: var(--primary-light);
 }
+.bg-primary-light-hover:hover {
+  background-color: var(--primary-light);
+}
 
 .text-primary-light {
+  color: var(--primary-light) !important;
+}
+.text-primary-light-hover:hover {
   color: var(--primary-light) !important;
 }
 
@@ -1725,8 +1828,14 @@ select {
 .bg-secondary-light {
   background-color: var(--secondary-light);
 }
+.bg-secondary-light-hover:hover {
+  background-color: var(--secondary-light);
+}
 
 .text-secondary-light {
+  color: var(--secondary-light) !important;
+}
+.text-secondary-light-hover:hover {
   color: var(--secondary-light) !important;
 }
 
@@ -1747,8 +1856,14 @@ select {
 .bg-tertiary-light {
   background-color: var(--tertiary-light);
 }
+.bg-tertiary-light-hover:hover {
+  background-color: var(--tertiary-light);
+}
 
 .text-tertiary-light {
+  color: var(--tertiary-light) !important;
+}
+.text-tertiary-light-hover:hover {
   color: var(--tertiary-light) !important;
 }
 
@@ -1769,8 +1884,14 @@ select {
 .bg-primary-extra-light {
   background-color: var(--primary-extra-light);
 }
+.bg-primary-extra-light-hover:hover {
+  background-color: var(--primary-extra-light);
+}
 
 .text-primary-extra-light {
+  color: var(--primary-extra-light) !important;
+}
+.text-primary-extra-light-hover:hover {
   color: var(--primary-extra-light) !important;
 }
 
@@ -1791,8 +1912,14 @@ select {
 .bg-secondary-extra-light {
   background-color: var(--secondary-extra-light);
 }
+.bg-secondary-extra-light-hover:hover {
+  background-color: var(--secondary-extra-light);
+}
 
 .text-secondary-extra-light {
+  color: var(--secondary-extra-light) !important;
+}
+.text-secondary-extra-light-hover:hover {
   color: var(--secondary-extra-light) !important;
 }
 
@@ -1813,8 +1940,14 @@ select {
 .bg-tertiary-extra-light {
   background-color: var(--tertiary-extra-light);
 }
+.bg-tertiary-extra-light-hover:hover {
+  background-color: var(--tertiary-extra-light);
+}
 
 .text-tertiary-extra-light {
+  color: var(--tertiary-extra-light) !important;
+}
+.text-tertiary-extra-light-hover:hover {
   color: var(--tertiary-extra-light) !important;
 }
 
@@ -1950,6 +2083,10 @@ select {
 
 .radius-bottom-right-5 {
   border-bottom-right-radius: 20px;
+}
+
+.transition {
+  transition: all 0.375s ease-in-out;
 }
 
 .flex-1 {

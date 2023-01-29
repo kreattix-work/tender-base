@@ -38,6 +38,10 @@
   }
 }
 
+.sider-submenu-item.active {
+  background-color: var(--default-hover-color);
+}
+
 .sider {
   &-menu,
   &-submenu {
@@ -53,6 +57,7 @@
       --sider-menu-font-color: #{$sider-menu-font-color};
       --sider-menu-bg: transparent;
       position: relative;
+      border-radius: 4px;
 
       &-link {
         display: grid;
