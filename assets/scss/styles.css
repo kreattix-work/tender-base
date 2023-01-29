@@ -150,6 +150,20 @@ ol.custom-bullets li:before {
   margin-left: 2px;
 }
 
+[data-collapse-status=open] .rotate-180-on-open {
+  transform: rotate(180deg);
+}
+[data-collapse-status=open] .hide-on-open {
+  display: none;
+}
+
+[data-collapse-status=close] .rotate-180-on-close {
+  transform: rotate(180deg);
+}
+[data-collapse-status=close] .hide-on-close {
+  display: none;
+}
+
 .page-layout {
   display: grid;
   grid-template-rows: 74px 1fr;

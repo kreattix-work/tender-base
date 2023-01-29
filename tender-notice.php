@@ -280,8 +280,8 @@
                 <div class="row-divider"></div>
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="text-muted font-weight-sm">Tender Notes</div>
-                    <button class="btn btn-square" data-collapse="#collapse-form">
-                        <span class="material-icons">arrow_drop_up</span>
+                    <button class="btn btn-square" data-collapse="#collapse-form" data-collapse-status="open">
+                        <span class="material-icons rotate-180-on-open">arrow_drop_down</span>
                     </button>
                 </div>
                 <div class="collapse show box-gy-4" id="collapse-form">

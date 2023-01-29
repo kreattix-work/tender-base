@@ -85,3 +85,21 @@ ol.custom-bullets {
     margin-left: 2px;
   }
 }
+
+[data-collapse-status="open"] {
+  .rotate-180-on-open {
+    transform: rotate(180deg);
+  }
+  .hide-on-open {
+    display: none;
+  }
+}
+
+[data-collapse-status="close"] {
+  .rotate-180-on-close {
+    transform: rotate(180deg);
+  }
+  .hide-on-close {
+    display: none;
+  }
+}
