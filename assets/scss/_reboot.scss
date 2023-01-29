@@ -77,3 +77,11 @@ ol.custom-bullets {
 .collapse:not(.show) {
   display: none;
 }
+
+.required {
+  &:after {
+    content: "*";
+    color: var(--danger);
+    margin-left: 2px;
+  }
+}

@@ -285,7 +285,7 @@
                     </button>
                 </div>
                 <div class="collapse show box-gy-4" id="collapse-form">
-                    <div class="">Note</div>
+                    <div class="required">Note</div>
                     <div class="card card-bordered no-shadow">
                         <div class="card-body px-4 box-gy-4">
                             <div class="card card-bordered no-shadow mh-80">

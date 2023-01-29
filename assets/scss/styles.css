@@ -144,6 +144,12 @@ ol.custom-bullets li:before {
   display: none;
 }
 
+.required:after {
+  content: "*";
+  color: var(--danger);
+  margin-left: 2px;
+}
+
 .page-layout {
   display: grid;
   grid-template-rows: 74px 1fr;
