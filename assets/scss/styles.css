@@ -877,7 +877,7 @@ select {
   width: 100%;
 }
 .form-control-rounded {
-  border-radius: var(--border-radius);
+  border-radius: 40px;
 }
 .form-control:-moz-read-only:not(select, [data-trigger-popover]) {
   --input-font-color: #928d8d;
@@ -2624,6 +2624,10 @@ select {
 
 .min-w200 {
   min-width: 200px;
+}
+
+.w-150 {
+  width: 150px;
 }
 
 .text-nowrap {
