@@ -36,7 +36,7 @@
                             <td>0.00</td>
                             <td class="text-primary">Success</td>
                             <td>
-                                <img src="/assets/images/icons/pdf.svg" alt="">
+                                <img src="/assets/images/pdf.svg" class="table-img-icon" alt="">
                             </td>
                         </tr>
                         <tr>
@@ -53,7 +53,7 @@
                             <td>0.00</td>
                             <td class="text-primary">Success</td>
                             <td>
-                                <img src="/assets/images/icons/pdf.svg" alt="">
+                                <img src="/assets/images/pdf.svg" class="table-img-icon" alt="">
                             </td>
                         </tr>
                         <tr>
@@ -70,7 +70,7 @@
                             <td>0.00</td>
                             <td class="text-primary">Success</td>
                             <td>
-                                <img src="/assets/images/icons/pdf.svg" alt="">
+                                <img src="/assets/images/pdf.svg" class="table-img-icon" alt="">
                             </td>
                         </tr>
                         <tr>
@@ -87,7 +87,7 @@
                             <td>0.00</td>
                             <td class="text-primary">Success</td>
                             <td>
-                                <img src="/assets/images/icons/pdf.svg" alt="">
+                                <img src="/assets/images/pdf.svg" class="table-img-icon" alt="">
                             </td>
                         </tr>
                         <tr>
@@ -104,7 +104,7 @@
                             <td>0.00</td>
                             <td class="text-primary">Success</td>
                             <td>
-                                <img src="/assets/images/icons/pdf.svg" alt="">
+                                <img src="/assets/images/pdf.svg" class="table-img-icon" alt="">
                             </td>
                         </tr>
                     </tbody>
