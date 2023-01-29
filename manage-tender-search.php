@@ -105,8 +105,8 @@
                                     </div>
                                     <span>Construction & Real estate</span>
                                 </label>
-                                <span data-collapse="#collapseid-3"
-                                    class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                <span data-collapse="#collapseid-3" data-collapse-status="close"
+                                    class="dropdown-menu-icon material-icons rotate-180-on-open">arrow_drop_down</span>
                             </div>
                             <div id="collapseid-3" class="collapse ps-3 ms-3 box-gy-3">
                                 <label class="form-checkbox-container">
@@ -139,8 +139,8 @@
                                     </div>
                                     <span>Education</span>
                                 </label>
-                                <span data-collapse="#collapseid-4"
-                                    class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                <span data-collapse="#collapseid-4" data-collapse-status="close"
+                                    class="dropdown-menu-icon material-icons rotate-180-on-open">arrow_drop_down</span>
                             </div>
                             <div id="collapseid-4" class="collapse ps-3 ms-3 box-gy-3">
                                 <label class="form-checkbox-container">
@@ -173,8 +173,8 @@
                                     </div>
                                     <span>Other</span>
                                 </label>
-                                <span data-collapse="#collapseid-5"
-                                    class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                <span data-collapse="#collapseid-5" data-collapse-status="close"
+                                    class="dropdown-menu-icon material-icons rotate-180-on-open">arrow_drop_down</span>
                             </div>
                             <div id="collapseid-5" class="collapse ps-3 ms-3 box-gy-3">
                                 <label class="form-checkbox-container">
@@ -207,8 +207,8 @@
                                     </div>
                                     <span>Other</span>
                                 </label>
-                                <span data-collapse="#collapseid-6"
-                                    class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                <span data-collapse="#collapseid-6" data-collapse-status="close"
+                                    class="dropdown-menu-icon material-icons rotate-180-on-open">arrow_drop_down</span>
                             </div>
                             <div id="collapseid-6" class="collapse ps-3 ms-3 box-gy-3">
                                 <label class="form-checkbox-container">
@@ -325,8 +325,8 @@
                                         </div>
                                         <span>UK</span>
                                     </label>
-                                    <span data-collapse="#collapse-location-1"
-                                        class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                    <span data-collapse="#collapse-location-1" data-collapse-status="open"
+                                        class="dropdown-menu-icon material-icons rotate-180-on-open">arrow_drop_down</span>
                                 </div>
                                 <div id="collapse-location-1" class="collapse show ps-3 ms-3 box-gy-3">
                                     <label class="form-checkbox-container">
@@ -387,8 +387,8 @@
                                         </div>
                                         <span>Ireland</span>
                                     </label>
-                                    <span data-collapse="#collapse-location-2"
-                                        class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                    <span data-collapse="#collapse-location-2" data-collapse-status="close"
+                                        class="dropdown-menu-icon material-icons rotate-180-on-open">arrow_drop_down</span>
                                 </div>
                                 <div id="collapse-location-2" class="collapse ps-3 ms-3 box-gy-3">
                                     <label class="form-checkbox-container">

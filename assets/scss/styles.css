@@ -150,6 +150,12 @@ ol.custom-bullets li:before {
   margin-left: 2px;
 }
 
+.required-before:before {
+  content: "*";
+  color: var(--danger);
+  margin-right: 2px;
+}
+
 [data-collapse-status=open].rotate-180-on-open,
 [data-collapse-status=open] .rotate-180-on-open {
   transform: rotate(180deg);

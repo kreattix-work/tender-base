@@ -14,7 +14,7 @@
 <div class="content-body box-gx-3">
     <div class="row">
         <div class="col-12">
-            <div class="card no-shadow">
+            <div class="card shadow-sm">
                 <div class="card-body">
                     <div class="row">
                         <div class="col">
@@ -43,7 +43,7 @@
             </div>
         </div>
         <div class="col-12">
-            <div class="card fill-container no-shadow">
+            <div class="card shadow-sm fill-container no-shadow">
                 <div class="card-body">
                     <div class="row">
                         <div class="col">
@@ -68,13 +68,14 @@
     </div>
 </div>
 <div class="content-body box-gx-3">
-    <div class="card bg-primary-light no-shadow">
+    <div class="card bg-primary-light shadow-sm">
         <div class="card-body">
             <div class="row">
                 <div class="col-12">
                     <div class="">
                         <p class="font-weight-sm">Subscription Details</p>
-                        <p class="font-lg text-primary">You have subscribed for Yearly - UK + Ireland Plan With Extra Service. You can always upgrade your plan</p>
+                        <p class="font-lg text-primary">You have subscribed for Yearly - UK + Ireland Plan With Extra
+                            Service. You can always upgrade your plan</p>
                     </div>
                 </div>
                 <div class="col-12 d-flex justify-content-end align-items-center">

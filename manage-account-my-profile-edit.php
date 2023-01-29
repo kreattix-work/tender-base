@@ -30,20 +30,20 @@
                         <div id="tabs-1">
                             <form class="my-4 box-gy-4">
                                 <div class="form-group">
-                                    <label class="font-weight-sm">Name</label>
+                                    <label class="font-weight-sm required-before">Name</label>
                                     <input type="text" class="font-lg font-weight-sm form-control form-control-lg">
                                 </div>
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="form-group">
-                                            <label class="font-weight-sm">Email Address</label>
+                                            <label class="font-weight-sm required-before">Email Address</label>
                                             <input type="email"
                                                 class="font-lg font-weight-sm form-control form-control-lg">
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-group">
-                                            <label class="font-weight-sm">Mobile</label>
+                                            <label class="font-weight-sm required-before">Mobile</label>
                                             <input type="text"
                                                 class="font-lg font-weight-sm form-control form-control-lg">
                                         </div>
@@ -79,7 +79,7 @@
                                     </div>
                                 </div>
                                 <div class="">
-                                    <label class="font-weight-sm">Email Address</label>
+                                    <label class="font-weight-sm required-before">Email Address</label>
                                     <div class="row gx-0">
                                         <div class="col">
                                             <input type="email"
@@ -91,25 +91,25 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="">Address</label>
+                                    <label class="required-before" for="">Address</label>
                                     <select class="form-control form-control-lg font-lg font-weight-sm">
                                         <option value="">Choose your Address</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <label for="">Address Line-1</label>
+                                    <label class="required-before" for="">Address Line-1</label>
                                     <select class="form-control form-control-lg font-lg font-weight-sm">
                                         <option value="">Type</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <label for="">Address Line-2</label>
+                                    <label class="required-before" for="">Address Line-2</label>
                                     <select class="form-control form-control-lg font-lg font-weight-sm">
                                         <option value="">Type</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <label for="">Post Code</label>
+                                    <label class="required-before" for="">Post Code</label>
                                     <select class="form-control form-control-lg font-lg font-weight-sm">
                                         <option value="">Type</option>
                                     </select>
@@ -117,14 +117,14 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="form-group">
-                                            <label class="font-weight-sm">City</label>
+                                            <label class="font-weight-sm required-before">City</label>
                                             <input type="text"
                                                 class="font-lg font-weight-sm form-control form-control-lg">
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-group">
-                                            <label class="font-weight-sm">Country</label>
+                                            <label class="font-weight-sm required-before">Country</label>
                                             <select class="form-control form-control-lg font-lg font-weight-sm">
                                                 <option value="">Type</option>
                                             </select>
