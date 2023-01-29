@@ -698,6 +698,45 @@ ol.custom-bullets li:before {
   gap: 4px;
 }
 
+.form-radio {
+  margin: 0;
+  display: none;
+}
+.form-radio-indicator {
+  margin-top: 1px;
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  border: 1px solid var(--border-color);
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  transition: all 0.175s ease-in-out;
+}
+.form-radio-indicator span {
+  transition: all 0.175s ease-in-out;
+  opacity: 0;
+  font-size: 1.2em;
+}
+.form-radio:checked + .form-radio-indicator {
+  border: 1px solid transparent;
+  color: var(--primary);
+}
+.form-radio:checked + .form-radio-indicator span {
+  opacity: 1;
+}
+.form-radio:checked + .form-radio-indicator + span {
+  color: var(--font-color-dark);
+}
+.form-radio-container {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  gap: 4px;
+}
+
 .form-group {
   position: relative;
   display: grid;
@@ -807,7 +846,7 @@ select {
   width: 100%;
 }
 .form-control-rounded {
-  border-radius: var(--border-radius);
+  border-radius: 40px;
 }
 .form-control:-moz-read-only:not(select, [data-trigger-popover]) {
   --input-font-color: #928d8d;
@@ -843,6 +882,40 @@ select {
   height: initial;
   padding: 2px 4px;
   width: initial;
+}
+
+.select2 {
+  grid-area: input;
+}
+.select2 .select2-selection {
+  --input-font-color: $form-control-font-color;
+  --input-bg: var(--white);
+  font-family: var(--font-family);
+  border: 1px solid var(--border-color);
+  height: 32px;
+  border-radius: 4px;
+  padding: 7px 6px;
+  outline: 0;
+  background-color: var(--input-bg);
+  font-weight: var(--font-weight);
+  font-size: var(--font-size);
+  color: var(--input-font-color);
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.select2-selection__arrow {
+  height: 100% !important;
+  right: 3px !important;
+}
+
+.select2-container > * {
+  flex: 1;
+}
+
+.form-control-lg + .select2 .select2-selection {
+  height: 40px;
 }
 
 .form-range-group {
@@ -1759,24 +1832,124 @@ select {
   border-radius: var(--border-radius-xxs);
 }
 
+.radius-0 {
+  border-radius: 0;
+}
+
+.radius-top-left-0 {
+  border-top-left-radius: 0;
+}
+
+.radius-bottom-left-0 {
+  border-bottom-left-radius: 0;
+}
+
+.radius-top-right-0 {
+  border-top-right-radius: 0;
+}
+
+.radius-bottom-right-0 {
+  border-bottom-right-radius: 0;
+}
+
 .radius-1 {
   border-radius: 2px;
+}
+
+.radius-top-left-1 {
+  border-top-left-radius: 2px;
+}
+
+.radius-bottom-left-1 {
+  border-bottom-left-radius: 2px;
+}
+
+.radius-top-right-1 {
+  border-top-right-radius: 2px;
+}
+
+.radius-bottom-right-1 {
+  border-bottom-right-radius: 2px;
 }
 
 .radius-2 {
   border-radius: 4px;
 }
 
+.radius-top-left-2 {
+  border-top-left-radius: 4px;
+}
+
+.radius-bottom-left-2 {
+  border-bottom-left-radius: 4px;
+}
+
+.radius-top-right-2 {
+  border-top-right-radius: 4px;
+}
+
+.radius-bottom-right-2 {
+  border-bottom-right-radius: 4px;
+}
+
 .radius-3 {
   border-radius: 8px;
+}
+
+.radius-top-left-3 {
+  border-top-left-radius: 8px;
+}
+
+.radius-bottom-left-3 {
+  border-bottom-left-radius: 8px;
+}
+
+.radius-top-right-3 {
+  border-top-right-radius: 8px;
+}
+
+.radius-bottom-right-3 {
+  border-bottom-right-radius: 8px;
 }
 
 .radius-4 {
   border-radius: 12px;
 }
 
+.radius-top-left-4 {
+  border-top-left-radius: 12px;
+}
+
+.radius-bottom-left-4 {
+  border-bottom-left-radius: 12px;
+}
+
+.radius-top-right-4 {
+  border-top-right-radius: 12px;
+}
+
+.radius-bottom-right-4 {
+  border-bottom-right-radius: 12px;
+}
+
 .radius-5 {
   border-radius: 20px;
+}
+
+.radius-top-left-5 {
+  border-top-left-radius: 20px;
+}
+
+.radius-bottom-left-5 {
+  border-bottom-left-radius: 20px;
+}
+
+.radius-top-right-5 {
+  border-top-right-radius: 20px;
+}
+
+.radius-bottom-right-5 {
+  border-bottom-right-radius: 20px;
 }
 
 .flex-1 {
@@ -2314,6 +2487,10 @@ select {
 
 .min-w200 {
   min-width: 200px;
+}
+
+.w-150 {
+  width: 150px;
 }
 
 .text-nowrap {
