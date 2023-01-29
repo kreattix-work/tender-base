@@ -24,7 +24,7 @@
             </div>
             <div class="row">
                 <div class="col-6 text-right font-lg text-dark mt-3">
-                    <label for="name">Name</label>
+                    <label class="required" for="name">Name</label>
                 </div>
                 <div class="col-12">
                     <div class="form-group flex-1">
@@ -36,7 +36,7 @@
             </div>
             <div class="row">
                 <div class="col-6 text-right font-lg text-dark mt-3">
-                    <label for="fname">Contact Details</label>
+                    <label class="required" for="fname">Contact Details</label>
                 </div>
                 <div class="col-12">
                     <div class="row">
@@ -56,53 +56,55 @@
             </div>
             <div class="row">
                 <div class="col-6 text-right font-lg text-dark mt-3">
-                    <label for=" name">User Role</label>
+                    <label class="required" for=" name">User Role</label>
                 </div>
                 <div class="col-12">
                     <div class="form-group flex-1">
+                        <span class="material-icons input-icon">arrow_drop_down</span>
                         <input data-trigger-popover="#popoverid-1"
                             class="form-control form-control-lg font-weight-sm font-lg" value="Manager" readonly />
-                        <div class="popover-dialog" id="popoverid-1">
-                            <div class="popover-content box-gy-3">
-                                <div class="popover-header">
-                                    <div class="text-muted font-weight-sm">Select Role</div>
-                                    <div>
-                                        <button class="btn btn-sm btn-text text-primary p-0 no-hover">
-                                            <span class="material-icons-outlined">add</span>
-                                            <span>Create Role</span>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="row-divider pb-1"></div>
-                                <div class="popover-body">
-                                    <div class="box-gy-4">
-                                        <label class="form-checkbox-container">
-                                            <input type="checkbox" class="form-checkbox">
-                                            <div class="form-checkbox-indicator">
-                                                <span class="material-icons-outlined">done</span>
-                                            </div>
-                                            <span>Folder Name</span>
-                                        </label>
-                                        <label class="form-checkbox-container">
-                                            <input type="checkbox" class="form-checkbox">
-                                            <div class="form-checkbox-indicator">
-                                                <span class="material-icons-outlined">done</span>
-                                            </div>
-                                            <span>Folder Name</span>
-                                        </label>
-                                        <label class="form-checkbox-container">
-                                            <input type="checkbox" class="form-checkbox">
-                                            <div class="form-checkbox-indicator">
-                                                <span class="material-icons-outlined">done</span>
-                                            </div>
-                                            <span>Folder Name</span>
-                                        </label>
-                                    </div>
+
+                    </div>
+                    <div class="popover-dialog" id="popoverid-1">
+                        <div class="popover-content box-gy-3">
+                            <div class="popover-header">
+                                <div class="text-muted font-weight-sm">Select Role</div>
+                                <div>
+                                    <button class="btn btn-sm btn-text text-primary p-0 no-hover">
+                                        <span class="material-icons-outlined">add</span>
+                                        <span>Create Role</span>
+                                    </button>
                                 </div>
                             </div>
-                            <div class="popover-actions">
-                                <button class="btn btn-primary btn-flat flex-1 close-popover">Save</button>
+                            <div class="row-divider pb-1"></div>
+                            <div class="popover-body">
+                                <div class="box-gy-4">
+                                    <label class="form-checkbox-container">
+                                        <input type="checkbox" class="form-checkbox">
+                                        <div class="form-checkbox-indicator">
+                                            <span class="material-icons-outlined">done</span>
+                                        </div>
+                                        <span>Folder Name</span>
+                                    </label>
+                                    <label class="form-checkbox-container">
+                                        <input type="checkbox" class="form-checkbox">
+                                        <div class="form-checkbox-indicator">
+                                            <span class="material-icons-outlined">done</span>
+                                        </div>
+                                        <span>Folder Name</span>
+                                    </label>
+                                    <label class="form-checkbox-container">
+                                        <input type="checkbox" class="form-checkbox">
+                                        <div class="form-checkbox-indicator">
+                                            <span class="material-icons-outlined">done</span>
+                                        </div>
+                                        <span>Folder Name</span>
+                                    </label>
+                                </div>
                             </div>
+                        </div>
+                        <div class="popover-actions">
+                            <button class="btn btn-primary btn-flat flex-1 close-popover">Save</button>
                         </div>
                     </div>
                 </div>
@@ -110,7 +112,7 @@
             </div>
             <div class="row">
                 <div class="col-6 text-right font-lg text-dark mt-3">
-                    <label for=" name">Assign Department</label>
+                    <label class="required" for=" name">Assign Department</label>
                 </div>
                 <div class="col-12">
                     <div class="form-group flex-1">
@@ -123,7 +125,7 @@
             </div>
             <div class="row">
                 <div class="col-6 text-right font-lg text-dark mt-3">
-                    <label for="fname">Assign Category & Location</label>
+                    <label class="required" for="fname">Assign Category & Location</label>
                 </div>
                 <div class="col-12">
                     <div class="row">

@@ -9,7 +9,8 @@
         <div class="card-body card-filter-container">
             <div class="form-group form-group-type-text flex-1">
                 <span class="input-icon input-icon-prefix material-icons">search</span>
-                <input type="text" placeholder="Search Buyer Name" class="form-control form-control-rounded form-control-sm">
+                <input type="text" placeholder="Search Buyer Name"
+                    class="form-control form-control-rounded form-control-sm">
             </div>
             <span>In:</span>
             <div class="col-divider"></div>
@@ -17,7 +18,8 @@
                 <span class="material-icons">format_list_bulleted</span>
                 <span>Categories</span>
             </button>
-            <div id="popover-categories" class="popover-dialog" id="popoverid-4">
+            <div id="popover-categories" class="popover-dialog"
+                style="display: block; top: 187px; left: 1430.08px; height: 404px;">
                 <div class="popover-content box-gy-3">
                     <div class="popover-header">
                         <div class="text-muted font-weight-sm">All Categories</div>
@@ -38,15 +40,17 @@
                                     </div>
                                     <span>Agriculture and food</span>
                                 </label>
-                                <span data-collapse="#collapseid-1" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                <span data-collapse="#collapseid-1" data-collapse-status="close"
+                                    class="dropdown-menu-icon material-icons rotate-180-on-open">arrow_drop_down</span>
                             </div>
-                            <div id="collapseid-1" class="collapse show ps-3 ms-3 box-gy-3">
+                            <div id="collapseid-1" class="collapse ps-3 ms-3 box-gy-3" style="display: none;">
                                 <label class="form-checkbox-container">
-                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <input type="checkbox" class="form-checkbox" checked="">
                                     <div class="form-checkbox-indicator">
                                         <span class="material-icons-outlined">done</span>
                                     </div>
-                                    <span class="font-weight-sm">Agricultural, forestry, horticultural, aquacultural and apicultural services.</span>
+                                    <span class="font-weight-sm">Agricultural, forestry, horticultural, aquacultural and
+                                        apicultural services.</span>
                                 </label>
                             </div>
                             <div class="d-flex align-items-center">
@@ -57,25 +61,26 @@
                                     </div>
                                     <span>Computer and related service</span>
                                 </label>
-                                <span data-collapse="#collapseid-2" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                <span data-collapse="#collapseid-2" data-collapse-status="close"
+                                    class="dropdown-menu-icon material-icons rotate-180-on-open">arrow_drop_down</span>
                             </div>
                             <div id="collapseid-2" class="collapse ps-3 ms-3 box-gy-3">
                                 <label class="form-checkbox-container">
-                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <input type="checkbox" class="form-checkbox" checked="">
                                     <div class="form-checkbox-indicator">
                                         <span class="material-icons-outlined">done</span>
                                     </div>
                                     <span class="font-weight-sm">Item 1</span>
                                 </label>
                                 <label class="form-checkbox-container">
-                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <input type="checkbox" class="form-checkbox" checked="">
                                     <div class="form-checkbox-indicator">
                                         <span class="material-icons-outlined">done</span>
                                     </div>
                                     <span class="font-weight-sm">Item 2</span>
                                 </label>
                                 <label class="form-checkbox-container">
-                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <input type="checkbox" class="form-checkbox" checked="">
                                     <div class="form-checkbox-indicator">
                                         <span class="material-icons-outlined">done</span>
                                     </div>
@@ -88,27 +93,28 @@
                                     <div class="form-checkbox-indicator">
                                         <span class="material-icons-outlined">done</span>
                                     </div>
-                                    <span>Construction & Real estate</span>
+                                    <span>Construction &amp; Real estate</span>
                                 </label>
-                                <span data-collapse="#collapseid-3" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                <span data-collapse="#collapseid-3" data-collapse-status="close"
+                                    class="dropdown-menu-icon material-icons rotate-180-on-open">arrow_drop_down</span>
                             </div>
                             <div id="collapseid-3" class="collapse ps-3 ms-3 box-gy-3">
                                 <label class="form-checkbox-container">
-                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <input type="checkbox" class="form-checkbox" checked="">
                                     <div class="form-checkbox-indicator">
                                         <span class="material-icons-outlined">done</span>
                                     </div>
                                     <span class="font-weight-sm">Item 1</span>
                                 </label>
                                 <label class="form-checkbox-container">
-                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <input type="checkbox" class="form-checkbox" checked="">
                                     <div class="form-checkbox-indicator">
                                         <span class="material-icons-outlined">done</span>
                                     </div>
                                     <span class="font-weight-sm">Item 2</span>
                                 </label>
                                 <label class="form-checkbox-container">
-                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <input type="checkbox" class="form-checkbox" checked="">
                                     <div class="form-checkbox-indicator">
                                         <span class="material-icons-outlined">done</span>
                                     </div>
@@ -123,25 +129,26 @@
                                     </div>
                                     <span>Education</span>
                                 </label>
-                                <span data-collapse="#collapseid-4" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                <span data-collapse="#collapseid-4" data-collapse-status="close"
+                                    class="dropdown-menu-icon material-icons rotate-180-on-open">arrow_drop_down</span>
                             </div>
                             <div id="collapseid-4" class="collapse ps-3 ms-3 box-gy-3">
                                 <label class="form-checkbox-container">
-                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <input type="checkbox" class="form-checkbox" checked="">
                                     <div class="form-checkbox-indicator">
                                         <span class="material-icons-outlined">done</span>
                                     </div>
                                     <span class="font-weight-sm">Item 1</span>
                                 </label>
                                 <label class="form-checkbox-container">
-                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <input type="checkbox" class="form-checkbox" checked="">
                                     <div class="form-checkbox-indicator">
                                         <span class="material-icons-outlined">done</span>
                                     </div>
                                     <span class="font-weight-sm">Item 2</span>
                                 </label>
                                 <label class="form-checkbox-container">
-                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <input type="checkbox" class="form-checkbox" checked="">
                                     <div class="form-checkbox-indicator">
                                         <span class="material-icons-outlined">done</span>
                                     </div>
@@ -156,25 +163,26 @@
                                     </div>
                                     <span>Other</span>
                                 </label>
-                                <span data-collapse="#collapseid-5" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                <span data-collapse="#collapseid-5" data-collapse-status="close"
+                                    class="dropdown-menu-icon material-icons rotate-180-on-open">arrow_drop_down</span>
                             </div>
                             <div id="collapseid-5" class="collapse ps-3 ms-3 box-gy-3">
                                 <label class="form-checkbox-container">
-                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <input type="checkbox" class="form-checkbox" checked="">
                                     <div class="form-checkbox-indicator">
                                         <span class="material-icons-outlined">done</span>
                                     </div>
                                     <span class="font-weight-sm">Item 1</span>
                                 </label>
                                 <label class="form-checkbox-container">
-                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <input type="checkbox" class="form-checkbox" checked="">
                                     <div class="form-checkbox-indicator">
                                         <span class="material-icons-outlined">done</span>
                                     </div>
                                     <span class="font-weight-sm">Item 2</span>
                                 </label>
                                 <label class="form-checkbox-container">
-                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <input type="checkbox" class="form-checkbox" checked="">
                                     <div class="form-checkbox-indicator">
                                         <span class="material-icons-outlined">done</span>
                                     </div>
@@ -189,25 +197,26 @@
                                     </div>
                                     <span>Other</span>
                                 </label>
-                                <span data-collapse="#collapseid-6" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                <span data-collapse="#collapseid-6" data-collapse-status="close"
+                                    class="dropdown-menu-icon material-icons rotate-180-on-open">arrow_drop_down</span>
                             </div>
                             <div id="collapseid-6" class="collapse ps-3 ms-3 box-gy-3">
                                 <label class="form-checkbox-container">
-                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <input type="checkbox" class="form-checkbox" checked="">
                                     <div class="form-checkbox-indicator">
                                         <span class="material-icons-outlined">done</span>
                                     </div>
                                     <span class="font-weight-sm">Item 1</span>
                                 </label>
                                 <label class="form-checkbox-container">
-                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <input type="checkbox" class="form-checkbox" checked="">
                                     <div class="form-checkbox-indicator">
                                         <span class="material-icons-outlined">done</span>
                                     </div>
                                     <span class="font-weight-sm">Item 2</span>
                                 </label>
                                 <label class="form-checkbox-container">
-                                    <input type="checkbox" class="form-checkbox" checked>
+                                    <input type="checkbox" class="form-checkbox" checked="">
                                     <div class="form-checkbox-indicator">
                                         <span class="material-icons-outlined">done</span>
                                     </div>
@@ -285,7 +294,7 @@
                     <span class="material-icons">arrow_drop_down</span>
                     <span class="font-weight-sm">Location</span>
                 </button>
-                <div id="popover-location" class="popover-dialog" id="popoverid-4">
+                <div id="popover-location" class="popover-dialog">
                     <div class="popover-content box-gy-3">
                         <div class="popover-header">
                             <div class="text-muted font-weight-sm">All Location</div>
@@ -306,53 +315,54 @@
                                         </div>
                                         <span>UK</span>
                                     </label>
-                                    <span data-collapse="#collapse-location-1" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                    <span data-collapse="#collapse-location-1" data-collapse-status="open"
+                                        class="dropdown-menu-icon material-icons rotate-180-on-open">arrow_drop_down</span>
                                 </div>
                                 <div id="collapse-location-1" class="collapse show ps-3 ms-3 box-gy-3">
                                     <label class="form-checkbox-container">
-                                        <input type="checkbox" class="form-checkbox" checked>
+                                        <input type="checkbox" class="form-checkbox" checked="">
                                         <div class="form-checkbox-indicator">
                                             <span class="material-icons-outlined">done</span>
                                         </div>
                                         <span class="font-weight-sm">Channel islands</span>
                                     </label>
                                     <label class="form-checkbox-container">
-                                        <input type="checkbox" class="form-checkbox" checked>
+                                        <input type="checkbox" class="form-checkbox" checked="">
                                         <div class="form-checkbox-indicator">
                                             <span class="material-icons-outlined">done</span>
                                         </div>
                                         <span class="font-weight-sm">East midlands</span>
                                     </label>
                                     <label class="form-checkbox-container">
-                                        <input type="checkbox" class="form-checkbox" checked>
+                                        <input type="checkbox" class="form-checkbox" checked="">
                                         <div class="form-checkbox-indicator">
                                             <span class="material-icons-outlined">done</span>
                                         </div>
                                         <span class="font-weight-sm">East of England</span>
                                     </label>
                                     <label class="form-checkbox-container">
-                                        <input type="checkbox" class="form-checkbox" checked>
+                                        <input type="checkbox" class="form-checkbox" checked="">
                                         <div class="form-checkbox-indicator">
                                             <span class="material-icons-outlined">done</span>
                                         </div>
                                         <span class="font-weight-sm">England</span>
                                     </label>
                                     <label class="form-checkbox-container">
-                                        <input type="checkbox" class="form-checkbox" checked>
+                                        <input type="checkbox" class="form-checkbox" checked="">
                                         <div class="form-checkbox-indicator">
                                             <span class="material-icons-outlined">done</span>
                                         </div>
                                         <span class="font-weight-sm">London</span>
                                     </label>
                                     <label class="form-checkbox-container">
-                                        <input type="checkbox" class="form-checkbox" checked>
+                                        <input type="checkbox" class="form-checkbox" checked="">
                                         <div class="form-checkbox-indicator">
                                             <span class="material-icons-outlined">done</span>
                                         </div>
                                         <span class="font-weight-sm">Nort East</span>
                                     </label>
                                     <label class="form-checkbox-container">
-                                        <input type="checkbox" class="form-checkbox" checked>
+                                        <input type="checkbox" class="form-checkbox" checked="">
                                         <div class="form-checkbox-indicator">
                                             <span class="material-icons-outlined">done</span>
                                         </div>
@@ -367,18 +377,19 @@
                                         </div>
                                         <span>Ireland</span>
                                     </label>
-                                    <span data-collapse="#collapse-location-2" class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                    <span data-collapse="#collapse-location-2" data-collapse-status="close"
+                                        class="dropdown-menu-icon material-icons rotate-180-on-open">arrow_drop_down</span>
                                 </div>
                                 <div id="collapse-location-2" class="collapse ps-3 ms-3 box-gy-3">
                                     <label class="form-checkbox-container">
-                                        <input type="checkbox" class="form-checkbox" checked>
+                                        <input type="checkbox" class="form-checkbox" checked="">
                                         <div class="form-checkbox-indicator">
                                             <span class="material-icons-outlined">done</span>
                                         </div>
                                         <span class="font-weight-sm">Ireland</span>
                                     </label>
                                     <label class="form-checkbox-container">
-                                        <input type="checkbox" class="form-checkbox" checked>
+                                        <input type="checkbox" class="form-checkbox" checked="">
                                         <div class="form-checkbox-indicator">
                                             <span class="material-icons-outlined">done</span>
                                         </div>
@@ -425,7 +436,8 @@
                                 <div class="form-group">
                                     <label for="" class="form-label">Published to</label>
                                     <span class="input-icon input-icon-sufix material-icons">date_range</span>
-                                    <input type="text" class="form-control date-picker" value="04-12-2022" placeholder="Type name">
+                                    <input type="text" class="form-control date-picker" value="04-12-2022"
+                                        placeholder="Type name">
                                 </div>
                             </div>
                         </div>
@@ -455,12 +467,16 @@
                                 <div class="form-group">
                                     <label for="" class="form-label">Tender value range</label>
                                     <div class="form-group">
-                                        <span class="input-icon input-icon-prefix font-md mb-7px text-no-wrap">From : <span class="text-dark">£</span></span>
-                                        <input class="form-control date-picker ps-62px" value="0" placeholder="Type name">
+                                        <span class="input-icon input-icon-prefix font-md mb-7px text-no-wrap">From :
+                                            <span class="text-dark">£</span></span>
+                                        <input class="form-control date-picker ps-62px" value="0"
+                                            placeholder="Type name">
                                     </div>
                                     <div class="form-group">
-                                        <span class="input-icon input-icon-prefix font-md mb-7px text-no-wrap">To : <span class="text-dark">£</span></span>
-                                        <input class="form-control date-picker ps-48px" value="0" placeholder="Type name">
+                                        <span class="input-icon input-icon-prefix font-md mb-7px text-no-wrap">To :
+                                            <span class="text-dark">£</span></span>
+                                        <input class="form-control date-picker ps-48px" value="0"
+                                            placeholder="Type name">
                                     </div>
                                 </div>
                                 <div>
@@ -484,7 +500,8 @@
                 <div class="col-divider"></div>
                 <div class="form-group" data-trigger-popover="#popover-search">
                     <span class="input-icon material-icons">search</span>
-                    <input type="text" placeholder="Search by town" class="form-control form-control-rounded form-control-sm">
+                    <input type="text" placeholder="Search by town"
+                        class="form-control form-control-rounded form-control-sm">
                 </div>
                 <div id="popover-search" class="popover-dialog" id="popoverid-4">
                     <div class="popover-content box-gy-3">
