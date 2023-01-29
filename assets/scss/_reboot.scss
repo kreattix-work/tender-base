@@ -87,18 +87,22 @@ ol.custom-bullets {
 }
 
 [data-collapse-status="open"] {
+  &.rotate-180-on-open,
   .rotate-180-on-open {
     transform: rotate(180deg);
   }
+  &.hide-on-open,
   .hide-on-open {
     display: none;
   }
 }
 
 [data-collapse-status="close"] {
+  &.rotate-180-on-close,
   .rotate-180-on-close {
     transform: rotate(180deg);
   }
+  &.hide-on-close,
   .hide-on-close {
     display: none;
   }
