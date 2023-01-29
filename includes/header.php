@@ -27,7 +27,12 @@
     <div class="page-layout">
 
         <header class="page-header">
-            <div class="page-header-item page-header-main">
+            <div class="page-header-item page-header-main align-items-center">
+                <div class="open-sidebar-container">
+                    <button class="btn btn-square btn-outlined me-3">
+                        <span class="material-icons-outlined">menu</span>
+                    </button>
+                </div>
                 <a href="#" class="page-header-logo">
                     <img src="../assets/images/logo.png" alt="">
                 </a>
@@ -60,103 +65,110 @@
         </header>
 
         <aside class="page-sider">
-            <ul class="sider-menu">
-                <li class="sider-menu-item">
-                    <a href="#" class="sider-menu-item-link">
-                        <span class="material-icons">dashboard</span>
-                        <span>Dashboard</span>
-                    </a>
-                </li>
-                <li class="sider-menu-item submenu-open">
-                    <a href="#" class="sider-menu-item-link">
-                        <span class="material-icons">assignment</span>
-                        <span>Manage tender</span>
-                        <span class="dropdown-menu-icon material-icons">arrow_drop_down</span>
-                    </a>
-                    <ul class="sider-submenu">
-                        <li class="sider-submenu-item active">
-                            <a href="#" class="sider-submenu-item-link">
-                                <span class="material-icons">trending_flat</span>
-                                <span>Search tender</span>
-                            </a>
-                        </li>
-                        <li class="sider-submenu-item">
-                            <a href="#" class="sider-submenu-item-link">
-                                <span class="material-icons">trending_flat</span>
-                                <span>My matching tender</span>
-                            </a>
-                        </li>
-                        <li class="sider-submenu-item">
-                            <a href="#" class="sider-submenu-item-link">
-                                <span class="material-icons">trending_flat</span>
-                                <span>Saved tenders</span>
-                                <span class="dropdown-menu-icon material-icons">arrow_drop_down</span>
-                            </a>
-                        </li>
-                        <li class="sider-submenu-item">
-                            <a href="#" class="sider-submenu-item-link">
-                                <span class="material-icons">trending_flat</span>
-                                <span>Tender assigned to team</span>
-                            </a>
-                        </li>
-                        <li class="sider-submenu-item">
-                            <a href="#" class="sider-submenu-item-link">
-                                <span class="material-icons">trending_flat</span>
-                                <span>Team saved tender</span>
-                            </a>
-                        </li>
-                        <li class="sider-submenu-item">
-                            <a href="#" class="sider-submenu-item-link">
-                                <span class="material-icons">trending_flat</span>
-                                <span>Tender Notice</span>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="sider-menu-item">
-                    <a href="#" class="sider-menu-item-link">
-                        <span class="ci ci-chart-pie-slice"></span>
-                        <span>Buyer Behaviour Analysis</span>
-                    </a>
-                </li>
-                <li class="sider-menu-item">
-                    <a href="#" class="sider-menu-item-link">
-                        <span class="ci ci-chart-line-up"></span>
-                        <span>Supplier Tracking</span>
-                    </a>
-                </li>
-                <li class="sider-menu-item">
-                    <a href="#" class="sider-menu-item-link">
-                        <span class="ci ci-analysis-chart"></span>
-                        <span>Category Tracking</span>
-                    </a>
-                </li>
-                <li class="sider-menu-item">
-                    <a href="#" class="sider-menu-item-link">
-                        <span class="material-icons-outlined">local_library</span>
-                        <span>Tender Training</span>
-                    </a>
-                </li>
-                <li class="sider-menu-item">
-                    <a href="#" class="sider-menu-item-link">
-                        <span class="material-icons-outlined">groups</span>
-                        <span>Manage Team</span>
-                    </a>
-                </li>
-                <li class="sider-menu-item">
-                    <a href="#" class="sider-menu-item-link">
-                        <span class="material-icons-outlined">person</span>
-                        <span>Manage Account</span>
-                        <span class="dropdown-menu-icon material-icons">arrow_drop_down</span>
-                    </a>
-                </li>
-                <li class="sider-menu-item">
-                    <a href="#" class="sider-menu-item-link">
-                        <span class="ci ci-24-hours-support"></span>
-                        <span>Support</span>
-                    </a>
-                </li>
-            </ul>
+            <div class="page-sider-content">
+                <div class="close-sidebar-container">
+                    <button class="btn btn-rounded btn-square">
+                        <span class="material-icons-outlined">close</span>
+                    </button>
+                </div>
+                <ul class="sider-menu">
+                    <li class="sider-menu-item">
+                        <a href="#" class="sider-menu-item-link">
+                            <span class="material-icons">dashboard</span>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="sider-menu-item submenu-open">
+                        <a href="#" class="sider-menu-item-link">
+                            <span class="material-icons">assignment</span>
+                            <span>Manage tender</span>
+                            <span class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                        </a>
+                        <ul class="sider-submenu">
+                            <li class="sider-submenu-item active">
+                                <a href="#" class="sider-submenu-item-link">
+                                    <span class="material-icons">trending_flat</span>
+                                    <span>Search tender</span>
+                                </a>
+                            </li>
+                            <li class="sider-submenu-item">
+                                <a href="#" class="sider-submenu-item-link">
+                                    <span class="material-icons">trending_flat</span>
+                                    <span>My matching tender</span>
+                                </a>
+                            </li>
+                            <li class="sider-submenu-item">
+                                <a href="#" class="sider-submenu-item-link">
+                                    <span class="material-icons">trending_flat</span>
+                                    <span>Saved tenders</span>
+                                    <span class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                                </a>
+                            </li>
+                            <li class="sider-submenu-item">
+                                <a href="#" class="sider-submenu-item-link">
+                                    <span class="material-icons">trending_flat</span>
+                                    <span>Tender assigned to team</span>
+                                </a>
+                            </li>
+                            <li class="sider-submenu-item">
+                                <a href="#" class="sider-submenu-item-link">
+                                    <span class="material-icons">trending_flat</span>
+                                    <span>Team saved tender</span>
+                                </a>
+                            </li>
+                            <li class="sider-submenu-item">
+                                <a href="#" class="sider-submenu-item-link">
+                                    <span class="material-icons">trending_flat</span>
+                                    <span>Tender Notice</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sider-menu-item">
+                        <a href="#" class="sider-menu-item-link">
+                            <span class="ci ci-chart-pie-slice"></span>
+                            <span>Buyer Behaviour Analysis</span>
+                        </a>
+                    </li>
+                    <li class="sider-menu-item">
+                        <a href="#" class="sider-menu-item-link">
+                            <span class="ci ci-chart-line-up"></span>
+                            <span>Supplier Tracking</span>
+                        </a>
+                    </li>
+                    <li class="sider-menu-item">
+                        <a href="#" class="sider-menu-item-link">
+                            <span class="ci ci-analysis-chart"></span>
+                            <span>Category Tracking</span>
+                        </a>
+                    </li>
+                    <li class="sider-menu-item">
+                        <a href="#" class="sider-menu-item-link">
+                            <span class="material-icons-outlined">local_library</span>
+                            <span>Tender Training</span>
+                        </a>
+                    </li>
+                    <li class="sider-menu-item">
+                        <a href="#" class="sider-menu-item-link">
+                            <span class="material-icons-outlined">groups</span>
+                            <span>Manage Team</span>
+                        </a>
+                    </li>
+                    <li class="sider-menu-item">
+                        <a href="#" class="sider-menu-item-link">
+                            <span class="material-icons-outlined">person</span>
+                            <span>Manage Account</span>
+                            <span class="dropdown-menu-icon material-icons">arrow_drop_down</span>
+                        </a>
+                    </li>
+                    <li class="sider-menu-item">
+                        <a href="#" class="sider-menu-item-link">
+                            <span class="ci ci-24-hours-support"></span>
+                            <span>Support</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </aside>
 
         <div class="page-content">
