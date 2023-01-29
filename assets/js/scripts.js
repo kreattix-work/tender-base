@@ -57,7 +57,31 @@ $(function () {
   $("[data-collapse]").on("click", function () {
     const selectedCollapse = $($(this).data("collapse"));
     if (selectedCollapse) {
-      selectedCollapse.slideToggle(375);
+      if (selectedCollapse.hasClass("show")) {
+        selectedCollapse.slideUp(375);
+        $(this).attr("data-collapse-status", "close");
+        if ($(this).attr("data-collapse-parent")) {
+          $($(this).attr("data-collapse-parent")).attr(
+            "data-collapse-status",
+            "close"
+          );
+        }
+        setTimeout(function () {
+          selectedCollapse.removeClass("show");
+        }, 375);
+      } else {
+        selectedCollapse.slideDown(375);
+        $(this).attr("data-collapse-status", "open");
+        if ($(this).attr("data-collapse-parent")) {
+          $($(this).attr("data-collapse-parent")).attr(
+            "data-collapse-status",
+            "open"
+          );
+        }
+        setTimeout(function () {
+          selectedCollapse.addClass("show");
+        }, 375);
+      }
     }
   });
 
