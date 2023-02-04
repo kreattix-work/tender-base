@@ -229,9 +229,11 @@ ol.custom-bullets li:before {
   grid-template-areas: "header header" "sider content";
   min-height: 100vh;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
   .page-layout {
     grid-template-areas: "header header" "content content";
+    grid-template-rows: -webkit-min-content 1fr;
+    grid-template-rows: min-content 1fr;
   }
 }
 .page-header {
@@ -241,6 +243,15 @@ ol.custom-bullets li:before {
   align-items: center;
   border-bottom: var(--border-width) solid var(--border-color);
 }
+@media only screen and (max-width: 991px) {
+  .page-header {
+    grid-template-columns: 1fr;
+    grid-template-rows: -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content;
+    gap: 12px;
+    padding: 12px 0px;
+  }
+}
 .page-header-logo img {
   max-height: 100%;
   max-width: 100%;
@@ -248,7 +259,7 @@ ol.custom-bullets li:before {
 .page-header .open-sidebar-container {
   display: none;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
   .page-header .open-sidebar-container {
     display: flex;
   }
@@ -257,6 +268,13 @@ ol.custom-bullets li:before {
   display: flex;
   justify-content: space-between;
   padding: 0 var(--spacer);
+}
+@media only screen and (max-width: 767px) {
+  .page-header-item.page-header-content {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
 }
 .page-header-actions {
   display: flex;
@@ -280,7 +298,7 @@ ol.custom-bullets li:before {
   overflow: auto;
   transition: all 0.275s ease-in-out;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
   .page-sider {
     position: fixed;
     width: 100%;
@@ -379,7 +397,7 @@ ol.custom-bullets li:before {
   --sider-menu-bg: var(--default-hover-color);
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
   .open-sider .page-sider {
     opacity: 1;
     pointer-events: all;

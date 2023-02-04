@@ -1,4 +1,5 @@
-$max-md: "only screen and (max-width: 992px)";
+$max-md: "only screen and (max-width: 991px)";
+$max-sm: "only screen and (max-width: 767px)";
 
 .page {
   &-layout {
@@ -9,6 +10,7 @@ $max-md: "only screen and (max-width: 992px)";
     min-height: 100vh;
     @media #{$max-md} {
       grid-template-areas: "header header" "content content";
+      grid-template-rows: min-content 1fr;
     }
   }
   &-header {
@@ -17,6 +19,13 @@ $max-md: "only screen and (max-width: 992px)";
     grid-template-columns: $sider-width 1fr;
     align-items: center;
     border-bottom: $header-border-width solid $header-border-color;
+
+    @media #{$max-md} {
+      grid-template-columns: 1fr;
+      grid-template-rows: min-content min-content;
+      gap: 12px;
+      padding: 12px 0px;
+    }
 
     &-logo {
       img {
@@ -37,6 +46,14 @@ $max-md: "only screen and (max-width: 992px)";
       display: flex;
       justify-content: space-between;
       padding: $header-padding-y $header-padding-x;
+
+      &.page-header-content {
+        @media #{$max-sm} {
+          flex-direction: column;
+          gap: 12px;
+          align-items: center;
+        }
+      }
     }
 
     &-actions {

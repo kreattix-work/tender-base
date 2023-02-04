@@ -28,14 +28,14 @@
 
         <header class="page-header">
             <div class="page-header-item page-header-main align-items-center">
+                <a href="#" class="page-header-logo">
+                    <img src="../assets/images/logo.png" alt="">
+                </a>
                 <div class="open-sidebar-container">
                     <button class="btn btn-square btn-outlined me-3">
                         <span class="material-icons-outlined">menu</span>
                     </button>
                 </div>
-                <a href="#" class="page-header-logo">
-                    <img src="../assets/images/logo.png" alt="">
-                </a>
             </div>
             <div class="page-header-item page-header-content">
                 <div class="page-header-content-item">
