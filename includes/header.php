@@ -38,14 +38,14 @@
                 </a>
             </div>
             <div class="page-header-item page-header-content">
-                <!-- <div class="page-header-content-item">
+                <div class="page-header-content-item">
                     <div class="profile-container">
                         <div class="avatar">JM</div>
                         <div class="profile-name">Jewel Majumder</div>
                         <div class="profile-id">Customer ID : 263248</div>
                     </div>
-                </div> -->
-                <!-- <div class="page-header-content-item">
+                </div>
+                <div class="page-header-content-item">
                     <div class="page-header-actions">
                         <button class="btn btn-rounded">
                             <span class="material-icons-outlined">email</span>
@@ -60,7 +60,7 @@
                             <span>Log out</span>
                         </button>
                     </div>
-                </div> -->
+                </div>
             </div>
         </header>
 
