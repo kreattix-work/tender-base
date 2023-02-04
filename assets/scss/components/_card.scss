@@ -23,5 +23,6 @@
     display: flex;
     align-items: center;
     gap: var(--spacer-md);
+    flex-wrap: wrap;
   }
 }

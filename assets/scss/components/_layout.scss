@@ -1,3 +1,5 @@
+$max-md: "only screen and (max-width: 992px)";
+
 .page {
   &-layout {
     display: grid;
@@ -5,6 +7,9 @@
     grid-template-columns: $sider-width 1fr;
     grid-template-areas: "header header" "sider content";
     min-height: 100vh;
+    @media #{$max-md} {
+      grid-template-areas: "header header" "content content";
+    }
   }
   &-header {
     grid-area: header;
@@ -12,6 +17,21 @@
     grid-template-columns: $sider-width 1fr;
     align-items: center;
     border-bottom: $header-border-width solid $header-border-color;
+
+    &-logo {
+      img {
+        max-height: 100%;
+        max-width: 100%;
+      }
+    }
+    .open-sidebar-container {
+      display: none;
+    }
+    @media #{$max-md} {
+      .open-sidebar-container {
+        display: flex;
+      }
+    }
 
     &-item {
       display: flex;
@@ -27,10 +47,38 @@
   }
   &-sider {
     grid-area: sider;
-    background-color: $sider-bg;
-    border-right: $sider-border-width solid $sider-border-color;
-    padding: $sider-padding-y $sider-padding-x;
-    padding-left: $sider-padding-left;
+    transition: all 0.275s ease-in-out;
+
+    .close-sidebar-container {
+      display: none;
+    }
+    &-content {
+      max-width: $sider-width;
+      background-color: $sider-bg;
+      border-right: $sider-border-width solid $sider-border-color;
+      padding: $sider-padding-y $sider-padding-x;
+      padding-left: $sider-padding-left;
+      height: 100%;
+      overflow: auto;
+      transition: all 0.275s ease-in-out;
+    }
+    @media #{$max-md} {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      z-index: 99;
+      background-color: rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      pointer-events: none;
+      &-content {
+        transform: translateX(-$sider-width);
+      }
+
+      .close-sidebar-container {
+        display: flex;
+        justify-content: end;
+      }
+    }
   }
   &-content {
     background-color: $content-body-bg;
@@ -118,6 +166,18 @@
       &:hover,
       &.active {
         --sider-menu-bg: var(--default-hover-color);
+      }
+    }
+  }
+}
+
+.open-sider {
+  @media #{$max-md} {
+    .page-sider {
+      opacity: 1;
+      pointer-events: all;
+      &-content {
+        transform: translateX(0);
       }
     }
   }

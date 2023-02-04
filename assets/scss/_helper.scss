@@ -200,6 +200,9 @@
   .w-#{$i} {
     width: $i * 1%;
   }
+  .w-#{$i}-px {
+    width: $i * 1px;
+  }
 }
 .min-h-200 {
   min-height: 200px;
@@ -244,7 +247,7 @@
   text-align: right;
 }
 
-.text-no-wrap {
+.text-nowrap {
   white-space: nowrap;
 }
 
@@ -271,8 +274,8 @@
   min-height: 80px;
 }
 .g-64,
-.gx-64 {
-  --bs-gutter-x: 64px;
+.gx-60 {
+  --bs-gutter-x: 60px;
 }
 .g-60,
 .gx-60 {

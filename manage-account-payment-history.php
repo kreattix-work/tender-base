@@ -114,8 +114,8 @@
     </div>
     <div class="card">
         <div class="card-body">
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="d-flex align-items-center box-gx-2">
+            <div class="row gy-3 justify-content-between align-items-center">
+                <div class="col-auto d-flex align-items-center box-gx-2">
                     <span class="font-weight-sm">Showing Entities</span>
                     <select class="form-control form-control-xs">
                         <option value=" 10" selected>10</option>
@@ -124,7 +124,7 @@
                     </select>
                     <span class="font-weight-sm">Page 1 of 5</span>
                 </div>
-                <div class="d-flex box-gx-2">
+                <div class="col-auto d-flex box-gx-2">
                     <button class="btn btn-outlined btn-sm btn-square" disabled>
                         <span class="material-icons-outlined">chevron_left</span>
                     </button>

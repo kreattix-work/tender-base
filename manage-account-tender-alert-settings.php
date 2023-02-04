@@ -283,20 +283,20 @@
                 </div>
                 <div id="tabs-3">
                     <div class="row pt-4">
-                        <div class="col-12 box-gy-4">
+                        <div class="col-md-18 col-lg-12 box-gy-4">
                             <div class="text-dark font-xxl">Set tender minimum and maximum value preference</div>
                             <div class="card bg-default no-shadow">
                                 <div class="card-body box-gy-5">
                                     <div class="form-group">
                                         <label for="" class="form-label pb-2">Tender value range</label>
                                         <div class="form-group">
-                                            <span class="input-icon input-icon-prefix font-md mb-7px text-no-wrap">From
+                                            <span class="input-icon input-icon-prefix font-md mb-7px text-nowrap">From
                                                 : <span class="text-dark">£</span></span>
                                             <input class="form-control date-picker ps-62px" value="0"
                                                 placeholder="Type name">
                                         </div>
                                         <div class="form-group">
-                                            <span class="input-icon input-icon-prefix font-md mb-7px text-no-wrap">To :
+                                            <span class="input-icon input-icon-prefix font-md mb-7px text-nowrap">To :
                                                 <span class="text-dark">£</span></span>
                                             <input class="form-control date-picker ps-48px" value="0"
                                                 placeholder="Type name">

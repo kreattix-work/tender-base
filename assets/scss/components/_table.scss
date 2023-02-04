@@ -2,6 +2,11 @@
   border-collapse: collapse;
   width: 100%;
 
+  &-responsive {
+    width: 100%;
+    overflow: auto;
+  }
+
   &-active-header {
     thead {
       th {

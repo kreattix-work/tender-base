@@ -8,6 +8,7 @@
   &-group {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 0px var(--spacer-xs);
     gap: var(--spacer-xs);
     background-color: $default-hover-color;

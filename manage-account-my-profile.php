@@ -2,18 +2,22 @@
 
 <div class="content-header">
     <div class="content-header-title">My Profile Information</div>
-    <div class="d-flex box-gx-4">
-        <button class="btn btn-outlined-secondary btn-rounded">
-            <span>Change password</span>
-        </button>
-        <button class="btn btn-outlined-danger btn-rounded">
-            <span>Close my account</span>
-        </button>
+    <div class="row gx-3 gy-2 justify-content-end">
+        <div class="col-auto">
+            <button class="btn btn-outlined-secondary btn-rounded">
+                <span>Change password</span>
+            </button>
+        </div>
+        <div class="col-auto">
+            <button class="btn btn-outlined-danger btn-rounded">
+                <span>Close my account</span>
+            </button>
+        </div>
     </div>
 </div>
 <div class="content-body box-gx-3">
-    <div class="row">
-        <div class="col-12">
+    <div class="row gy-3">
+        <div class="col-md-12">
             <div class="card shadow-sm">
                 <div class="card-body">
                     <div class="row">
@@ -42,7 +46,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12">
+        <div class="col-md-12">
             <div class="card shadow-sm fill-container no-shadow">
                 <div class="card-body">
                     <div class="row">
@@ -71,14 +75,14 @@
     <div class="card bg-primary-light shadow-sm">
         <div class="card-body">
             <div class="row">
-                <div class="col-12">
+                <div class="col-md-12">
                     <div class="">
                         <p class="font-weight-sm">Subscription Details</p>
                         <p class="font-lg text-primary">You have subscribed for Yearly - UK + Ireland Plan With Extra
                             Service. You can always upgrade your plan</p>
                     </div>
                 </div>
-                <div class="col-12 d-flex justify-content-end align-items-center">
+                <div class="col-md-12 d-flex justify-content-end align-items-center">
                     <button class="btn btn-rounded btn-lg btn-primary">
                         <span class="">Upgrade plan</span>
                     </button>

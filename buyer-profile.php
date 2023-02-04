@@ -34,9 +34,9 @@
         </div>
     </div>
     <div class="row mt-6">
-        <div class="col-18">
-            <div class="row gx-64">
-                <div class="col">
+        <div class="col-xl-18">
+            <div class="row gy-4 gx-60">
+                <div class="col-lg col-sm-6">
                     <div class="box-gy-1">
                         <div class="font-title-lg text-dark">11</div>
                         <div class="text-muted">Upcoming tender</div>
@@ -45,7 +45,7 @@
                 <div class="col-auto">
                     <div class="col-divider-full"></div>
                 </div>
-                <div class="col">
+                <div class="col-lg col-sm-6">
                     <div class="box-gy-1">
                         <div class="font-title-lg text-dark">20</div>
                         <div class="text-muted">Open Tender</div>
@@ -54,7 +54,7 @@
                 <div class="col-auto">
                     <div class="col-divider-full"></div>
                 </div>
-                <div class="col">
+                <div class="col-lg col-sm-6">
                     <div class="box-gy-1">
                         <div class="font-title-lg text-dark">100</div>
                         <div class="text-muted">Awarded tender</div>
@@ -63,7 +63,7 @@
                 <div class="col-auto">
                     <div class="col-divider-full"></div>
                 </div>
-                <div class="col">
+                <div class="col-lg col-sm-6">
                     <div class="box-gy-1">
                         <div class="font-title-lg text-dark">230</div>
                         <div class="text-muted">Total tender</div>
@@ -73,14 +73,14 @@
         </div>
     </div>
     <div class="ui-tabs mt-6 pt-5">
-        <div class="ui-tabs-header d-flex align-items-center justify-content-between">
+        <div class="ui-tabs-header d-flex flex-wrap align-items-center justify-content-between">
             <ul class="ui-tabs-action">
                 <li class="ui-tabs-action-item"><a href="#tabs-1">Summary</a></li>
                 <li class="ui-tabs-action-item"><a href="#tabs-2">Tender list</a></li>
                 <li class="ui-tabs-action-item"><a href="#tabs-3">Supplier worked with</a></li>
                 <li class="ui-tabs-action-item"><a href="#tabs-3">CPV’s lists</a></li>
             </ul>
-            <div class="ui-tabs-buttons">
+            <div class="ui-tabs-buttons order-first order-lg-2">
                 <button class="text-primary btn btn-text">
                     <span class="material-icons">arrow_drop_down</span>
                     <span>Historicl awards</span>
@@ -94,26 +94,26 @@
             </div>
         </div>
         <div id="tabs-1" class="py-5 box-gy-6">
-            <div class="row">
-                <div class="col-6">
+            <div class="row gy-3">
+                <div class="col-md-12 col-xl-6">
                     <div class="widget-box bg-primary-light fill-container">
                         <div class="widget-text">Total Contracts & frameworks awarded</div>
                         <div class="widget-title text-dark">60</div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-12 col-xl-6">
                     <div class="widget-box bg-secondary-light fill-container">
                         <div class="widget-text">Total contract & framework value</div>
                         <div class="widget-title text-dark">£488,714,338.1 GBP</div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-12 col-xl-6">
                     <div class="widget-box bg-default-light fill-container">
                         <div class="widget-text">Average contract & framework value</div>
                         <div class="widget-title text-dark">£488,714,338.1 GBP</div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-12 col-xl-6">
                     <div class="widget-box bg-default-light fill-container">
                         <div class="widget-text">Reported % of value awarded to SMEs</div>
                         <div class="widget-title text-dark">£488,714,338.1 GBP</div>
@@ -122,7 +122,7 @@
             </div>
             <div class="row-divider"></div>
             <div class="row">
-                <div class="col-12 box-gy-4 font-lg font-weight-sm">
+                <div class="col-lg-12 box-gy-4 font-lg font-weight-sm">
                     <div>Laboratory, optical and precision equipments (excl. glasses) - 38000000</div>
                     <div class="row">
                         <div class="col">
@@ -141,7 +141,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 box-gy-4 font-lg font-weight-sm">
+                <div class="col-lg-12 box-gy-4 font-lg font-weight-sm">
                     <div>Laboratory, optical and precision equipments (excl. glasses) - 38000000</div>
                     <div class="row">
                         <div class="col">
@@ -160,7 +160,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 box-gy-4 font-lg font-weight-sm">
+                <div class="col-lg-12 box-gy-4 font-lg font-weight-sm">
                     <div>Laboratory, optical and precision equipments (excl. glasses) - 38000000</div>
                     <div class="row">
                         <div class="col">
@@ -179,7 +179,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 box-gy-4 font-lg font-weight-sm">
+                <div class="col-lg-12 box-gy-4 font-lg font-weight-sm">
                     <div>Laboratory, optical and precision equipments (excl. glasses) - 38000000</div>
                     <div class="row">
                         <div class="col">
@@ -198,7 +198,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 box-gy-4 font-lg font-weight-sm">
+                <div class="col-lg-12 box-gy-4 font-lg font-weight-sm">
                     <div>Laboratory, optical and precision equipments (excl. glasses) - 38000000</div>
                     <div class="row">
                         <div class="col">
@@ -263,7 +263,7 @@
                 </table>
             </div>
 
-            <div class="d-flex justify-content-between align-items-center mt-5">
+            <div class="d-flex flex-wrap justify-content-between align-items-center mt-5 box-gy-3">
                 <div class="d-flex align-items-center box-gx-2">
                     <span class="font-weight-sm">Showing Entities</span>
                     <select class="form-control form-control-xs">

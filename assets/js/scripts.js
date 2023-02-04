@@ -17,20 +17,16 @@ $(function () {
 
   // popover
   $("[data-trigger-popover]").on("click", function (e) {
-    $(".popover-dialog:not(" + $(this).data("trigger-popover") + ")").fadeOut(
-      375
-    );
+    $(".popover-dialog:not(" + $(this).data("trigger-popover") + ")").fadeOut(375);
     const selectedPopover = $($(this).data("trigger-popover"));
     if (selectedPopover) {
       selectedPopover.fadeIn(375);
       let topOffset = $(this).offset().top + $(this).height() - window.scrollY;
       let leftOffset = $(this).offset().left;
 
-      topDiff =
-        topOffset + selectedPopover.innerHeight() - window.innerHeight + 10;
+      topDiff = topOffset + selectedPopover.innerHeight() - window.innerHeight + 10;
 
-      leftDiff =
-        leftOffset + selectedPopover.innerWidth() - window.innerWidth + 10;
+      leftDiff = leftOffset + selectedPopover.innerWidth() - window.innerWidth + 10;
 
       if (topDiff > 0) {
         topOffset = topOffset - topDiff;
@@ -70,10 +66,7 @@ $(function () {
         selectedCollapse.slideUp(375);
         $(this).attr("data-collapse-status", "close");
         if ($(this).attr("data-collapse-parent")) {
-          $($(this).attr("data-collapse-parent")).attr(
-            "data-collapse-status",
-            "close"
-          );
+          $($(this).attr("data-collapse-parent")).attr("data-collapse-status", "close");
         }
         setTimeout(function () {
           selectedCollapse.removeClass("show");
@@ -82,10 +75,7 @@ $(function () {
         selectedCollapse.slideDown(375);
         $(this).attr("data-collapse-status", "open");
         if ($(this).attr("data-collapse-parent")) {
-          $($(this).attr("data-collapse-parent")).attr(
-            "data-collapse-status",
-            "open"
-          );
+          $($(this).attr("data-collapse-parent")).attr("data-collapse-status", "open");
         }
         setTimeout(function () {
           selectedCollapse.addClass("show");
@@ -148,4 +138,12 @@ $(function () {
     }
     return `<div class="font-normal font-weight-sm">${opt.text}</div>`;
   }
+
+  $(".close-sidebar-container").on("click", function () {
+    $("body").removeClass("open-sider");
+  });
+  $(".open-sidebar-container").on("click", function () {
+    $("body").addClass("open-sider");
+  });
+  $;
 });

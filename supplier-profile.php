@@ -73,7 +73,7 @@
         </div>
     </div>
     <div class="ui-tabs mt-6 pt-5">
-        <div class="ui-tabs-header d-flex align-items-center justify-content-between">
+        <div class="ui-tabs-header d-flex flex-wrap align-items-center justify-content-between">
             <ul class="ui-tabs-action">
                 <li class="ui-tabs-action-item"><a href="#tabs-1">Summary</a></li>
                 <li class="ui-tabs-action-item"><a href="#tabs-2">Awarded Tenders</a></li>
@@ -81,7 +81,7 @@
                 <li class="ui-tabs-action-item"><a href="#tabs-4">Region details</a></li>
                 <li class="ui-tabs-action-item"><a href="#tabs-5">CPV’s lists</a></li>
             </ul>
-            <div class="ui-tabs-buttons">
+            <div class="ui-tabs-buttons order-first order-lg-2">
                 <button class="text-primary btn btn-text">
                     <span class="material-icons">arrow_drop_down</span>
                     <span>Historicl awards</span>
@@ -222,8 +222,8 @@
                 </table>
             </div>
 
-            <div class="d-flex justify-content-between align-items-center mt-5">
-                <div class="d-flex align-items-center box-gx-2">
+            <div class="row gy-3 justify-content-between align-items-center mt-5">
+                <div class="col-auto d-flex align-items-center box-gx-2">
                     <span class="font-weight-sm">Showing Entities</span>
                     <select class="form-control form-control-xs">
                         <option value=" 10" selected>10</option>
@@ -232,7 +232,7 @@
                     </select>
                     <span class="font-weight-sm">Page 1 of 5</span>
                 </div>
-                <div class="d-flex box-gx-2">
+                <div class="col-auto d-flex box-gx-2">
                     <button class="btn btn-outlined btn-sm btn-square" disabled>
                         <span class="material-icons-outlined">chevron_left</span>
                     </button>
@@ -305,8 +305,8 @@
                     </tbody>
                 </table>
             </div>
-            <div class="d-flex justify-content-between align-items-center mt-5">
-                <div class="d-flex align-items-center box-gx-2">
+            <div class="row gy-3 justify-content-between align-items-center mt-5">
+                <div class="col-auto d-flex align-items-center box-gx-2">
                     <span class="font-weight-sm">Showing Entities</span>
                     <select class="form-control form-control-xs">
                         <option value=" 10" selected>10</option>
@@ -315,7 +315,7 @@
                     </select>
                     <span class="font-weight-sm">Page 1 of 5</span>
                 </div>
-                <div class="d-flex box-gx-2">
+                <div class="col-auto d-flex box-gx-2">
                     <button class="btn btn-outlined btn-sm btn-square" disabled>
                         <span class="material-icons-outlined">chevron_left</span>
                     </button>
