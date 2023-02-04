@@ -109,7 +109,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -125,7 +125,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -141,7 +141,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -157,7 +157,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -173,7 +173,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -189,7 +189,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -205,7 +205,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -221,7 +221,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -237,7 +237,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -253,7 +253,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -344,7 +344,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -360,7 +360,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -376,7 +376,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -392,7 +392,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -408,7 +408,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -424,7 +424,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -440,7 +440,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -456,7 +456,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -472,7 +472,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -488,7 +488,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -584,7 +584,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -600,7 +600,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -616,7 +616,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -632,7 +632,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -648,7 +648,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -664,7 +664,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -680,7 +680,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -696,7 +696,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -712,7 +712,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">
@@ -728,7 +728,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 px-1">
+                    <div class="col-24 col-md-12 px-1">
                         <div class="data-card data-card-sm box-gy-3">
                             <div class="d-flex align-items-center justify-content-between">
                                 <div class="box-gy-2">

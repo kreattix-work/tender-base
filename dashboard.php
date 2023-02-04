@@ -3,27 +3,29 @@
 <div class="content-header">
     <div class="content-header-title">Dashboard</div>
 </div>
-<div class="content-body bg-white">
-    <div class="row">
-        <div class="col-17">
+<div class="content-body bg-white box-gy-5">
+    <div class="row gy-3">
+        <div class="col-24 col-xl-17">
             <div class="row g-3">
                 <div class="col-24">
-                    <div class="row align-items-center">
+                    <div class="row align-items-center gy-3">
                         <div class="col">
                             <div class="form-group form-group-inline">
                                 <label for="" class="form-label">From</label>
                                 <span class="input-icon input-icon-prefix-with-divider material-icons">date_range</span>
-                                <input value="01-Nov-2021" type="text" placeholder="From Date" readonly class="form-control form-control-rounded date-picker">
+                                <input value="01-Nov-2021" type="text" placeholder="From Date" readonly
+                                    class="form-control form-control-rounded date-picker">
                             </div>
                         </div>
                         <div class="col">
                             <div class="form-group form-group-inline">
                                 <label for="" class="form-label">To</label>
                                 <span class="input-icon input-icon-prefix-with-divider material-icons">date_range</span>
-                                <input value="01-Nov-2021" type="text" placeholder="To Date" readonly class="form-control form-control-rounded date-picker">
+                                <input value="01-Nov-2021" type="text" placeholder="To Date" readonly
+                                    class="form-control form-control-rounded date-picker">
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-md-24 col-lg">
                             <div class="counter-group bg-secondary-extra-light">
                                 <div class="counter">
                                     <div class="counter-count">50</div>
@@ -44,20 +46,20 @@
                     </div>
                 </div>
                 <div class="col-24">
-                    <div class="row align-items-center">
-                        <div class="col-8">
+                    <div class="row align-items-center gy-4">
+                        <div class="col-md-8">
                             <div class="widget-box widget-box-centered widget-box-fixed bg-primary-light">
                                 <div class="widget-title text-primary">Live</div>
                                 <div class="widget-text">1000 Live Tenders</div>
                             </div>
                         </div>
-                        <div class="col-8">
+                        <div class="col-md-8">
                             <div class="widget-box widget-box-centered widget-box-fixed bg-secondary-light">
                                 <div class="widget-title text-secondary">Awarded</div>
                                 <div class="widget-text">102 awarded Tenders</div>
                             </div>
                         </div>
-                        <div class="col-8">
+                        <div class="col-md-8">
                             <div class="widget-box widget-box-centered widget-box-fixed bg-tertiary-light">
                                 <div class="widget-title text-tertiary">Upcoming</div>
                                 <div class="widget-text">102 awarded Tenders</div>
@@ -69,8 +71,8 @@
                     <div class="row-divider"></div>
                 </div>
                 <div class="col-24">
-                    <div class="row">
-                        <div class="col-16">
+                    <div class="row gy-4">
+                        <div class="col-md-16">
                             <div class="section-container">
                                 <div class="section-header">
                                     <div class="section-title">Categories Summary</div>
@@ -81,7 +83,8 @@
                                 <div class="d-flex justify-content-between">
                                     <div class="form-group">
                                         <span class="input-icon material-icons">search</span>
-                                        <input type="text" placeholder="Search" class="form-control form-control-rounded form-control-sm">
+                                        <input type="text" placeholder="Search"
+                                            class="form-control form-control-rounded form-control-sm">
                                     </div>
                                     <button class="btn btn-rounded btn-sm">
                                         <span class="material-icons-outlined">vertical_align_bottom</span>
@@ -125,7 +128,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-8">
+                        <div class="col-md-8">
                             <div class="section-container fill-container">
                                 <div class="section-header">
                                     <div class="section-title">Location Summary</div>
@@ -191,7 +194,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-7 ">
+        <div class="col-24 col-xl-7 ">
             <div class="box-gy-4 fill-container d-flex flex-column">
                 <div class="d-flex justify-content-between align-items-center">
                     <button class="btn btn-rounded btn-hovered">Search tender ?</button>
@@ -310,8 +313,8 @@
             </div>
         </div>
     </div>
-    <div class="row mt-4">
-        <div class="col-12">
+    <div class="row gy-4">
+        <div class="col-lg-12">
             <div class="section-container">
                 <div class="section-header">
                     <div class="section-title">Following Supplier Tracking</div>
@@ -322,7 +325,8 @@
                 <div class="d-flex justify-content-between">
                     <div class="form-group">
                         <span class="input-icon material-icons">search</span>
-                        <input type="text" placeholder="Search" class="form-control form-control-rounded form-control-sm">
+                        <input type="text" placeholder="Search"
+                            class="form-control form-control-rounded form-control-sm">
                     </div>
                     <button class="btn btn-rounded btn-sm">
                         <span class="material-icons-outlined">vertical_align_bottom</span>
@@ -361,7 +365,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12">
+        <div class="col-lg-12">
             <div class="section-container">
                 <div class="section-header">
                     <div class="section-title">Following Buyer Analysis</div>
@@ -372,7 +376,8 @@
                 <div class="d-flex justify-content-between">
                     <div class="form-group">
                         <span class="input-icon material-icons">search</span>
-                        <input type="text" placeholder="Search" class="form-control form-control-rounded form-control-sm">
+                        <input type="text" placeholder="Search"
+                            class="form-control form-control-rounded form-control-sm">
                     </div>
                     <button class="btn btn-rounded btn-sm">
                         <span class="material-icons-outlined">vertical_align_bottom</span>

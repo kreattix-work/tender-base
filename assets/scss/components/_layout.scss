@@ -18,6 +18,12 @@ $max-md: "only screen and (max-width: 992px)";
     align-items: center;
     border-bottom: $header-border-width solid $header-border-color;
 
+    &-logo {
+      img {
+        max-height: 100%;
+        max-width: 100%;
+      }
+    }
     .open-sidebar-container {
       display: none;
     }

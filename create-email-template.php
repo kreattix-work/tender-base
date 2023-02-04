@@ -7,7 +7,7 @@
     <div class="card no-shadow">
         <div class="card-body">
             <form class="box-gy-4">
-                <div class="d-flex justify-content-between">
+                <div class="d-flex flex-wrap justify-content-between">
                     <div class="font-lg d-flex box-gx-2">
                         <div>Email Title :</div>
                         <div>Food & Engineering Tender, UK</div>

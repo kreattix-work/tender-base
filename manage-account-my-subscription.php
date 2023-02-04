@@ -3,8 +3,8 @@
 <div class="content-header">
     <div class="content-header-title">Tender Alert Settings</div>
 </div>
-<div class="row">
-    <div class="col-20">
+<div class="row gx-0">
+    <div class="col-lg-20">
         <div class="content-body">
             <div class="font-lg font-weight-sm mb-2">Active Subcriptions</div>
             <div class="card shadow-sm">
@@ -37,12 +37,12 @@
         </div>
     </div>
 </div>
-<div class="row">
-    <div class="col-20">
+<div class="row gx-0">
+    <div class="col-lg-20">
         <div class="content-body">
             <div class="font-lg font-weight-sm mb-2">My Saved Cards</div>
-            <div class="row">
-                <div class="col-12">
+            <div class="row gy-3">
+                <div class="col-md-12">
                     <div class="card shadow-sm">
                         <div class="card-body box-gy-6">
                             <div class="d-flex justify-content-between align-items-center">
@@ -72,7 +72,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12">
+                <div class="col-md-12">
                     <div class="card shadow-sm fill-container">
                         <div class="card-body fill-container">
                             <div class="fill-container d-flex flex-column justify-content-center align-items-center">

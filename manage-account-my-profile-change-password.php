@@ -2,17 +2,21 @@
 
 <div class="content-header">
     <div class="content-header-title">Edit Profile Information</div>
-    <div class="d-flex box-gx-4">
-        <button class="btn btn-secondary btn-rounded">
-            <span>Change password</span>
-        </button>
-        <button class="btn btn-outlined-danger btn-rounded">
-            <span>Close my account</span>
-        </button>
+    <div class="row gx-3 gy-2 justify-content-end">
+        <div class="col-auto">
+            <button class="btn btn-outlined-secondary btn-rounded">
+                <span>Change password</span>
+            </button>
+        </div>
+        <div class="col-auto">
+            <button class="btn btn-outlined-danger btn-rounded">
+                <span>Close my account</span>
+            </button>
+        </div>
     </div>
 </div>
-<div class="row">
-    <div class="col-16">
+<div class="row gx-0">
+    <div class="col-lg-16">
         <div class="content-body">
             <div class="card shadow-sm">
                 <div class="card-body">
@@ -29,8 +33,8 @@
                             <label class="font-weight-sm">Current Password</label>
                             <input type="password" class="font-lg font-weight-sm form-control form-control-lg">
                         </div>
-                        <div class="row">
-                            <div class="col-12">
+                        <div class="row gy-3">
+                            <div class="col-md-12">
                                 <div class="form-group">
                                     <span
                                         class="input-icon input-icon-sufix material-icons-outlined">remove_red_eye</span>
@@ -39,7 +43,7 @@
                                     <span class="form-note text-secondary">Strong</span>
                                 </div>
                             </div>
-                            <div class="col-12">
+                            <div class="col-md-12">
                                 <div class="form-group">
                                     <span
                                         class="input-icon input-icon-sufix material-icons-outlined">visibility_off</span>

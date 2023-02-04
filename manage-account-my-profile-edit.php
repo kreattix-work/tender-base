@@ -2,17 +2,21 @@
 
 <div class="content-header">
     <div class="content-header-title">Edit Profile Information</div>
-    <div class="d-flex box-gx-4">
-        <button class="btn btn-outlined-secondary btn-rounded">
-            <span>Change password</span>
-        </button>
-        <button class="btn btn-outlined-danger btn-rounded">
-            <span>Close my account</span>
-        </button>
+    <div class="row gx-3 gy-2 justify-content-end">
+        <div class="col-auto">
+            <button class="btn btn-outlined-secondary btn-rounded">
+                <span>Change password</span>
+            </button>
+        </div>
+        <div class="col-auto">
+            <button class="btn btn-outlined-danger btn-rounded">
+                <span>Close my account</span>
+            </button>
+        </div>
     </div>
 </div>
-<div class="row">
-    <div class="col-16">
+<div class="row gx-0">
+    <div class="col-lg-16">
         <div class="content-body">
             <div class="card shadow-sm">
                 <div class="card-body">
@@ -35,17 +39,19 @@
                                     <label class="font-weight-sm required-before">Name</label>
                                     <input type="text" class="font-lg font-weight-sm form-control form-control-lg">
                                 </div>
-                                <div class="row">
-                                    <div class="col-12">
+                                <div class="row gy-3">
+                                    <div class="col-md-12">
                                         <div class="form-group">
                                             <label class="font-weight-sm">Email Address</label>
-                                            <input type="email" class="font-lg font-weight-sm form-control form-control-lg">
+                                            <input type="email"
+                                                class="font-lg font-weight-sm form-control form-control-lg">
                                         </div>
                                     </div>
-                                    <div class="col-12">
+                                    <div class="col-md-12">
                                         <div class="form-group">
                                             <label class="font-weight-sm required-before">Mobile</label>
-                                            <input type="text" class="font-lg font-weight-sm form-control form-control-lg">
+                                            <input type="text"
+                                                class="font-lg font-weight-sm form-control form-control-lg">
                                         </div>
                                     </div>
                                 </div>
@@ -55,7 +61,8 @@
                                 </div>
                                 <div class="form-group">
                                     <label class="font-weight-sm">Website Link</label>
-                                    <input type="text" class="font-lg font-weight-sm form-control form-control-lg" placeholder="Type">
+                                    <input type="text" class="font-lg font-weight-sm form-control form-control-lg"
+                                        placeholder="Type">
                                 </div>
                             </form>
                             <div class="d-flex justify-content-end box-gx-4">
@@ -67,7 +74,7 @@
                             <form class="my-4 box-gy-4">
                                 <div class="d-flex box-gx-3">
                                     <label class="form-radio-container">
-                                        <input type="radio" class="form-radio" name="radio-name">
+                                        <input type="radio" class="form-radio" name="radio-name" checked>
                                         <div class="form-radio-indicator">
                                             <span class="material-icons-outlined">radio_button_checked</span>
                                         </div>
@@ -85,10 +92,13 @@
                                     <label class="font-weight-sm required-before">Post Code</label>
                                     <div class="row gx-0">
                                         <div class="col">
-                                            <input type="email" class="font-lg font-weight-sm form-control form-control-lg radius-top-right-0 radius-bottom-right-0">
+                                            <input type="email"
+                                                class="font-lg font-weight-sm form-control form-control-lg radius-top-right-0 radius-bottom-right-0">
                                         </div>
                                         <div class="col-auto">
-                                            <button class="btn btn-primary font-lg fill-container radius-top-left-0 radius-bottom-left-0">Find Address</button>
+                                            <button
+                                                class="btn btn-primary font-lg fill-container radius-top-left-0 radius-bottom-left-0">Find
+                                                Address</button>
                                         </div>
                                     </div>
                                 </div>
@@ -116,18 +126,21 @@
                                         <option value="">Type</option>
                                     </select>
                                 </div>
-                                <div class="row">
-                                    <div class="col-12">
+                                <div class="row gy-3">
+                                    <div class="col-md-12">
                                         <div class="form-group">
                                             <label class="font-weight-sm required-before">City</label>
-                                            <input type="text" class="font-lg font-weight-sm form-control form-control-lg">
+                                            <input type="text"
+                                                class="font-lg font-weight-sm form-control form-control-lg">
                                         </div>
                                     </div>
-                                    <div class="col-12">
+                                    <div class="col-md-12">
                                         <div class="form-group">
                                             <label class="font-weight-sm required-before">Country</label>
-                                            <select class="form-control form-control-lg font-lg font-weight-sm js-select2">
-                                                <option value="" data-img="/assets/images/flag1.svg">United Kingdom</option>
+                                            <select
+                                                class="form-control form-control-lg font-lg font-weight-sm js-select2">
+                                                <option value="" data-img="/assets/images/flag1.svg">United Kingdom
+                                                </option>
                                             </select>
                                         </div>
                                     </div>

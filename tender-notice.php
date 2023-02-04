@@ -8,37 +8,37 @@
             <span class="text-muted font-weight-sm">Authority :</span>
             <span class="font-lg">Department for Business, Energy & Industrial Strategy (BEIS)</span>
         </div>
-        <div class="d-flex box-gx-2">
-            <button class="btn btn-primary font-weight-sm">
+        <div class="row gy-2 box-gx-2">
+            <button class="col-auto btn btn-primary font-weight-sm">
                 <span>Download full notice</span>
             </button>
-            <button class="btn btn-outlined-secondary font-weight-sm">
+            <button class="col-auto btn btn-outlined-secondary font-weight-sm">
                 <span class="material-icons-outlined icon-sm">person_add_alt_1</span>
                 <span>Assign to team</span>
             </button>
-            <button class="btn btn-outlined-dark font-weight-sm">
+            <button class="col-auto btn btn-outlined-dark font-weight-sm">
                 <span class="material-icons icon-sm">assignment_ind</span>
                 <span>Ask the expert</span>
             </button>
-            <button class="btn btn-outlined-dark font-weight-sm">
+            <button class="col-auto btn btn-outlined-dark font-weight-sm">
                 <span class="material-icons icon-sm">pending_actions</span>
                 <span>Ask for summary</span>
             </button>
-            <button class="btn btn-outlined-dark font-weight-sm">
+            <button class="col-auto btn btn-outlined-dark font-weight-sm">
                 <span class="material-icons icon-sm">insert_drive_file</span>
                 <span>Print</span>
             </button>
-            <button class="btn btn-outlined-dark font-weight-sm">
+            <button class="col-auto btn btn-outlined-dark font-weight-sm">
                 <span class="material-icons icon-sm">save</span>
                 <span>Save tender</span>
             </button>
-            <button class="btn btn-outlined-dark btn-square font-weight-sm">
+            <button class="col-auto btn btn-outlined-dark btn-square font-weight-sm">
                 <span class="material-icons-outlined text-primary icon-sm">done</span>
             </button>
-            <button class="btn btn-outlined-dark btn-square font-weight-sm">
+            <button class="col-auto btn btn-outlined-dark btn-square font-weight-sm">
                 <span class="material-icons-outlined text-secondary icon-sm">close</span>
             </button>
-            <button class="btn btn-outlined-dark font-weight-sm">
+            <button class="col-auto btn btn-outlined-dark font-weight-sm">
                 <span class="material-icons-outlined icon-sm">share</span>
                 <span>Share via email</span>
             </button>
@@ -46,7 +46,7 @@
     </div>
 </div>
 <div class="content-body bg-white">
-    <div class="row">
+    <div class="row gy-3">
         <div class="col">
             <div class="box-gy-6">
                 <div class="box-gy-2">
@@ -298,7 +298,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-wrap box-gy-3 justify-content-between">
                         <div class="d-flex align-items-center box-gx-3">
                             <button class="btn">Select team</button>
                             <div class="text-secondary font-weight-sm">Please select aleast one user</div>
@@ -312,7 +312,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-8">
+        <div class="col-sm-24 col-lg-8 order-first order-lg-2">
             <div class="card bg-default no-shadow">
                 <div class="card-body box-gy-4">
                     <div class="box-gy-2">
