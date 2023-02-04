@@ -1,9 +1,15 @@
 @each $name, $color in $all-colors {
   .bg-#{$name} {
     background-color: #{$color};
+    &-hover:hover {
+      background-color: #{$color};
+    }
   }
   .text-#{$name} {
     color: #{$color} !important;
+    &-hover:hover {
+      color: #{$color} !important;
+    }
   }
   .border-color-#{$name} {
     border-color: #{$color};
@@ -34,6 +40,10 @@
   .radius-bottom-right-#{$index} {
     border-bottom-right-radius: $radius;
   }
+}
+
+.transition {
+  transition: all 0.375s ease-in-out;
 }
 
 .flex-1 {
@@ -267,4 +277,10 @@
 .g-60,
 .gx-60 {
   --bs-gutter-x: 60px;
+}
+
+.table-img-icon {
+  font-size: 24px;
+  height: 1em;
+  width: 1em;
 }

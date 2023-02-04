@@ -114,3 +114,65 @@ ol.custom-bullets {
     display: none !important;
   }
 }
+
+.hover-popover {
+  position: relative;
+  cursor: pointer;
+
+  .hover-popover-item {
+    z-index: 9;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    padding: 6px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.375s ease-in-out;
+
+    .hover-popover-item-button {
+      padding: 6px;
+      min-width: 100px;
+    }
+  }
+
+  &:hover {
+    .hover-popover-item {
+      opacity: 1;
+      pointer-events: all;
+    }
+  }
+}
+
+.sort-btn {
+  .sort-icon-group {
+    display: flex;
+    flex-direction: column;
+    .sort-icon {
+      font-size: 20px;
+      &:first-of-type {
+        margin-bottom: -4px;
+      }
+      &:last-of-type {
+        margin-top: -4px;
+      }
+    }
+  }
+}
+.sort-status-desc {
+  .sort-icon {
+    &:first-of-type {
+      color: var(--primary);
+    }
+  }
+}
+
+.sort-status-asc {
+  .sort-icon {
+    &:last-of-type {
+      color: var(--primary);
+    }
+  }
+}

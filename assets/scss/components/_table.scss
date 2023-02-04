@@ -1,6 +1,32 @@
 .table {
   border-collapse: collapse;
   width: 100%;
+
+  &-active-header {
+    thead {
+      th {
+        color: var(--font-color) !important;
+        font-weight: var(--font-weight) !important;
+        background-color: #eaebef;
+        &:first-of-type {
+          border-top-left-radius: 4px;
+          border-bottom-left-radius: 4px;
+        }
+        &:last-of-type {
+          border-top-right-radius: 4px;
+          border-bottom-right-radius: 4px;
+        }
+      }
+    }
+    thead,
+    tbody {
+      th,
+      td {
+        padding-right: var(--spacer-md) !important;
+        padding-left: var(--spacer-md) !important;
+      }
+    }
+  }
   thead {
     th {
       color: var(--font-color-light);

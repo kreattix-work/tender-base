@@ -80,6 +80,10 @@ $max-md: "only screen and (max-width: 992px)";
   }
 }
 
+.sider-submenu-item.active {
+  background-color: var(--default-hover-color);
+}
+
 .sider {
   &-menu,
   &-submenu {
@@ -95,6 +99,7 @@ $max-md: "only screen and (max-width: 992px)";
       --sider-menu-font-color: #{$sider-menu-font-color};
       --sider-menu-bg: transparent;
       position: relative;
+      border-radius: 4px;
 
       &-link {
         display: grid;
